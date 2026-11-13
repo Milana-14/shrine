@@ -1,0 +1,300 @@
+/* Базовые настройки страницы */
+body {
+    background-color: #0d0d0d;
+    background-image: 
+        linear-gradient(rgba(180, 0, 0, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(180, 0, 0, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    color: #e0e0e0;
+    font-family: "Courier New", Courier, monospace; /* Моноширинный шрифт как в старых блогах */
+    font-size: 14px;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Центрируем сайт */
+.main-wrapper {
+    position: relative;
+    max-width: 1080px;
+    margin: 0 auto;
+    border: 2px solid #970a5f;
+    background-color: #141414;
+    /*box-shadow: 0 0 150px rgb(200 0 143 / 0.2);*/
+}
+
+/* Шапка */
+.site-header {
+    background-color: rgb(43 0 31 / 0.25);
+    border-bottom: 1.5px solid #990069;
+    padding: 15px;
+    text-align: center;
+}
+
+.site-header h1 {
+    margin: 0 0 10px 0;
+    color: #cc2470;
+    text-shadow: 2px 2px 0px #000000;
+    letter-spacing: 2px;
+}
+
+marquee {
+    background-color: #000;
+    color: #00eaff;
+    padding: 4px;
+    border: 1px dashed #660042;
+}
+
+/* Сетка: меню слева, контент справа */
+.content-grid {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+}
+
+.sidebar {
+    width: 280px;
+    flex-shrink: 0;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+/* Оформление блоков-рамок */
+.box {
+    border: 1px solid #555;
+    background-color: #1a1a1a;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.box h2, .box h3 {
+    margin-top: 0;
+    color: #ff4d9d;
+    border-bottom: 1px dashed #444;
+    padding-bottom: 5px;
+}
+
+/* Навигация */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-bottom: 8px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    background-color: #990069;
+    color: #fff;
+    padding: 2px 4px;
+}
+
+/* Карточка альбома */
+.album-card {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.album-cover {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border: 2px solid rgb(76 0 51);
+    background-color: #000; /* Заглушка, пока нет картинки */
+}
+
+.song-name{
+    color: #2aebff;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.song-genre{
+    color: #a8a8a8;
+}
+
+/* Ретро-бейдж (кнопка 88x31) */
+.retro-badge {
+    display: inline-block;
+    border: 1px solid #888;
+    background: #000;
+    color: #00eaff;
+    font-size: 11px;
+    padding: 3px 6px;
+    margin: 2px;
+}
+
+/* Настройка самого стикера */
+.floating-sticker_1 {
+    position: absolute;
+    top: 100px;         /* Отступ сверху от рамки сайта */
+    left: 80px;        /* Выдвигаем стикер ЛЕЕВЕЕ границы сайта */
+    width: 230px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto; 
+}
+
+.floating-sticker_2 {
+    position: absolute;
+    top: 200px;         /* Отступ сверху от рамки сайта */
+    right: 80px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
+    width: 220px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto;
+}
+
+.floating-sticker_3 {
+    position: absolute;
+    top: 550px;         /* Отступ сверху от рамки сайта */
+    right: 90px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
+    width: 180px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto;
+}
+
+.floating-sticker_4 {
+    position: absolute;
+    top: 280px;         /* Отступ сверху от рамки сайта */
+    left: 60px;        /* Выдвигаем стикер ЛЕЕВЕЕ границы сайта */
+    width: 360px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto;
+}
+
+.floating-sticker_5 {
+    position: absolute;
+    top: 420px;         /* Отступ сверху от рамки сайта */
+    right: 230px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
+    width: 120px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto;
+}
+
+.floating-sticker_6 {
+    position: absolute;
+    top: 420px;         /* Отступ сверху от рамки сайта */
+    right: 0px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
+    width: 180px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto;
+}
+
+.floating-sticker_7 {
+    position: absolute;
+    top: 20px;         /* Отступ сверху от рамки сайта */
+    right: 140px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
+    width: 200px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto;
+}
+
+.floating-sticker_8 {
+    position: absolute;
+    top: -90px;         /* Отступ сверху от рамки сайта */
+    left: 0px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
+    width: 380px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto;
+}
+
+.floating-sticker_9 {
+    position: absolute;
+    top: -30px;         /* Отступ сверху от рамки сайта */
+    right: -120px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
+    width: 360px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto;
+    transform: rotate(-10deg);
+}
+
+.floating-sticker_10 {
+    position: absolute;
+    top: 305px;         /* Отступ сверху от рамки сайта */
+    left: 130px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
+    width: 90px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto;
+}
+
+.floating-sticker_11 {
+    position: absolute;
+    top: 460px;         /* Отступ сверху от рамки сайта */
+    right: 10px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
+    width: 140px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto;
+}
+
+.floating-sticker_12 {
+    position: absolute;
+    top: 320px;         /* Отступ сверху от рамки сайта */
+    left: -8px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
+    width: 180px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto;
+}
+
+.floating-sticker_13 {
+    position: absolute;
+    top: 560px;         /* Отступ сверху от рамки сайта */
+    right: 0px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
+    width: 280px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto;
+}
+
+.floating-sticker_14 {
+    position: absolute;
+    top: 680px;         /* Отступ сверху от рамки сайта */
+    left: 10px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
+    width: 270px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto;
+}
+
+.floating-sticker_15 {
+    position: absolute;
+    top: 140px;         /* Отступ сверху от рамки сайта */
+    left: 10px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
+    width: 160px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto;
+}
+
+.floating-sticker_16 {
+    position: absolute;
+    top: 500px;         /* Отступ сверху от рамки сайта */
+    left: 10px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
+    width: 170px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto;
+}
+
+.floating-sticker_17 {
+    position: absolute;
+    top: 710px;         /* Отступ сверху от рамки сайта */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1100px;       /* Размер стикера */
+    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
+    pointer-events: auto;
+}
+
+
+/* Подвал */
+.site-footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #444;
+    font-size: 12px;
+    color: #777;
+}
