@@ -1,0 +1,18 @@
+[
+  {
+    "artist": "My Chemical Romance",
+    "albums": [
+      {
+        "title": "The Black Parade",
+        "year": null,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "Mama",
+            "file": "music/My Chemical Romance/The Black Parade/Mama.mp3"
+          }
+        ]
+      }
+    ]
+  }
+]
