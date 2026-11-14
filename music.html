@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns:color="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>♡ Mila ♡</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-wrapper">
+
+    <header class="site-header">
+        <h1>❤︎ My Music Collection ♡</h1>
+        <a href="index.html" style="color: #00eaff;"><-- Main page</a>
+    </header>
+
+    <main class="main-content" style="padding: 20px;">
+        
+        <div id="music-container">
+            <p style="color: #888;">Loading...</p>
+        </div>
+        
+    </main>
+
+    <footer class="site-footer">
+        <p>14.11.2026 | Made by me (Mila) bc I was rly bored</p>
+    </footer>
+
+</div>
+
+<!-- STICKERS -->
+<img src="images/flower_3.jpe" alt="I Love You" class="floating-sticker_13">
+<img src="images/gerard_2.jpe" alt="I Love You" class="floating-sticker_2">
+<img src="images/cat_1.png" alt="I Love You" class="floating-sticker_4">
+<img src="images/mic.png" alt="I Love You" class="floating-sticker_5">
+<img src="images/cat_2.png" alt="I Love You" class="floating-sticker_6">
+<img src="images/clouds.png" alt="I Love You" class="floating-sticker_8">
+<img src="images/flower_1.png" alt="I Love You" class="floating-sticker_9">
+<img src="images/cat_3.png" alt="I Love You" class="floating-sticker_7">
+<img src="images/flower_2.png" alt="I Love You" class="floating-sticker_10">
+<img src="images/gerard_3.jpe" alt="I Love You" class="floating-sticker_14">
+<img src="images/cat_4.png" alt="I Love You" class="floating-sticker_15">
+<img src="images/cat_5.png" alt="I Love You" class="floating-sticker_16">
+
+<script>
+    fetch('music-data.json')
+        .then(response => response.json())
+        .then(data => {
+            const container = document.getElementById('music-container');
+            container.innerHTML = '';
+
+            // artists
+            data.forEach(artistObj => {
+                let artistSection = document.createElement('div');
+                artistSection.className = 'box';
+                artistSection.innerHTML = `<h2 style="color: #ff4d9d;">★ ${artistObj.artist}</h2>`;
+
+                // albums
+                artistObj.albums.forEach(album => {
+                    let albumDiv = document.createElement('div');
+                    albumDiv.className = 'album-card';
+                    albumDiv.style.marginBottom = '20px';
+
+                    let tracksHtml = album.tracks.map(track => `
+                            <div style="margin-top: 8px;">
+                                <span style="font-size: 13px;">🎵 ${track.title}</span>
+                                <audio controls style="width: 100%; height: 30px; margin-top: 4px;">
+                                    <source src="${track.file}" type="audio/mpeg">
+                                </audio>
+                            </div>
+                        `).join('');
+
+                    albumDiv.innerHTML = `
+                            <img src="${album.cover}" alt="${album.title}" class="album-cover">
+                            <div class="album-info" style="flex-grow: 1; margin-left: 15px;">
+                                <h3 style="margin: 0; color: #acdfe4;">${album.title} (${album.year})</h3>
+                                <!--${tracksHtml}-->
+                            </div>
+                        `;
+                    artistSection.appendChild(albumDiv);
+                });
+
+                container.appendChild(artistSection);
+            });
+        })
+        .catch(error => {
+            console.error('Music loading error:', error);
+            document.getElementById('music-container').innerHTML = '<p style="color: red;">Failed to load the music database :(</p>';
+        });
+</script>
+
+</body>
+</html>

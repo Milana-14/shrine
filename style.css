@@ -122,7 +122,6 @@ marquee {
     color: #a8a8a8;
 }
 
-/* Ретро-бейдж (кнопка 88x31) */
 .retro-badge {
     display: inline-block;
     border: 1px solid #888;
@@ -131,6 +130,25 @@ marquee {
     font-size: 11px;
     padding: 3px 6px;
     margin: 2px;
+}
+
+.hobbies-columns {
+    display: flex;
+    margin-left: 60px;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.hobby-column ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.sidebar-divider {
+    border: none;
+    height: 1.5px;          /* Толщина линии */
+    background-color: #444; /* Цвет линии (можете заменить на свой) */
+    margin: 30px -12px;       /* Отступы сверху и снизу */
 }
 
 /* Настройка самого стикера */
@@ -281,12 +299,115 @@ marquee {
 
 .floating-sticker_17 {
     position: absolute;
-    top: 710px;         /* Отступ сверху от рамки сайта */
+    top: 808px;         /* Отступ сверху от рамки сайта */
     left: 50%;
     transform: translateX(-50%);
     width: 1100px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
     pointer-events: auto;
+}
+
+.spotify-widget {
+    background-color: #0d0d0d;
+    border: 2px solid #ff007f;
+    box-shadow: 4px 4px 0px #4a0024;
+    padding: 10px;
+    max-width: 320px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    margin: 15px 0;
+}
+
+.spotify-header {
+    font-size: 11px;
+    font-weight: bold;
+    color: #ff66b2;
+    border-bottom: 1px dashed #ff007f;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.blink-dot {
+    color: #00ff66;
+    animation: blinker 1.2s linear infinite;
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
+}
+
+.spotify-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#spotify-cover {
+    width: 64px;
+    height: 64px;
+    border: 1px solid #ff66b2;
+    object-fit: cover;
+}
+
+.spotify-info {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#spotify-track {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#spotify-track:hover {
+    color: #ff007f;
+    text-decoration: underline;
+}
+
+#spotify-artist {
+    color: #b3b3b3;
+    font-size: 12px;
+    margin-top: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Мини-эквалайзер */
+.equalizer {
+    display: flex;
+    align-items: flex-end;
+    height: 12px;
+    gap: 2px;
+    margin-top: 6px;
+}
+
+.equalizer span {
+    width: 3px;
+    background-color: #ff007f;
+    animation: eq-bounce 0.8s infinite ease-in-out;
+}
+
+.equalizer span:nth-child(2) { animation-delay: 0.2s; }
+.equalizer span:nth-child(3) { animation-delay: 0.4s; }
+.equalizer span:nth-child(4) { animation-delay: 0.1s; }
+
+@keyframes eq-bounce {
+    0%, 100% { height: 3px; }
+    50% { height: 12px; }
+}
+
+/* Когда музыка на паузе, эквалайзер замирает */
+.equalizer.paused span {
+    animation: none;
+    height: 3px;
+    background-color: #555;
 }
 
 

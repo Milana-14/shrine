@@ -26,21 +26,20 @@
                 <div class="box">
                     <h3>Navigation</h3>
                     <ul class="nav-links">
-                        <li><a href="#about">★ About me</a></li>
-                        <li><a href="#music">★ My fav music</a></li>
+                        <li><a href="index.html">★ About me</a></li>
+                        <li><a href="music.html">★ My fav music</a></li>
                         <li><a href="#gallery">★ Gifs and stuff</a></li>
                     </ul>
-                </div>
 
-                <div class="box">
+                    <hr class="sidebar-divider">
+
                     <h3>Socials</h3>
                     <p><b>Instagram:</b> @mil_seraf</p>
                     <p><b>Email:</b> milanaulejfan@gmail.com</p>
                     <p><b>Spotify:</b> <a href="https://open.spotify.com/user/31unrvc3ujqzphxi5a645yovpgue?si=13d09ba92ab84ebb" style="color: #BBFBFFFF;">❤︎ (link)</a></p>
-                </div>
 
-                <!-- Место для ретро-кнопок 88x31 пиксель -->
-                <div class="box badges">
+                    <hr class="sidebar-divider">
+                    
                     <img src="images/nyan_goodnight.gif" alt="My Chemical Romance meme">
                     <img src="images/pinkie_pie.gif" alt="fuck you">
                     <span class="retro-badge">MADE WITH RIDER (i love rider)</span>
@@ -52,13 +51,52 @@
             <main class="main-content">
                 
                 <section id="about" class="box">
-                    <h2>♡  ⚞^. .^⚟  pls dont stay here for too long im shy</h2>
+                    <h3>♡  ⚞^. .^⚟  pls dont stay here for too long im shy</h3>
                     <p>Hi! This is my website (allegedly, go prove it). Here I collect my fav music and stuff.</p>
                 </section>
 
-                <!-- Секция с дискографией -->
-                <section id="mcr" class="box">
-                    <h2>♡ Song of the ... (idk when will i update tis)</h2>
+                <section id="hobbies" class="box">
+                    <h3>My hobbies</h3>
+                    <p>I like: </p>
+                    
+                    <div class="hobbies-columns">
+                        <div class="hobby-column">
+                            <ul>
+                                <li>listening to music</li>
+                                <li>sleeping</li>
+                                <li>coding (I know C#)</li>
+                            </ul>
+                        </div>
+
+                        <div class="hobby-column">
+                            <ul>
+                                <li>drawing portraits with graphite pens</li>
+                                <li>doing nothing &lt;3</li>
+                            </ul>
+                        </div>
+                    </div>
+                        
+                </section>
+
+                <!-- Spotify Now Playing -->
+                <section id="spotify-widget" class="box">
+                    <h3>
+                        <span class="blink-dot">●</span> NOW PLAYING on my Spotify
+                    </h3>
+                    <div class="spotify-content">
+                        <img id="spotify-cover" src="https://via.placeholder.com/64/111111/ff007f?text=♪" alt="Album Cover">
+                        <div class="spotify-info">
+                            <a id="spotify-track" href="#" target="_blank">Loading...</a>
+                            <div id="spotify-artist">...</div>
+                            <div class="equalizer" id="spotify-eq">
+                                <span></span><span></span><span></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="song-of-the" class="box">
+                    <h3>♡ Song of the ... (idk when will i update tis)</h3>
                     
                     <div class="album-card">
                         
@@ -70,34 +108,29 @@
                                 <span class="artist">- My Chemical Romance</span>
                             </div>
                             
-                            <!-- Встроенный аудиоплеер. Положи трек в папку music -->
                             <div class="player-box">
                                 <p class="song-genre">Theatrical rock • Punk rock ◦ Art punk ◦ Cabaret rock</p>
                                 <audio controls>
                                     <source src="music/MCR_Mama.mp3#t=16" type="audio/mpeg">
-                                    Твой браузер не поддерживает аудио.
+                                    Your browser is probably old af and it doest support audio.
                                 </audio>
                             </div>
                         </div>
                     </div>
-
                 </section>
 
             </main>
         </div>
 
         <footer class="site-footer">
-            <p>13.11.2026 | Made by me (Mila)</p>
+            <p>13.11.2026 | Made by me (Mila) bc I was rly bored</p>
         </footer>
 
     </div>
 
     <!-- STICKERS -->
     <img src="images/flower_3.jpe" alt="I Love You" class="floating-sticker_13">
-<!--    <img src="images/gerard_1.jpe" alt="I Love You" class="floating-sticker_1">-->
     <img src="images/gerard_2.jpe" alt="I Love You" class="floating-sticker_2">
-<!--    <img src="images/parental_advisory.jpe" alt="I Love You" class="floating-sticker_3">-->
-<!--    <img src="images/do_not_lick_the_walls.png" alt="I Love You" class="floating-sticker_12">-->
     <img src="images/cat_1.png" alt="I Love You" class="floating-sticker_4">
     <img src="images/mic.png" alt="I Love You" class="floating-sticker_5">
     <img src="images/cat_2.png" alt="I Love You" class="floating-sticker_6">
@@ -105,10 +138,11 @@
     <img src="images/flower_1.png" alt="I Love You" class="floating-sticker_9">
     <img src="images/cat_3.png" alt="I Love You" class="floating-sticker_7">
     <img src="images/flower_2.png" alt="I Love You" class="floating-sticker_10">
-<!--    <img src="images/ok_computer.png" alt="I Love You" class="floating-sticker_11">-->
     <img src="images/gerard_3.jpe" alt="I Love You" class="floating-sticker_14">
     <img src="images/cat_4.png" alt="I Love You" class="floating-sticker_15">
     <img src="images/cat_5.png" alt="I Love You" class="floating-sticker_16">
+
+<script src="spotify.js"></script>
 
 </body>
 </html>
