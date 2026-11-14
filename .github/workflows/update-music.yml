@@ -3,7 +3,7 @@
 on:
   push:
     paths:
-      - 'assets/music/**'
+      - 'music/**'
 
 jobs:
   update-json:
