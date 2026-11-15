@@ -386,8 +386,270 @@
     ]
   },
   {
+    "artist": "Ghost Brigade",
+    "albums": [
+      {
+        "title": "Until Fear No Longer Defines Us (2011)",
+        "year": 2011,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. In the Woods",
+            "file": "music/Ghost Brigade/Until Fear No Longer Defines Us (2011)/01. In the Woods.mp3"
+          },
+          {
+            "title": "02. Clawmaster",
+            "file": "music/Ghost Brigade/Until Fear No Longer Defines Us (2011)/02. Clawmaster.mp3"
+          },
+          {
+            "title": "03. Chamber",
+            "file": "music/Ghost Brigade/Until Fear No Longer Defines Us (2011)/03. Chamber.mp3"
+          },
+          {
+            "title": "04. Traces of Liberty",
+            "file": "music/Ghost Brigade/Until Fear No Longer Defines Us (2011)/04. Traces of Liberty.mp3"
+          },
+          {
+            "title": "05. Divine Act of Lunacy",
+            "file": "music/Ghost Brigade/Until Fear No Longer Defines Us (2011)/05. Divine Act of Lunacy.mp3"
+          },
+          {
+            "title": "06. Grain",
+            "file": "music/Ghost Brigade/Until Fear No Longer Defines Us (2011)/06. Grain.mp3"
+          },
+          {
+            "title": "07. Breakwater",
+            "file": "music/Ghost Brigade/Until Fear No Longer Defines Us (2011)/07. Breakwater.mp3"
+          },
+          {
+            "title": "08. Cult of Decay",
+            "file": "music/Ghost Brigade/Until Fear No Longer Defines Us (2011)/08. Cult of Decay.mp3"
+          },
+          {
+            "title": "09. Torn",
+            "file": "music/Ghost Brigade/Until Fear No Longer Defines Us (2011)/09. Torn.mp3"
+          },
+          {
+            "title": "10. Soulcarvers",
+            "file": "music/Ghost Brigade/Until Fear No Longer Defines Us (2011)/10. Soulcarvers.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Limp Bizkit",
+    "albums": [
+      {
+        "title": "Chocolate Starfish And The Hot Dog Flavored Water (2000)",
+        "year": 2000,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Intro",
+            "file": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/01. Intro.mp3"
+          },
+          {
+            "title": "02. Hot Dog",
+            "file": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/02. Hot Dog.mp3"
+          },
+          {
+            "title": "03. My Generation",
+            "file": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/03. My Generation.mp3"
+          },
+          {
+            "title": "04. Full Nelson",
+            "file": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/04. Full Nelson.mp3"
+          },
+          {
+            "title": "05. My Way",
+            "file": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/05. My Way.mp3"
+          },
+          {
+            "title": "06. Rollin' (Air Raid Vehicle)",
+            "file": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/06. Rollin' (Air Raid Vehicle).mp3"
+          },
+          {
+            "title": "07. Livin' It Up",
+            "file": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/07. Livin' It Up.mp3"
+          },
+          {
+            "title": "08. The One",
+            "file": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/08. The One.mp3"
+          },
+          {
+            "title": "09. Getcha Groove On - Dirt Road Mix",
+            "file": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/09. Getcha Groove On - Dirt Road Mix.mp3"
+          },
+          {
+            "title": "10. Take A Look Around",
+            "file": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/10. Take A Look Around.mp3"
+          },
+          {
+            "title": "11. It'll Be OK",
+            "file": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/11. It'll Be OK.mp3"
+          },
+          {
+            "title": "12. Boiler",
+            "file": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/12. Boiler.mp3"
+          },
+          {
+            "title": "13. Hold On",
+            "file": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/13. Hold On.mp3"
+          },
+          {
+            "title": "14. Rollin' (Urban Assault Vehicle)",
+            "file": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/14. Rollin' (Urban Assault Vehicle).mp3"
+          },
+          {
+            "title": "15. Outro",
+            "file": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/15. Outro.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "artist": "Linkin Park",
     "albums": [
+      {
+        "title": "Hybrid Theory (Bonus Edition) (2000)",
+        "year": 2000,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Papercut",
+            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/01. Papercut.mp3"
+          },
+          {
+            "title": "02. One Step Closer",
+            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/02. One Step Closer.mp3"
+          },
+          {
+            "title": "03. With You",
+            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/03. With You.mp3"
+          },
+          {
+            "title": "04. Points of Authority",
+            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/04. Points of Authority.mp3"
+          },
+          {
+            "title": "05. Crawling",
+            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/05. Crawling.mp3"
+          },
+          {
+            "title": "06. Runaway",
+            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/06. Runaway.mp3"
+          },
+          {
+            "title": "07. By Myself",
+            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/07. By Myself.mp3"
+          },
+          {
+            "title": "08. In the End",
+            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/08. In the End.mp3"
+          },
+          {
+            "title": "09. A Place for My Head",
+            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/09. A Place for My Head.mp3"
+          },
+          {
+            "title": "10. Forgotten",
+            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/10. Forgotten.mp3"
+          },
+          {
+            "title": "11. Cure for the Itch",
+            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/11. Cure for the Itch.mp3"
+          },
+          {
+            "title": "12. Pushing Me Away",
+            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/12. Pushing Me Away.mp3"
+          },
+          {
+            "title": "13. My December",
+            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/13. My December.mp3"
+          },
+          {
+            "title": "14. High Voltage",
+            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/14. High Voltage.mp3"
+          },
+          {
+            "title": "15. Papercut - Live at BBC1",
+            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/15. Papercut - Live at BBC1.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Meteora (Bonus Edition) (2003)",
+        "year": 2003,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Foreword",
+            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/01. Foreword.mp3"
+          },
+          {
+            "title": "02. Don't Stay",
+            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/02. Don't Stay.mp3"
+          },
+          {
+            "title": "03. Somewhere I Belong",
+            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/03. Somewhere I Belong.mp3"
+          },
+          {
+            "title": "04. Lying from You",
+            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/04. Lying from You.mp3"
+          },
+          {
+            "title": "05. Hit the Floor",
+            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/05. Hit the Floor.mp3"
+          },
+          {
+            "title": "06. Easier to Run",
+            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/06. Easier to Run.mp3"
+          },
+          {
+            "title": "07. Faint",
+            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/07. Faint.mp3"
+          },
+          {
+            "title": "08. Figure.09",
+            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/08. Figure.09.mp3"
+          },
+          {
+            "title": "09. Breaking the Habit",
+            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/09. Breaking the Habit.mp3"
+          },
+          {
+            "title": "10. From the Inside",
+            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/10. From the Inside.mp3"
+          },
+          {
+            "title": "11. Nobody's Listening",
+            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/11. Nobody's Listening.mp3"
+          },
+          {
+            "title": "12. Session",
+            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/12. Session.mp3"
+          },
+          {
+            "title": "13. Numb",
+            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/13. Numb.mp3"
+          },
+          {
+            "title": "14. Lying from You - Live LP Underground Tour 2003",
+            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/14. Lying from You - Live LP Underground Tour 2003.mp3"
+          },
+          {
+            "title": "15. From the Inside - Live LP Underground Tour 2003",
+            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/15. From the Inside - Live LP Underground Tour 2003.mp3"
+          },
+          {
+            "title": "16. Easier to Run - Live LP Underground Tour 2003",
+            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/16. Easier to Run - Live LP Underground Tour 2003.mp3"
+          }
+        ]
+      },
       {
         "title": "Minutes to Midnight (2007)",
         "year": 2007,
@@ -822,6 +1084,117 @@
     ]
   },
   {
+    "artist": "Nirvana",
+    "albums": [
+      {
+        "title": "In Utero (1993)",
+        "year": 1993,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "02. Scentless Apprentice",
+            "file": "music/Nirvana/In Utero (1993)/02. Scentless Apprentice.mp3"
+          },
+          {
+            "title": "03. Heart-Shaped Box",
+            "file": "music/Nirvana/In Utero (1993)/03. Heart-Shaped Box.mp3"
+          },
+          {
+            "title": "04. Rape Me",
+            "file": "music/Nirvana/In Utero (1993)/04. Rape Me.mp3"
+          },
+          {
+            "title": "05. Frances Farmer Will Have Her Revenge On Seattle",
+            "file": "music/Nirvana/In Utero (1993)/05. Frances Farmer Will Have Her Revenge On Seattle.mp3"
+          },
+          {
+            "title": "06. Dumb",
+            "file": "music/Nirvana/In Utero (1993)/06. Dumb.mp3"
+          },
+          {
+            "title": "07. Very Ape",
+            "file": "music/Nirvana/In Utero (1993)/07. Very Ape.mp3"
+          },
+          {
+            "title": "09. Pennyroyal Tea",
+            "file": "music/Nirvana/In Utero (1993)/09. Pennyroyal Tea.mp3"
+          },
+          {
+            "title": "10. Radio Friendly Unit Shifter",
+            "file": "music/Nirvana/In Utero (1993)/10. Radio Friendly Unit Shifter.mp3"
+          },
+          {
+            "title": "11. Tourette's",
+            "file": "music/Nirvana/In Utero (1993)/11. Tourette's.mp3"
+          },
+          {
+            "title": "12. All Apologies",
+            "file": "music/Nirvana/In Utero (1993)/12. All Apologies.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Nevermind (Remastered) (1991)",
+        "year": 1991,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Smells Like Teen Spirit",
+            "file": "music/Nirvana/Nevermind (Remastered) (1991)/01. Smells Like Teen Spirit.mp3"
+          },
+          {
+            "title": "02. In Bloom",
+            "file": "music/Nirvana/Nevermind (Remastered) (1991)/02. In Bloom.mp3"
+          },
+          {
+            "title": "03. Come As You Are",
+            "file": "music/Nirvana/Nevermind (Remastered) (1991)/03. Come As You Are.mp3"
+          },
+          {
+            "title": "04. Breed",
+            "file": "music/Nirvana/Nevermind (Remastered) (1991)/04. Breed.mp3"
+          },
+          {
+            "title": "05. Lithium",
+            "file": "music/Nirvana/Nevermind (Remastered) (1991)/05. Lithium.mp3"
+          },
+          {
+            "title": "06. Polly",
+            "file": "music/Nirvana/Nevermind (Remastered) (1991)/06. Polly.mp3"
+          },
+          {
+            "title": "07. Territorial Pissings",
+            "file": "music/Nirvana/Nevermind (Remastered) (1991)/07. Territorial Pissings.mp3"
+          },
+          {
+            "title": "08. Drain You",
+            "file": "music/Nirvana/Nevermind (Remastered) (1991)/08. Drain You.mp3"
+          },
+          {
+            "title": "09. Lounge Act",
+            "file": "music/Nirvana/Nevermind (Remastered) (1991)/09. Lounge Act.mp3"
+          },
+          {
+            "title": "10. Stay Away",
+            "file": "music/Nirvana/Nevermind (Remastered) (1991)/10. Stay Away.mp3"
+          },
+          {
+            "title": "11. On A Plain",
+            "file": "music/Nirvana/Nevermind (Remastered) (1991)/11. On A Plain.mp3"
+          },
+          {
+            "title": "12. Something In The Way",
+            "file": "music/Nirvana/Nevermind (Remastered) (1991)/12. Something In The Way.mp3"
+          },
+          {
+            "title": "13. Endless, Nameless",
+            "file": "music/Nirvana/Nevermind (Remastered) (1991)/13. Endless, Nameless.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "artist": "Pink Floyd",
     "albums": [
       {
@@ -1077,6 +1450,78 @@
           {
             "title": "9. Bullet Proof ... I Wish I Was",
             "file": "music/Radiohead/The Bends (1995)/9. Bullet Proof ... I Wish I Was.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Red Hot Chili Peppers",
+    "albums": [
+      {
+        "title": "Californication (1999)",
+        "year": 1999,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Around the World",
+            "file": "music/Red Hot Chili Peppers/Californication (1999)/01. Around the World.mp3"
+          },
+          {
+            "title": "02. Parallel Universe",
+            "file": "music/Red Hot Chili Peppers/Californication (1999)/02. Parallel Universe.mp3"
+          },
+          {
+            "title": "03. Scar Tissue",
+            "file": "music/Red Hot Chili Peppers/Californication (1999)/03. Scar Tissue.mp3"
+          },
+          {
+            "title": "04. Otherside",
+            "file": "music/Red Hot Chili Peppers/Californication (1999)/04. Otherside.mp3"
+          },
+          {
+            "title": "05. Get on Top",
+            "file": "music/Red Hot Chili Peppers/Californication (1999)/05. Get on Top.mp3"
+          },
+          {
+            "title": "06. Californication",
+            "file": "music/Red Hot Chili Peppers/Californication (1999)/06. Californication.mp3"
+          },
+          {
+            "title": "07. Easily",
+            "file": "music/Red Hot Chili Peppers/Californication (1999)/07. Easily.mp3"
+          },
+          {
+            "title": "08. Porcelain",
+            "file": "music/Red Hot Chili Peppers/Californication (1999)/08. Porcelain.mp3"
+          },
+          {
+            "title": "09. Emit Remmus",
+            "file": "music/Red Hot Chili Peppers/Californication (1999)/09. Emit Remmus.mp3"
+          },
+          {
+            "title": "10. I Like Dirt",
+            "file": "music/Red Hot Chili Peppers/Californication (1999)/10. I Like Dirt.mp3"
+          },
+          {
+            "title": "11. This Velvet Glove",
+            "file": "music/Red Hot Chili Peppers/Californication (1999)/11. This Velvet Glove.mp3"
+          },
+          {
+            "title": "12. Savior",
+            "file": "music/Red Hot Chili Peppers/Californication (1999)/12. Savior.mp3"
+          },
+          {
+            "title": "13. Purple Stain",
+            "file": "music/Red Hot Chili Peppers/Californication (1999)/13. Purple Stain.mp3"
+          },
+          {
+            "title": "14. Right on Time",
+            "file": "music/Red Hot Chili Peppers/Californication (1999)/14. Right on Time.mp3"
+          },
+          {
+            "title": "15. Road Trippin'",
+            "file": "music/Red Hot Chili Peppers/Californication (1999)/15. Road Trippin'.mp3"
           }
         ]
       }
@@ -1461,6 +1906,70 @@
           {
             "title": "14. Solway Firth",
             "file": "music/Slipknot/We Are Not Your Kind (2019)/14. Solway Firth.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "The Smiths",
+    "albums": [
+      {
+        "title": "Hatful of Hollow (1984)",
+        "year": 1984,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. William, It Was Really Nothing - 2011 Remaster",
+            "file": "music/The Smiths/Hatful of Hollow (1984)/01. William, It Was Really Nothing - 2011 Remaster.mp3"
+          },
+          {
+            "title": "02. What Difference Does It Make - John Peel Session 180583",
+            "file": "music/The Smiths/Hatful of Hollow (1984)/02. What Difference Does It Make - John Peel Session 180583.mp3"
+          },
+          {
+            "title": "03. These Things Take Time - David Jensen Session 260683",
+            "file": "music/The Smiths/Hatful of Hollow (1984)/03. These Things Take Time - David Jensen Session 260683.mp3"
+          },
+          {
+            "title": "04. This Charming Man - John Peel Session 140983",
+            "file": "music/The Smiths/Hatful of Hollow (1984)/04. This Charming Man - John Peel Session 140983.mp3"
+          },
+          {
+            "title": "05. How Soon Is Now - 2011 Remaster",
+            "file": "music/The Smiths/Hatful of Hollow (1984)/05. How Soon Is Now - 2011 Remaster.mp3"
+          },
+          {
+            "title": "06. Handsome Devil - John Peel Session 180583",
+            "file": "music/The Smiths/Hatful of Hollow (1984)/06. Handsome Devil - John Peel Session 180583.mp3"
+          },
+          {
+            "title": "07. Hand in Glove - 2011 Remaster",
+            "file": "music/The Smiths/Hatful of Hollow (1984)/07. Hand in Glove - 2011 Remaster.mp3"
+          },
+          {
+            "title": "08. Still Ill - John Peel Session 140983",
+            "file": "music/The Smiths/Hatful of Hollow (1984)/08. Still Ill - John Peel Session 140983.mp3"
+          },
+          {
+            "title": "09. Heaven Knows I'm Miserable Now - 2011 Remaster",
+            "file": "music/The Smiths/Hatful of Hollow (1984)/09. Heaven Knows I'm Miserable Now - 2011 Remaster.mp3"
+          },
+          {
+            "title": "10. This Night Has Opened My Eyes - 2011 Remaster",
+            "file": "music/The Smiths/Hatful of Hollow (1984)/10. This Night Has Opened My Eyes - 2011 Remaster.mp3"
+          },
+          {
+            "title": "11. You've Got Everything Now - David Jensen Session 260683",
+            "file": "music/The Smiths/Hatful of Hollow (1984)/11. You've Got Everything Now - David Jensen Session 260683.mp3"
+          },
+          {
+            "title": "14. Back to the Old House - John Peel Session 140983",
+            "file": "music/The Smiths/Hatful of Hollow (1984)/14. Back to the Old House - John Peel Session 140983.mp3"
+          },
+          {
+            "title": "16. Please, Please, Please, Let Me Get What I Want - 2011 Remaster",
+            "file": "music/The Smiths/Hatful of Hollow (1984)/16. Please, Please, Please, Let Me Get What I Want - 2011 Remaster.mp3"
           }
         ]
       }
