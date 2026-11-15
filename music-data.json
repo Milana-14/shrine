@@ -1,5 +1,511 @@
 [
   {
+    "artist": "Enter Shikari",
+    "albums": [
+      {
+        "title": "A Kiss for the Whole World (2023)",
+        "year": 2023,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. A Kiss for the Whole World x",
+            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/01. A Kiss for the Whole World x.mp3"
+          },
+          {
+            "title": "02. (pls) set me on fire",
+            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/02. (pls) set me on fire.mp3"
+          },
+          {
+            "title": "03. It Hurts",
+            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/03. It Hurts.mp3"
+          },
+          {
+            "title": "04. Leap into the Lightning",
+            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/04. Leap into the Lightning.mp3"
+          },
+          {
+            "title": "05. feed yøur søul",
+            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/05. feed yøur søul.mp3"
+          },
+          {
+            "title": "06. Dead Wood",
+            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/06. Dead Wood.mp3"
+          },
+          {
+            "title": "07. Jailbreak",
+            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/07. Jailbreak.mp3"
+          },
+          {
+            "title": "08. Bloodshot",
+            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/08. Bloodshot.mp3"
+          },
+          {
+            "title": "09. Bloodshot (Coda)",
+            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/09. Bloodshot (Coda).mp3"
+          },
+          {
+            "title": "10. goldfĭsh ~",
+            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/10. goldfĭsh ~.mp3"
+          },
+          {
+            "title": "11. Giant Pacific Octopus (i don't know you anymore)",
+            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/11. Giant Pacific Octopus (i don't know you anymore).mp3"
+          },
+          {
+            "title": "12. giant pacific octopus swirling off into infinity...",
+            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/12. giant pacific octopus swirling off into infinity....mp3"
+          }
+        ]
+      },
+      {
+        "title": "Common Dreads (2009)",
+        "year": 2009,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Common Dreads",
+            "file": "music/Enter Shikari/Common Dreads (2009)/01. Common Dreads.mp3"
+          },
+          {
+            "title": "02. Solidarity",
+            "file": "music/Enter Shikari/Common Dreads (2009)/02. Solidarity.mp3"
+          },
+          {
+            "title": "03. Step Up",
+            "file": "music/Enter Shikari/Common Dreads (2009)/03. Step Up.mp3"
+          },
+          {
+            "title": "04. Juggernauts",
+            "file": "music/Enter Shikari/Common Dreads (2009)/04. Juggernauts.mp3"
+          },
+          {
+            "title": "05. Wall",
+            "file": "music/Enter Shikari/Common Dreads (2009)/05. Wall.mp3"
+          },
+          {
+            "title": "06. Zzzonked",
+            "file": "music/Enter Shikari/Common Dreads (2009)/06. Zzzonked.mp3"
+          },
+          {
+            "title": "07. Havoc A",
+            "file": "music/Enter Shikari/Common Dreads (2009)/07. Havoc A.mp3"
+          },
+          {
+            "title": "08. No Sleep Tonight",
+            "file": "music/Enter Shikari/Common Dreads (2009)/08. No Sleep Tonight.mp3"
+          },
+          {
+            "title": "09. Gap in the Fence",
+            "file": "music/Enter Shikari/Common Dreads (2009)/09. Gap in the Fence.mp3"
+          },
+          {
+            "title": "10. Havoc B",
+            "file": "music/Enter Shikari/Common Dreads (2009)/10. Havoc B.mp3"
+          },
+          {
+            "title": "11. Antwerpen",
+            "file": "music/Enter Shikari/Common Dreads (2009)/11. Antwerpen.mp3"
+          },
+          {
+            "title": "12. The Jester",
+            "file": "music/Enter Shikari/Common Dreads (2009)/12. The Jester.mp3"
+          },
+          {
+            "title": "13. Halcyon",
+            "file": "music/Enter Shikari/Common Dreads (2009)/13. Halcyon.mp3"
+          },
+          {
+            "title": "14. Hectic",
+            "file": "music/Enter Shikari/Common Dreads (2009)/14. Hectic.mp3"
+          },
+          {
+            "title": "15. Fanfare for the Conscious Man",
+            "file": "music/Enter Shikari/Common Dreads (2009)/15. Fanfare for the Conscious Man.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Lose Your Self (2026)",
+        "year": 2026,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. LOSE YOUR SELF",
+            "file": "music/Enter Shikari/Lose Your Self (2026)/01. LOSE YOUR SELF.mp3"
+          },
+          {
+            "title": "02. Find Out The Hard Way...",
+            "file": "music/Enter Shikari/Lose Your Self (2026)/02. Find Out The Hard Way....mp3"
+          },
+          {
+            "title": "03. Dead In The Water",
+            "file": "music/Enter Shikari/Lose Your Self (2026)/03. Dead In The Water.mp3"
+          },
+          {
+            "title": "04. demons",
+            "file": "music/Enter Shikari/Lose Your Self (2026)/04. demons.mp3"
+          },
+          {
+            "title": "05. The Flick Of A Switch I.",
+            "file": "music/Enter Shikari/Lose Your Self (2026)/05. The Flick Of A Switch I..mp3"
+          },
+          {
+            "title": "06. i can't keep my hands clean",
+            "file": "music/Enter Shikari/Lose Your Self (2026)/06. i can't keep my hands clean.mp3"
+          },
+          {
+            "title": "07. it's OK",
+            "file": "music/Enter Shikari/Lose Your Self (2026)/07. it's OK.mp3"
+          },
+          {
+            "title": "08. The Flick Of A Switch II.",
+            "file": "music/Enter Shikari/Lose Your Self (2026)/08. The Flick Of A Switch II..mp3"
+          },
+          {
+            "title": "09. Shipwrecked!",
+            "file": "music/Enter Shikari/Lose Your Self (2026)/09. Shipwrecked!.mp3"
+          },
+          {
+            "title": "10. Spaceship Earth (I. Avec Abandon)",
+            "file": "music/Enter Shikari/Lose Your Self (2026)/10. Spaceship Earth (I. Avec Abandon).mp3"
+          },
+          {
+            "title": "11. Spaceship Earth (II. Angoscioso)",
+            "file": "music/Enter Shikari/Lose Your Self (2026)/11. Spaceship Earth (II. Angoscioso).mp3"
+          },
+          {
+            "title": "12. Spaceship Earth (III. Maestoso)",
+            "file": "music/Enter Shikari/Lose Your Self (2026)/12. Spaceship Earth (III. Maestoso).mp3"
+          }
+        ]
+      },
+      {
+        "title": "Nothing is True & Everything is Possible (2020)",
+        "year": 2020,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. THE GREAT UNKNOWN",
+            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/01. THE GREAT UNKNOWN.mp3"
+          },
+          {
+            "title": "02. Crossing The Rubicon",
+            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/02. Crossing The Rubicon.mp3"
+          },
+          {
+            "title": "03. { The Dreamer's Hotel }",
+            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/03. { The Dreamer's Hotel }.mp3"
+          },
+          {
+            "title": "04. Waltzing off the Face of the Earth (I. Crescendo)",
+            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/04. Waltzing off the Face of the Earth (I. Crescendo).mp3"
+          },
+          {
+            "title": "05. modern living….",
+            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/05. modern living…..mp3"
+          },
+          {
+            "title": "06. apøcaholics anonymøus (main theme in B minor)",
+            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/06. apøcaholics anonymøus (main theme in B minor).mp3"
+          },
+          {
+            "title": "07. the pressure's on.",
+            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/07. the pressure's on..mp3"
+          },
+          {
+            "title": "08. Reprise 3",
+            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/08. Reprise 3.mp3"
+          },
+          {
+            "title": "09. T.I.N.A.",
+            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/09. T.I.N.A..mp3"
+          },
+          {
+            "title": "10. Elegy For Extinction",
+            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/10. Elegy For Extinction.mp3"
+          },
+          {
+            "title": "11. Marionettes (I. The Discovery of Strings)",
+            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/11. Marionettes (I. The Discovery of Strings).mp3"
+          },
+          {
+            "title": "13. satellites ",
+            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/13. satellites .mp3"
+          },
+          {
+            "title": "14. thē kĭñg",
+            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/14. thē kĭñg.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Take to the Skies (2007)",
+        "year": 2007,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Enter Shikari",
+            "file": "music/Enter Shikari/Take to the Skies (2007)/01. Enter Shikari.mp3"
+          },
+          {
+            "title": "02. Mothership",
+            "file": "music/Enter Shikari/Take to the Skies (2007)/02. Mothership.mp3"
+          },
+          {
+            "title": "03. Anything Can Happen in the Next Half Hour",
+            "file": "music/Enter Shikari/Take to the Skies (2007)/03. Anything Can Happen in the Next Half Hour.mp3"
+          },
+          {
+            "title": "04. Labyrinth",
+            "file": "music/Enter Shikari/Take to the Skies (2007)/04. Labyrinth.mp3"
+          },
+          {
+            "title": "05. No Sssweat",
+            "file": "music/Enter Shikari/Take to the Skies (2007)/05. No Sssweat.mp3"
+          },
+          {
+            "title": "06. Today Won't Go Down in History",
+            "file": "music/Enter Shikari/Take to the Skies (2007)/06. Today Won't Go Down in History.mp3"
+          },
+          {
+            "title": "07. Reprise 1",
+            "file": "music/Enter Shikari/Take to the Skies (2007)/07. Reprise 1.mp3"
+          },
+          {
+            "title": "08. Return to Energiser",
+            "file": "music/Enter Shikari/Take to the Skies (2007)/08. Return to Energiser.mp3"
+          },
+          {
+            "title": "09. Sorry You're Not a Winner",
+            "file": "music/Enter Shikari/Take to the Skies (2007)/09. Sorry You're Not a Winner.mp3"
+          },
+          {
+            "title": "10. Jonny Sniper",
+            "file": "music/Enter Shikari/Take to the Skies (2007)/10. Jonny Sniper.mp3"
+          },
+          {
+            "title": "11. Adieu",
+            "file": "music/Enter Shikari/Take to the Skies (2007)/11. Adieu.mp3"
+          },
+          {
+            "title": "12. OK Time for Plan B",
+            "file": "music/Enter Shikari/Take to the Skies (2007)/12. OK Time for Plan B.mp3"
+          },
+          {
+            "title": "13. Reprise 2",
+            "file": "music/Enter Shikari/Take to the Skies (2007)/13. Reprise 2.mp3"
+          }
+        ]
+      },
+      {
+        "title": "The Spark (2017)",
+        "year": 2017,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. The Spark",
+            "file": "music/Enter Shikari/The Spark (2017)/01. The Spark.mp3"
+          },
+          {
+            "title": "03. Live Outside",
+            "file": "music/Enter Shikari/The Spark (2017)/03. Live Outside.mp3"
+          },
+          {
+            "title": "06. Rabble Rouser",
+            "file": "music/Enter Shikari/The Spark (2017)/06. Rabble Rouser.mp3"
+          },
+          {
+            "title": "09. The Revolt of the Atoms",
+            "file": "music/Enter Shikari/The Spark (2017)/09. The Revolt of the Atoms.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Tribalism (2010)",
+        "year": 2010,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Tribalism",
+            "file": "music/Enter Shikari/Tribalism (2010)/01. Tribalism.mp3"
+          },
+          {
+            "title": "02. Thumper",
+            "file": "music/Enter Shikari/Tribalism (2010)/02. Thumper.mp3"
+          },
+          {
+            "title": "03. All Eyes on The Saint",
+            "file": "music/Enter Shikari/Tribalism (2010)/03. All Eyes on The Saint.mp3"
+          },
+          {
+            "title": "04. We Can Breathe In Space",
+            "file": "music/Enter Shikari/Tribalism (2010)/04. We Can Breathe In Space.mp3"
+          },
+          {
+            "title": "05. Insomnia - Live At Brixton '07",
+            "file": "music/Enter Shikari/Tribalism (2010)/05. Insomnia - Live At Brixton '07.mp3"
+          },
+          {
+            "title": "06. Juggernauts - Nero Remix",
+            "file": "music/Enter Shikari/Tribalism (2010)/06. Juggernauts - Nero Remix.mp3"
+          },
+          {
+            "title": "07. No Sleep Tonight - The Qemists Remix",
+            "file": "music/Enter Shikari/Tribalism (2010)/07. No Sleep Tonight - The Qemists Remix.mp3"
+          },
+          {
+            "title": "08. Wall - High Contrast Remix",
+            "file": "music/Enter Shikari/Tribalism (2010)/08. Wall - High Contrast Remix.mp3"
+          },
+          {
+            "title": "10. Juggernauts - Blue Bear's True Tiger Remix",
+            "file": "music/Enter Shikari/Tribalism (2010)/10. Juggernauts - Blue Bear's True Tiger Remix.mp3"
+          },
+          {
+            "title": "11. No Sleep Tonight - Rout Remix",
+            "file": "music/Enter Shikari/Tribalism (2010)/11. No Sleep Tonight - Rout Remix.mp3"
+          },
+          {
+            "title": "12. No Sleep Tonight - LightsGoBlue Remix",
+            "file": "music/Enter Shikari/Tribalism (2010)/12. No Sleep Tonight - LightsGoBlue Remix.mp3"
+          },
+          {
+            "title": "13. Havoc A - Live at Rock City",
+            "file": "music/Enter Shikari/Tribalism (2010)/13. Havoc A - Live at Rock City.mp3"
+          },
+          {
+            "title": "14. Labyrinth - Live at Rock City",
+            "file": "music/Enter Shikari/Tribalism (2010)/14. Labyrinth - Live at Rock City.mp3"
+          },
+          {
+            "title": "15. Hectic - Live at Rock City",
+            "file": "music/Enter Shikari/Tribalism (2010)/15. Hectic - Live at Rock City.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Linkin Park",
+    "albums": [
+      {
+        "title": "Minutes to Midnight (2007)",
+        "year": 2007,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Wake",
+            "file": "music/Linkin Park/Minutes to Midnight (2007)/01. Wake.mp3"
+          },
+          {
+            "title": "02. Given Up",
+            "file": "music/Linkin Park/Minutes to Midnight (2007)/02. Given Up.mp3"
+          },
+          {
+            "title": "03. Leave Out All The Rest",
+            "file": "music/Linkin Park/Minutes to Midnight (2007)/03. Leave Out All The Rest.mp3"
+          },
+          {
+            "title": "04. Bleed It Out",
+            "file": "music/Linkin Park/Minutes to Midnight (2007)/04. Bleed It Out.mp3"
+          },
+          {
+            "title": "05. Shadow of the Day",
+            "file": "music/Linkin Park/Minutes to Midnight (2007)/05. Shadow of the Day.mp3"
+          },
+          {
+            "title": "06. What I've Done",
+            "file": "music/Linkin Park/Minutes to Midnight (2007)/06. What I've Done.mp3"
+          },
+          {
+            "title": "07. Hands Held High",
+            "file": "music/Linkin Park/Minutes to Midnight (2007)/07. Hands Held High.mp3"
+          },
+          {
+            "title": "08. No More Sorrow",
+            "file": "music/Linkin Park/Minutes to Midnight (2007)/08. No More Sorrow.mp3"
+          },
+          {
+            "title": "09. Valentine's Day",
+            "file": "music/Linkin Park/Minutes to Midnight (2007)/09. Valentine's Day.mp3"
+          },
+          {
+            "title": "10. In Between",
+            "file": "music/Linkin Park/Minutes to Midnight (2007)/10. In Between.mp3"
+          },
+          {
+            "title": "11. In Pieces",
+            "file": "music/Linkin Park/Minutes to Midnight (2007)/11. In Pieces.mp3"
+          },
+          {
+            "title": "12. The Little Things Give You Away",
+            "file": "music/Linkin Park/Minutes to Midnight (2007)/12. The Little Things Give You Away.mp3"
+          },
+          {
+            "title": "13. Faint - Live from Third Encore Studio, North Hollywood, CA, 3142007",
+            "file": "music/Linkin Park/Minutes to Midnight (2007)/13. Faint - Live from Third Encore Studio, North Hollywood, CA, 3142007.mp3"
+          },
+          {
+            "title": "14. What I've Done - Live from Third Encore Studio, North Hollywood, CA, 3142007",
+            "file": "music/Linkin Park/Minutes to Midnight (2007)/14. What I've Done - Live from Third Encore Studio, North Hollywood, CA, 3142007.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Mazzy Star",
+    "albums": [
+      {
+        "title": "So Tonight That I Might See (1993)",
+        "year": 1993,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Fade Into You",
+            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/01. Fade Into You.mp3"
+          },
+          {
+            "title": "02. Bells Ring",
+            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/02. Bells Ring.mp3"
+          },
+          {
+            "title": "03. Mary Of Silence",
+            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/03. Mary Of Silence.mp3"
+          },
+          {
+            "title": "04. Five String Serenade",
+            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/04. Five String Serenade.mp3"
+          },
+          {
+            "title": "05. Blue Light",
+            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/05. Blue Light.mp3"
+          },
+          {
+            "title": "06. She's My Baby",
+            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/06. She's My Baby.mp3"
+          },
+          {
+            "title": "07. Unreflected",
+            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/07. Unreflected.mp3"
+          },
+          {
+            "title": "08. Wasted",
+            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/08. Wasted.mp3"
+          },
+          {
+            "title": "09. Into Dust",
+            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/09. Into Dust.mp3"
+          },
+          {
+            "title": "10. So Tonight That I Might See",
+            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/10. So Tonight That I Might See.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "artist": "My Chemical Romance",
     "albums": [
       {
@@ -316,6 +822,54 @@
     ]
   },
   {
+    "artist": "Pink Floyd",
+    "albums": [
+      {
+        "title": "The Dark Side of the Moon (1973)",
+        "year": 1973,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Speak to Me",
+            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/01. Speak to Me.mp3"
+          },
+          {
+            "title": "02. Breathe (In the Air)",
+            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/02. Breathe (In the Air).mp3"
+          },
+          {
+            "title": "03. On the Run",
+            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/03. On the Run.mp3"
+          },
+          {
+            "title": "04. Time",
+            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/04. Time.mp3"
+          },
+          {
+            "title": "05. The Great Gig in the Sky",
+            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/05. The Great Gig in the Sky.mp3"
+          },
+          {
+            "title": "06. Money",
+            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/06. Money.mp3"
+          },
+          {
+            "title": "07. Us and Them",
+            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/07. Us and Them.mp3"
+          },
+          {
+            "title": "08. Any Colour You Like",
+            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/08. Any Colour You Like.mp3"
+          },
+          {
+            "title": "09. Brain Damage",
+            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/09. Brain Damage.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "artist": "Radiohead",
     "albums": [
       {
@@ -523,6 +1077,390 @@
           {
             "title": "9. Bullet Proof ... I Wish I Was",
             "file": "music/Radiohead/The Bends (1995)/9. Bullet Proof ... I Wish I Was.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Slipknot",
+    "albums": [
+      {
+        "title": "All Hope Is Gone (2008)",
+        "year": 2008,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. .execute.",
+            "file": "music/Slipknot/All Hope Is Gone (2008)/01. .execute..mp3"
+          },
+          {
+            "title": "02. Gematria (The Killing Name)",
+            "file": "music/Slipknot/All Hope Is Gone (2008)/02. Gematria (The Killing Name).mp3"
+          },
+          {
+            "title": "03. Sulfur",
+            "file": "music/Slipknot/All Hope Is Gone (2008)/03. Sulfur.mp3"
+          },
+          {
+            "title": "04. Psychosocial",
+            "file": "music/Slipknot/All Hope Is Gone (2008)/04. Psychosocial.mp3"
+          },
+          {
+            "title": "05. Dead Memories",
+            "file": "music/Slipknot/All Hope Is Gone (2008)/05. Dead Memories.mp3"
+          },
+          {
+            "title": "06. Vendetta",
+            "file": "music/Slipknot/All Hope Is Gone (2008)/06. Vendetta.mp3"
+          },
+          {
+            "title": "07. Butcher's Hook",
+            "file": "music/Slipknot/All Hope Is Gone (2008)/07. Butcher's Hook.mp3"
+          },
+          {
+            "title": "08. Gehenna",
+            "file": "music/Slipknot/All Hope Is Gone (2008)/08. Gehenna.mp3"
+          },
+          {
+            "title": "09. This Cold Black",
+            "file": "music/Slipknot/All Hope Is Gone (2008)/09. This Cold Black.mp3"
+          },
+          {
+            "title": "10. Wherein Lies Continue",
+            "file": "music/Slipknot/All Hope Is Gone (2008)/10. Wherein Lies Continue.mp3"
+          },
+          {
+            "title": "11. Snuff",
+            "file": "music/Slipknot/All Hope Is Gone (2008)/11. Snuff.mp3"
+          },
+          {
+            "title": "12. All Hope Is Gone",
+            "file": "music/Slipknot/All Hope Is Gone (2008)/12. All Hope Is Gone.mp3"
+          },
+          {
+            "title": "13. Child of Burning Time",
+            "file": "music/Slipknot/All Hope Is Gone (2008)/13. Child of Burning Time.mp3"
+          },
+          {
+            "title": "14. 'Til We Die",
+            "file": "music/Slipknot/All Hope Is Gone (2008)/14. 'Til We Die.mp3"
+          },
+          {
+            "title": "15. Vermilion, Pt. 2 - Bloodstone Mix",
+            "file": "music/Slipknot/All Hope Is Gone (2008)/15. Vermilion, Pt. 2 - Bloodstone Mix.mp3"
+          },
+          {
+            "title": "16. Psychosocial - Live",
+            "file": "music/Slipknot/All Hope Is Gone (2008)/16. Psychosocial - Live.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Slipknot (10th Anniversary Edition) (2009)",
+        "year": 2009,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "02. (sic)",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/02. (sic).mp3"
+          },
+          {
+            "title": "03. Eyeless",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/03. Eyeless.mp3"
+          },
+          {
+            "title": "04. Wait and Bleed",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/04. Wait and Bleed.mp3"
+          },
+          {
+            "title": "05. Surfacing",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/05. Surfacing.mp3"
+          },
+          {
+            "title": "06. Spit It Out",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/06. Spit It Out.mp3"
+          },
+          {
+            "title": "07. Tattered & Torn",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/07. Tattered & Torn.mp3"
+          },
+          {
+            "title": "08. Purity",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/08. Purity.mp3"
+          },
+          {
+            "title": "09. Liberate",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/09. Liberate.mp3"
+          },
+          {
+            "title": "10. Prosthetics",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/10. Prosthetics.mp3"
+          },
+          {
+            "title": "13. Only One",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/13. Only One.mp3"
+          },
+          {
+            "title": "14. Scissors",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/14. Scissors.mp3"
+          },
+          {
+            "title": "16. Me Inside",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/16. Me Inside.mp3"
+          },
+          {
+            "title": "17. Get This",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/17. Get This.mp3"
+          },
+          {
+            "title": "18. Spit It Out - Hyper Version",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/18. Spit It Out - Hyper Version.mp3"
+          },
+          {
+            "title": "19. Spit It Out - Stamp You out Mix",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/19. Spit It Out - Stamp You out Mix.mp3"
+          },
+          {
+            "title": "20. (sic) - Molt-Injected Mix",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/20. (sic) - Molt-Injected Mix.mp3"
+          },
+          {
+            "title": "21. Wait and Bleed - Terry Date Mix",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/21. Wait and Bleed - Terry Date Mix.mp3"
+          },
+          {
+            "title": "22. Wait and Bleed - Demo",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/22. Wait and Bleed - Demo.mp3"
+          },
+          {
+            "title": "23. Snap - Demo",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/23. Snap - Demo.mp3"
+          },
+          {
+            "title": "24. Interloper - Demo",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/24. Interloper - Demo.mp3"
+          },
+          {
+            "title": "25. Despise - Demo",
+            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/25. Despise - Demo.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Slipknot (1999)",
+        "year": 1999,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. 742617000027",
+            "file": "music/Slipknot/Slipknot (1999)/01. 742617000027.mp3"
+          },
+          {
+            "title": "02. (sic)",
+            "file": "music/Slipknot/Slipknot (1999)/02. (sic).mp3"
+          },
+          {
+            "title": "03. Eyeless",
+            "file": "music/Slipknot/Slipknot (1999)/03. Eyeless.mp3"
+          },
+          {
+            "title": "04. Wait and Bleed",
+            "file": "music/Slipknot/Slipknot (1999)/04. Wait and Bleed.mp3"
+          },
+          {
+            "title": "05. Surfacing",
+            "file": "music/Slipknot/Slipknot (1999)/05. Surfacing.mp3"
+          },
+          {
+            "title": "06. Spit It Out",
+            "file": "music/Slipknot/Slipknot (1999)/06. Spit It Out.mp3"
+          },
+          {
+            "title": "07. Tattered & Torn",
+            "file": "music/Slipknot/Slipknot (1999)/07. Tattered & Torn.mp3"
+          },
+          {
+            "title": "08. Me Inside",
+            "file": "music/Slipknot/Slipknot (1999)/08. Me Inside.mp3"
+          },
+          {
+            "title": "09. Liberate",
+            "file": "music/Slipknot/Slipknot (1999)/09. Liberate.mp3"
+          },
+          {
+            "title": "10. Prosthetics",
+            "file": "music/Slipknot/Slipknot (1999)/10. Prosthetics.mp3"
+          },
+          {
+            "title": "12. Diluted",
+            "file": "music/Slipknot/Slipknot (1999)/12. Diluted.mp3"
+          },
+          {
+            "title": "13. Only One",
+            "file": "music/Slipknot/Slipknot (1999)/13. Only One.mp3"
+          },
+          {
+            "title": "14. Scissors",
+            "file": "music/Slipknot/Slipknot (1999)/14. Scissors.mp3"
+          },
+          {
+            "title": "15. Eeyore",
+            "file": "music/Slipknot/Slipknot (1999)/15. Eeyore.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Vol. 3- The Subliminal Verses (Special Edition) (2004)",
+        "year": 2004,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Prelude 3.0",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/01. Prelude 3.0.mp3"
+          },
+          {
+            "title": "02. The Blister Exists",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/02. The Blister Exists.mp3"
+          },
+          {
+            "title": "03. Three Nil",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/03. Three Nil.mp3"
+          },
+          {
+            "title": "04. Duality",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/04. Duality.mp3"
+          },
+          {
+            "title": "05. Opium of the People",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/05. Opium of the People.mp3"
+          },
+          {
+            "title": "06. Circle",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/06. Circle.mp3"
+          },
+          {
+            "title": "07. Welcome",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/07. Welcome.mp3"
+          },
+          {
+            "title": "08. Vermilion",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/08. Vermilion.mp3"
+          },
+          {
+            "title": "09. Pulse of the Maggots",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/09. Pulse of the Maggots.mp3"
+          },
+          {
+            "title": "10. Before I Forget",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/10. Before I Forget.mp3"
+          },
+          {
+            "title": "11. Vermilion, Pt. 2",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/11. Vermilion, Pt. 2.mp3"
+          },
+          {
+            "title": "12. The Nameless",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/12. The Nameless.mp3"
+          },
+          {
+            "title": "14. Danger - Keep Away",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/14. Danger - Keep Away.mp3"
+          },
+          {
+            "title": "15. Don't Get Close",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/15. Don't Get Close.mp3"
+          },
+          {
+            "title": "16. Scream",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/16. Scream.mp3"
+          },
+          {
+            "title": "17. Vermilion - Alternate Mix; U.S. Edit Full Length [U.S. Edit Full Length]",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/17. Vermilion - Alternate Mix; U.S. Edit Full Length [U.S. Edit Full Length].mp3"
+          },
+          {
+            "title": "18. Danger Keep Away",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/18. Danger Keep Away.mp3"
+          },
+          {
+            "title": "19. The Blister Exists - Live",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/19. The Blister Exists - Live.mp3"
+          },
+          {
+            "title": "20. Three Nil - Live",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/20. Three Nil - Live.mp3"
+          },
+          {
+            "title": "21. Disasterpiece - Live in London",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/21. Disasterpiece - Live in London.mp3"
+          },
+          {
+            "title": "22. People = Shit - Live",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/22. People = Shit - Live.mp3"
+          }
+        ]
+      },
+      {
+        "title": "We Are Not Your Kind (2019)",
+        "year": 2019,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Insert Coin",
+            "file": "music/Slipknot/We Are Not Your Kind (2019)/01. Insert Coin.mp3"
+          },
+          {
+            "title": "02. Unsainted",
+            "file": "music/Slipknot/We Are Not Your Kind (2019)/02. Unsainted.mp3"
+          },
+          {
+            "title": "03. Birth Of The Cruel",
+            "file": "music/Slipknot/We Are Not Your Kind (2019)/03. Birth Of The Cruel.mp3"
+          },
+          {
+            "title": "04. Death Because of Death",
+            "file": "music/Slipknot/We Are Not Your Kind (2019)/04. Death Because of Death.mp3"
+          },
+          {
+            "title": "05. Nero Forte",
+            "file": "music/Slipknot/We Are Not Your Kind (2019)/05. Nero Forte.mp3"
+          },
+          {
+            "title": "06. Critical Darling",
+            "file": "music/Slipknot/We Are Not Your Kind (2019)/06. Critical Darling.mp3"
+          },
+          {
+            "title": "07. A Liar's Funeral",
+            "file": "music/Slipknot/We Are Not Your Kind (2019)/07. A Liar's Funeral.mp3"
+          },
+          {
+            "title": "08. Red Flag",
+            "file": "music/Slipknot/We Are Not Your Kind (2019)/08. Red Flag.mp3"
+          },
+          {
+            "title": "09. What's Next",
+            "file": "music/Slipknot/We Are Not Your Kind (2019)/09. What's Next.mp3"
+          },
+          {
+            "title": "10. Spiders",
+            "file": "music/Slipknot/We Are Not Your Kind (2019)/10. Spiders.mp3"
+          },
+          {
+            "title": "11. Orphan",
+            "file": "music/Slipknot/We Are Not Your Kind (2019)/11. Orphan.mp3"
+          },
+          {
+            "title": "12. My Pain",
+            "file": "music/Slipknot/We Are Not Your Kind (2019)/12. My Pain.mp3"
+          },
+          {
+            "title": "13. Not Long for This World",
+            "file": "music/Slipknot/We Are Not Your Kind (2019)/13. Not Long for This World.mp3"
+          },
+          {
+            "title": "14. Solway Firth",
+            "file": "music/Slipknot/We Are Not Your Kind (2019)/14. Solway Firth.mp3"
           }
         ]
       }
