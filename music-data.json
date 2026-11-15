@@ -3,60 +3,242 @@
     "artist": "My Chemical Romance",
     "albums": [
       {
-        "title": "The Black Parade",
-        "year": null,
-        "cover": "music/default.png",
+        "title": "Danger Days- The True Lives of the Fabulous Killjoys (2010)",
+        "year": 2010,
+        "cover": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/cover.jpg",
         "tracks": [
           {
-            "title": "Cancer",
-            "file": "music/My Chemical Romance/The Black Parade/Cancer.mp3"
+            "title": "1. Look Alive, Sunshine",
+            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/1. Look Alive, Sunshine.mp3"
           },
           {
-            "title": "House of Wolves",
-            "file": "music/My Chemical Romance/The Black Parade/House of Wolves.mp3"
+            "title": "10. SCARECROW",
+            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/10. SCARECROW.mp3"
           },
           {
-            "title": "I Don't Love You",
-            "file": "music/My Chemical Romance/The Black Parade/I Don't Love You.mp3"
+            "title": "11. Summertime",
+            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/11. Summertime.mp3"
           },
           {
-            "title": "Mama",
-            "file": "music/My Chemical Romance/The Black Parade/Mama.mp3"
+            "title": "12. DESTROYA",
+            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/12. DESTROYA.mp3"
           },
           {
-            "title": "Sleep",
-            "file": "music/My Chemical Romance/The Black Parade/Sleep.mp3"
+            "title": "13. The Kids from Yesterday",
+            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/13. The Kids from Yesterday.mp3"
           },
           {
-            "title": "Teenagers",
-            "file": "music/My Chemical Romance/The Black Parade/Teenagers.mp3"
+            "title": "14. Goodnite, Dr. Death",
+            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/14. Goodnite, Dr. Death.mp3"
           },
           {
-            "title": "The Sharpest Lives",
-            "file": "music/My Chemical Romance/The Black Parade/The Sharpest Lives.mp3"
+            "title": "15. Vampire Money",
+            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/15. Vampire Money.mp3"
           },
           {
-            "title": "This Is How I Dissapear",
-            "file": "music/My Chemical Romance/The Black Parade/This Is How I Dissapear.mp3"
+            "title": "2. Na Na Na (Na Na Na Na Na Na Na Na Na)",
+            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/2. Na Na Na (Na Na Na Na Na Na Na Na Na).mp3"
           },
           {
-            "title": "Welcome to the Black Parade",
-            "file": "music/My Chemical Romance/The Black Parade/Welcome to the Black Parade.mp3"
+            "title": "3. Bulletproof Heart",
+            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/3. Bulletproof Heart.mp3"
           },
           {
-            "title": "disenchanted",
-            "file": "music/My Chemical Romance/The Black Parade/disenchanted.mp3"
+            "title": "4. SING",
+            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/4. SING.mp3"
+          },
+          {
+            "title": "5. Planetary (GO!)",
+            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/5. Planetary (GO!).mp3"
+          },
+          {
+            "title": "6. The Only Hope for Me Is You",
+            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/6. The Only Hope for Me Is You.mp3"
+          },
+          {
+            "title": "7. Jet-Star and the Kobra Kid Traffic Report",
+            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/7. Jet-Star and the Kobra Kid Traffic Report.mp3"
+          },
+          {
+            "title": "8. Party Poison",
+            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/8. Party Poison.mp3"
+          },
+          {
+            "title": "9. Save Yourself, I'll Hold Them Back",
+            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/9. Save Yourself, I'll Hold Them Back.mp3"
           }
         ]
       },
       {
-        "title": "Three Cheers For Sweet Revenge",
-        "year": null,
-        "cover": "music/default.png",
+        "title": "I Brought You My Bullets, You Brought Me Your Love (2002)",
+        "year": 2002,
+        "cover": "music/My Chemical Romance/I Brought You My Bullets, You Brought Me Your Love (2002)/cover.jpg",
         "tracks": [
           {
-            "title": "I'm Not Okay (I Promise)",
-            "file": "music/My Chemical Romance/Three Cheers For Sweet Revenge/I'm Not Okay (I Promise).mp3"
+            "title": "1. Romance",
+            "file": "music/My Chemical Romance/I Brought You My Bullets, You Brought Me Your Love (2002)/1. Romance.mp3"
+          },
+          {
+            "title": "10. Cubicles",
+            "file": "music/My Chemical Romance/I Brought You My Bullets, You Brought Me Your Love (2002)/10. Cubicles.mp3"
+          },
+          {
+            "title": "11. Demolition Lovers",
+            "file": "music/My Chemical Romance/I Brought You My Bullets, You Brought Me Your Love (2002)/11. Demolition Lovers.mp3"
+          },
+          {
+            "title": "2. Honey, This Mirror Isn't Big Enough for the Two of Us",
+            "file": "music/My Chemical Romance/I Brought You My Bullets, You Brought Me Your Love (2002)/2. Honey, This Mirror Isn't Big Enough for the Two of Us.mp3"
+          },
+          {
+            "title": "3. Vampires Will Never Hurt You",
+            "file": "music/My Chemical Romance/I Brought You My Bullets, You Brought Me Your Love (2002)/3. Vampires Will Never Hurt You.mp3"
+          },
+          {
+            "title": "4. Drowning Lessons",
+            "file": "music/My Chemical Romance/I Brought You My Bullets, You Brought Me Your Love (2002)/4. Drowning Lessons.mp3"
+          },
+          {
+            "title": "5. Our Lady of Sorrows",
+            "file": "music/My Chemical Romance/I Brought You My Bullets, You Brought Me Your Love (2002)/5. Our Lady of Sorrows.mp3"
+          },
+          {
+            "title": "6. Headfirst for Halos",
+            "file": "music/My Chemical Romance/I Brought You My Bullets, You Brought Me Your Love (2002)/6. Headfirst for Halos.mp3"
+          },
+          {
+            "title": "7. Skylines and Turnstiles",
+            "file": "music/My Chemical Romance/I Brought You My Bullets, You Brought Me Your Love (2002)/7. Skylines and Turnstiles.mp3"
+          },
+          {
+            "title": "8. Early Sunsets Over Monroeville",
+            "file": "music/My Chemical Romance/I Brought You My Bullets, You Brought Me Your Love (2002)/8. Early Sunsets Over Monroeville.mp3"
+          },
+          {
+            "title": "9. This Is the Best Day Ever",
+            "file": "music/My Chemical Romance/I Brought You My Bullets, You Brought Me Your Love (2002)/9. This Is the Best Day Ever.mp3"
+          }
+        ]
+      },
+      {
+        "title": "The Black Parade (2006)",
+        "year": 2006,
+        "cover": "music/My Chemical Romance/The Black Parade (2006)/cover.jpg",
+        "tracks": [
+          {
+            "title": "1. The End.",
+            "file": "music/My Chemical Romance/The Black Parade (2006)/1. The End..mp3"
+          },
+          {
+            "title": "10. Sleep",
+            "file": "music/My Chemical Romance/The Black Parade (2006)/10. Sleep.mp3"
+          },
+          {
+            "title": "11. Teenagers",
+            "file": "music/My Chemical Romance/The Black Parade (2006)/11. Teenagers.mp3"
+          },
+          {
+            "title": "12. Disenchanted",
+            "file": "music/My Chemical Romance/The Black Parade (2006)/12. Disenchanted.mp3"
+          },
+          {
+            "title": "13. Famous Last Words",
+            "file": "music/My Chemical Romance/The Black Parade (2006)/13. Famous Last Words.mp3"
+          },
+          {
+            "title": "14. Blood",
+            "file": "music/My Chemical Romance/The Black Parade (2006)/14. Blood.mp3"
+          },
+          {
+            "title": "2. Dead!",
+            "file": "music/My Chemical Romance/The Black Parade (2006)/2. Dead!.mp3"
+          },
+          {
+            "title": "3. This Is How I Disappear",
+            "file": "music/My Chemical Romance/The Black Parade (2006)/3. This Is How I Disappear.mp3"
+          },
+          {
+            "title": "4. The Sharpest Lives",
+            "file": "music/My Chemical Romance/The Black Parade (2006)/4. The Sharpest Lives.mp3"
+          },
+          {
+            "title": "5. Welcome to the Black Parade",
+            "file": "music/My Chemical Romance/The Black Parade (2006)/5. Welcome to the Black Parade.mp3"
+          },
+          {
+            "title": "6. I Don't Love You",
+            "file": "music/My Chemical Romance/The Black Parade (2006)/6. I Don't Love You.mp3"
+          },
+          {
+            "title": "7. House of Wolves",
+            "file": "music/My Chemical Romance/The Black Parade (2006)/7. House of Wolves.mp3"
+          },
+          {
+            "title": "8. Cancer",
+            "file": "music/My Chemical Romance/The Black Parade (2006)/8. Cancer.mp3"
+          },
+          {
+            "title": "9. Mama",
+            "file": "music/My Chemical Romance/The Black Parade (2006)/9. Mama.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Three Cheers for Sweet Revenge (2004)",
+        "year": 2004,
+        "cover": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/cover.png",
+        "tracks": [
+          {
+            "title": "1. Helena",
+            "file": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/1. Helena.mp3"
+          },
+          {
+            "title": "10. Hang 'Em High",
+            "file": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/10. Hang 'Em High.mp3"
+          },
+          {
+            "title": "11. It's Not a Fashion Statement, It's a Deathwish",
+            "file": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/11. It's Not a Fashion Statement, It's a Deathwish.mp3"
+          },
+          {
+            "title": "12. Cemetery Drive",
+            "file": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/12. Cemetery Drive.mp3"
+          },
+          {
+            "title": "13. I Never Told You What I Do for a Living",
+            "file": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/13. I Never Told You What I Do for a Living.mp3"
+          },
+          {
+            "title": "2. Give 'Em Hell, Kid",
+            "file": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/2. Give 'Em Hell, Kid.mp3"
+          },
+          {
+            "title": "3. To the End",
+            "file": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/3. To the End.mp3"
+          },
+          {
+            "title": "4. You Know What They Do to Guys Like Us in Prison",
+            "file": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/4. You Know What They Do to Guys Like Us in Prison.mp3"
+          },
+          {
+            "title": "5. I'm Not Okay (I Promise)",
+            "file": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/5. I'm Not Okay (I Promise).mp3"
+          },
+          {
+            "title": "6. The Ghost of You",
+            "file": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/6. The Ghost of You.mp3"
+          },
+          {
+            "title": "7. The Jetset Life Is Gonna Kill You",
+            "file": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/7. The Jetset Life Is Gonna Kill You.mp3"
+          },
+          {
+            "title": "8. Interlude",
+            "file": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/8. Interlude.mp3"
+          },
+          {
+            "title": "9. Thank You for the Venom",
+            "file": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/9. Thank You for the Venom.mp3"
           }
         ]
       }
