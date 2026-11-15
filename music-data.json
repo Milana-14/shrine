@@ -8,8 +8,55 @@
         "cover": "music/default.png",
         "tracks": [
           {
+            "title": "Cancer",
+            "file": "music/My Chemical Romance/The Black Parade/Cancer.mp3"
+          },
+          {
+            "title": "House of Wolves",
+            "file": "music/My Chemical Romance/The Black Parade/House of Wolves.mp3"
+          },
+          {
+            "title": "I Don't Love You",
+            "file": "music/My Chemical Romance/The Black Parade/I Don't Love You.mp3"
+          },
+          {
             "title": "Mama",
             "file": "music/My Chemical Romance/The Black Parade/Mama.mp3"
+          },
+          {
+            "title": "Sleep",
+            "file": "music/My Chemical Romance/The Black Parade/Sleep.mp3"
+          },
+          {
+            "title": "Teenagers",
+            "file": "music/My Chemical Romance/The Black Parade/Teenagers.mp3"
+          },
+          {
+            "title": "The Sharpest Lives",
+            "file": "music/My Chemical Romance/The Black Parade/The Sharpest Lives.mp3"
+          },
+          {
+            "title": "This Is How I Dissapear",
+            "file": "music/My Chemical Romance/The Black Parade/This Is How I Dissapear.mp3"
+          },
+          {
+            "title": "Welcome to the Black Parade",
+            "file": "music/My Chemical Romance/The Black Parade/Welcome to the Black Parade.mp3"
+          },
+          {
+            "title": "disenchanted",
+            "file": "music/My Chemical Romance/The Black Parade/disenchanted.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Three Cheers For Sweet Revenge",
+        "year": null,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "I'm Not Okay (I Promise)",
+            "file": "music/My Chemical Romance/Three Cheers For Sweet Revenge/I'm Not Okay (I Promise).mp3"
           }
         ]
       }
