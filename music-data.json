@@ -3,69 +3,140 @@
     "artist": "My Chemical Romance",
     "albums": [
       {
-        "title": "Danger Days- The True Lives of the Fabulous Killjoys (2010)",
+        "title": "Danger Days - The True Lives of the Fabulous Killjoys (2010)",
         "year": 2010,
-        "cover": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/cover.jpg",
+        "cover": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/cover.jpg",
         "tracks": [
           {
             "title": "1. Look Alive, Sunshine",
-            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/1. Look Alive, Sunshine.mp3"
+            "file": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/1. Look Alive, Sunshine.mp3"
           },
           {
             "title": "10. SCARECROW",
-            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/10. SCARECROW.mp3"
+            "file": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/10. SCARECROW.mp3"
           },
           {
             "title": "11. Summertime",
-            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/11. Summertime.mp3"
+            "file": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/11. Summertime.mp3"
           },
           {
             "title": "12. DESTROYA",
-            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/12. DESTROYA.mp3"
+            "file": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/12. DESTROYA.mp3"
           },
           {
             "title": "13. The Kids from Yesterday",
-            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/13. The Kids from Yesterday.mp3"
+            "file": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/13. The Kids from Yesterday.mp3"
           },
           {
             "title": "14. Goodnite, Dr. Death",
-            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/14. Goodnite, Dr. Death.mp3"
+            "file": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/14. Goodnite, Dr. Death.mp3"
           },
           {
             "title": "15. Vampire Money",
-            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/15. Vampire Money.mp3"
+            "file": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/15. Vampire Money.mp3"
           },
           {
             "title": "2. Na Na Na (Na Na Na Na Na Na Na Na Na)",
-            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/2. Na Na Na (Na Na Na Na Na Na Na Na Na).mp3"
+            "file": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/2. Na Na Na (Na Na Na Na Na Na Na Na Na).mp3"
           },
           {
             "title": "3. Bulletproof Heart",
-            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/3. Bulletproof Heart.mp3"
+            "file": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/3. Bulletproof Heart.mp3"
           },
           {
             "title": "4. SING",
-            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/4. SING.mp3"
+            "file": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/4. SING.mp3"
           },
           {
             "title": "5. Planetary (GO!)",
-            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/5. Planetary (GO!).mp3"
+            "file": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/5. Planetary (GO!).mp3"
           },
           {
             "title": "6. The Only Hope for Me Is You",
-            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/6. The Only Hope for Me Is You.mp3"
+            "file": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/6. The Only Hope for Me Is You.mp3"
           },
           {
             "title": "7. Jet-Star and the Kobra Kid Traffic Report",
-            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/7. Jet-Star and the Kobra Kid Traffic Report.mp3"
+            "file": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/7. Jet-Star and the Kobra Kid Traffic Report.mp3"
           },
           {
             "title": "8. Party Poison",
-            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/8. Party Poison.mp3"
+            "file": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/8. Party Poison.mp3"
           },
           {
             "title": "9. Save Yourself, I'll Hold Them Back",
-            "file": "music/My Chemical Romance/Danger Days- The True Lives of the Fabulous Killjoys (2010)/9. Save Yourself, I'll Hold Them Back.mp3"
+            "file": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/9. Save Yourself, I'll Hold Them Back.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Hidden album - The Paper Kingdom  (2012)",
+        "year": 2012,
+        "cover": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/cover.png",
+        "tracks": [
+          {
+            "title": "1. Fake Your Death",
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/1. Fake Your Death.mp3"
+          },
+          {
+            "title": "10. Narita Airport",
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/10. Narita Airport.mp3"
+          },
+          {
+            "title": "11. War Beneath The Rain",
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/11. War Beneath The Rain.mp3"
+          },
+          {
+            "title": "12. Paper Swords",
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/12. Paper Swords.mp3"
+          },
+          {
+            "title": "13. Dive",
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/13. Dive.mp3"
+          },
+          {
+            "title": "14. High Hopes",
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/14. High Hopes.mp3"
+          },
+          {
+            "title": "15. Dogs",
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/15. Dogs.mp3"
+          },
+          {
+            "title": "16. Perfectly Well",
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/16. Perfectly Well.mp3"
+          },
+          {
+            "title": "2. Witch",
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/2. Witch.mp3"
+          },
+          {
+            "title": "3. Bike Thief",
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/3. Bike Thief.mp3"
+          },
+          {
+            "title": "4. Operation Day",
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/4. Operation Day.mp3"
+          },
+          {
+            "title": "5. Falling Down",
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/5. Falling Down.mp3"
+          },
+          {
+            "title": "6. Birthday Girl",
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/6. Birthday Girl.mp3"
+          },
+          {
+            "title": "7. Dark Cloud",
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/7. Dark Cloud.mp3"
+          },
+          {
+            "title": "8. Wake Up!",
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/8. Wake Up!.mp3"
+          },
+          {
+            "title": "9. Louder",
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/9. Louder.mp3"
           }
         ]
       },
@@ -253,40 +324,44 @@
         "cover": "music/Radiohead/In Rainbows (2007)/cover.png",
         "tracks": [
           {
-            "title": "01. 15 Step",
-            "file": "music/Radiohead/In Rainbows (2007)/01. 15 Step.mp3"
-          },
-          {
-            "title": "02. Bodysnatchers",
-            "file": "music/Radiohead/In Rainbows (2007)/02. Bodysnatchers.mp3"
-          },
-          {
-            "title": "03. Nude",
-            "file": "music/Radiohead/In Rainbows (2007)/03. Nude.mp3"
-          },
-          {
-            "title": "04. Weird Fishes Arpeggi",
-            "file": "music/Radiohead/In Rainbows (2007)/04. Weird Fishes Arpeggi.mp3"
-          },
-          {
-            "title": "05. All I Need",
-            "file": "music/Radiohead/In Rainbows (2007)/05. All I Need.mp3"
-          },
-          {
-            "title": "06. Faust Arp",
-            "file": "music/Radiohead/In Rainbows (2007)/06. Faust Arp.mp3"
-          },
-          {
-            "title": "07. Reckoner",
-            "file": "music/Radiohead/In Rainbows (2007)/07. Reckoner.mp3"
-          },
-          {
-            "title": "08. House Of Cards",
-            "file": "music/Radiohead/In Rainbows (2007)/08. House Of Cards.mp3"
+            "title": "1. 15 Step",
+            "file": "music/Radiohead/In Rainbows (2007)/1. 15 Step.mp3"
           },
           {
             "title": "10. Videotape",
             "file": "music/Radiohead/In Rainbows (2007)/10. Videotape.mp3"
+          },
+          {
+            "title": "2. Bodysnatchers",
+            "file": "music/Radiohead/In Rainbows (2007)/2. Bodysnatchers.mp3"
+          },
+          {
+            "title": "3. Nude",
+            "file": "music/Radiohead/In Rainbows (2007)/3. Nude.mp3"
+          },
+          {
+            "title": "4. Weird Fishes Arpeggi",
+            "file": "music/Radiohead/In Rainbows (2007)/4. Weird Fishes Arpeggi.mp3"
+          },
+          {
+            "title": "5. All I Need",
+            "file": "music/Radiohead/In Rainbows (2007)/5. All I Need.mp3"
+          },
+          {
+            "title": "6. Faust Arp",
+            "file": "music/Radiohead/In Rainbows (2007)/6. Faust Arp.mp3"
+          },
+          {
+            "title": "7. Reckoner",
+            "file": "music/Radiohead/In Rainbows (2007)/7. Reckoner.mp3"
+          },
+          {
+            "title": "8. House Of Cards",
+            "file": "music/Radiohead/In Rainbows (2007)/8. House Of Cards.mp3"
+          },
+          {
+            "title": "9. Jigsaw Falling Into Place",
+            "file": "music/Radiohead/In Rainbows (2007)/9. Jigsaw Falling Into Place.mp3"
           }
         ]
       },
@@ -296,36 +371,8 @@
         "cover": "music/Radiohead/Kid A (2000)/cover.png",
         "tracks": [
           {
-            "title": "01. Everything In Its Right Place",
-            "file": "music/Radiohead/Kid A (2000)/01. Everything In Its Right Place.mp3"
-          },
-          {
-            "title": "02. Kid A",
-            "file": "music/Radiohead/Kid A (2000)/02. Kid A.mp3"
-          },
-          {
-            "title": "03. The National Anthem",
-            "file": "music/Radiohead/Kid A (2000)/03. The National Anthem.mp3"
-          },
-          {
-            "title": "04. How to Disappear Completely",
-            "file": "music/Radiohead/Kid A (2000)/04. How to Disappear Completely.mp3"
-          },
-          {
-            "title": "06. Optimistic",
-            "file": "music/Radiohead/Kid A (2000)/06. Optimistic.mp3"
-          },
-          {
-            "title": "07. In Limbo",
-            "file": "music/Radiohead/Kid A (2000)/07. In Limbo.mp3"
-          },
-          {
-            "title": "08. Idioteque",
-            "file": "music/Radiohead/Kid A (2000)/08. Idioteque.mp3"
-          },
-          {
-            "title": "09. Morning Bell",
-            "file": "music/Radiohead/Kid A (2000)/09. Morning Bell.mp3"
+            "title": "1. Everything In Its Right Place",
+            "file": "music/Radiohead/Kid A (2000)/1. Everything In Its Right Place.mp3"
           },
           {
             "title": "10. Motion Picture Soundtrack",
@@ -334,6 +381,38 @@
           {
             "title": "11. Untitled",
             "file": "music/Radiohead/Kid A (2000)/11. Untitled.mp3"
+          },
+          {
+            "title": "2. Kid A",
+            "file": "music/Radiohead/Kid A (2000)/2. Kid A.mp3"
+          },
+          {
+            "title": "3. The National Anthem",
+            "file": "music/Radiohead/Kid A (2000)/3. The National Anthem.mp3"
+          },
+          {
+            "title": "4. How to Disappear Completely",
+            "file": "music/Radiohead/Kid A (2000)/4. How to Disappear Completely.mp3"
+          },
+          {
+            "title": "5. Treefingers",
+            "file": "music/Radiohead/Kid A (2000)/5. Treefingers.mp3"
+          },
+          {
+            "title": "6. Optimistic",
+            "file": "music/Radiohead/Kid A (2000)/6. Optimistic.mp3"
+          },
+          {
+            "title": "7. In Limbo",
+            "file": "music/Radiohead/Kid A (2000)/7. In Limbo.mp3"
+          },
+          {
+            "title": "8. Idioteque",
+            "file": "music/Radiohead/Kid A (2000)/8. Idioteque.mp3"
+          },
+          {
+            "title": "9. Morning Bell",
+            "file": "music/Radiohead/Kid A (2000)/9. Morning Bell.mp3"
           }
         ]
       },
