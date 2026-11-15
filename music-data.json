@@ -243,5 +243,210 @@
         ]
       }
     ]
+  },
+  {
+    "artist": "Radiohead",
+    "albums": [
+      {
+        "title": "In Rainbows (2007)",
+        "year": 2007,
+        "cover": "music/Radiohead/In Rainbows (2007)/cover.png",
+        "tracks": [
+          {
+            "title": "01. 15 Step",
+            "file": "music/Radiohead/In Rainbows (2007)/01. 15 Step.mp3"
+          },
+          {
+            "title": "02. Bodysnatchers",
+            "file": "music/Radiohead/In Rainbows (2007)/02. Bodysnatchers.mp3"
+          },
+          {
+            "title": "03. Nude",
+            "file": "music/Radiohead/In Rainbows (2007)/03. Nude.mp3"
+          },
+          {
+            "title": "04. Weird Fishes Arpeggi",
+            "file": "music/Radiohead/In Rainbows (2007)/04. Weird Fishes Arpeggi.mp3"
+          },
+          {
+            "title": "05. All I Need",
+            "file": "music/Radiohead/In Rainbows (2007)/05. All I Need.mp3"
+          },
+          {
+            "title": "06. Faust Arp",
+            "file": "music/Radiohead/In Rainbows (2007)/06. Faust Arp.mp3"
+          },
+          {
+            "title": "07. Reckoner",
+            "file": "music/Radiohead/In Rainbows (2007)/07. Reckoner.mp3"
+          },
+          {
+            "title": "08. House Of Cards",
+            "file": "music/Radiohead/In Rainbows (2007)/08. House Of Cards.mp3"
+          },
+          {
+            "title": "10. Videotape",
+            "file": "music/Radiohead/In Rainbows (2007)/10. Videotape.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Kid A (2000)",
+        "year": 2000,
+        "cover": "music/Radiohead/Kid A (2000)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Everything In Its Right Place",
+            "file": "music/Radiohead/Kid A (2000)/01. Everything In Its Right Place.mp3"
+          },
+          {
+            "title": "02. Kid A",
+            "file": "music/Radiohead/Kid A (2000)/02. Kid A.mp3"
+          },
+          {
+            "title": "03. The National Anthem",
+            "file": "music/Radiohead/Kid A (2000)/03. The National Anthem.mp3"
+          },
+          {
+            "title": "04. How to Disappear Completely",
+            "file": "music/Radiohead/Kid A (2000)/04. How to Disappear Completely.mp3"
+          },
+          {
+            "title": "06. Optimistic",
+            "file": "music/Radiohead/Kid A (2000)/06. Optimistic.mp3"
+          },
+          {
+            "title": "07. In Limbo",
+            "file": "music/Radiohead/Kid A (2000)/07. In Limbo.mp3"
+          },
+          {
+            "title": "08. Idioteque",
+            "file": "music/Radiohead/Kid A (2000)/08. Idioteque.mp3"
+          },
+          {
+            "title": "09. Morning Bell",
+            "file": "music/Radiohead/Kid A (2000)/09. Morning Bell.mp3"
+          },
+          {
+            "title": "10. Motion Picture Soundtrack",
+            "file": "music/Radiohead/Kid A (2000)/10. Motion Picture Soundtrack.mp3"
+          },
+          {
+            "title": "11. Untitled",
+            "file": "music/Radiohead/Kid A (2000)/11. Untitled.mp3"
+          }
+        ]
+      },
+      {
+        "title": "OK Computer (1997)",
+        "year": 1997,
+        "cover": "music/Radiohead/OK Computer (1997)/cover.png",
+        "tracks": [
+          {
+            "title": "1. Airbag",
+            "file": "music/Radiohead/OK Computer (1997)/1. Airbag.mp3"
+          },
+          {
+            "title": "10. No Surprises",
+            "file": "music/Radiohead/OK Computer (1997)/10. No Surprises.mp3"
+          },
+          {
+            "title": "11. Lucky",
+            "file": "music/Radiohead/OK Computer (1997)/11. Lucky.mp3"
+          },
+          {
+            "title": "12. The Tourist",
+            "file": "music/Radiohead/OK Computer (1997)/12. The Tourist.mp3"
+          },
+          {
+            "title": "2. Paranoid Android",
+            "file": "music/Radiohead/OK Computer (1997)/2. Paranoid Android.mp3"
+          },
+          {
+            "title": "3. Subterranean Homesick Alien",
+            "file": "music/Radiohead/OK Computer (1997)/3. Subterranean Homesick Alien.mp3"
+          },
+          {
+            "title": "4. Exit Music (For A Film)",
+            "file": "music/Radiohead/OK Computer (1997)/4. Exit Music (For A Film).mp3"
+          },
+          {
+            "title": "5. Let Down",
+            "file": "music/Radiohead/OK Computer (1997)/5. Let Down.mp3"
+          },
+          {
+            "title": "6. Karma Police",
+            "file": "music/Radiohead/OK Computer (1997)/6. Karma Police.mp3"
+          },
+          {
+            "title": "7. Fitter Happier",
+            "file": "music/Radiohead/OK Computer (1997)/7. Fitter Happier.mp3"
+          },
+          {
+            "title": "8. Electioneering",
+            "file": "music/Radiohead/OK Computer (1997)/8. Electioneering.mp3"
+          },
+          {
+            "title": "9. Climbing Up the Walls",
+            "file": "music/Radiohead/OK Computer (1997)/9. Climbing Up the Walls.mp3"
+          }
+        ]
+      },
+      {
+        "title": "The Bends (1995)",
+        "year": 1995,
+        "cover": "music/Radiohead/The Bends (1995)/cover.png",
+        "tracks": [
+          {
+            "title": "1. Planet Telex",
+            "file": "music/Radiohead/The Bends (1995)/1. Planet Telex.mp3"
+          },
+          {
+            "title": "10. Black Star",
+            "file": "music/Radiohead/The Bends (1995)/10. Black Star.mp3"
+          },
+          {
+            "title": "11. Sulk",
+            "file": "music/Radiohead/The Bends (1995)/11. Sulk.mp3"
+          },
+          {
+            "title": "12. Street Spirit (Fade Out)",
+            "file": "music/Radiohead/The Bends (1995)/12. Street Spirit (Fade Out).mp3"
+          },
+          {
+            "title": "2. The Bends",
+            "file": "music/Radiohead/The Bends (1995)/2. The Bends.mp3"
+          },
+          {
+            "title": "3. High and Dry",
+            "file": "music/Radiohead/The Bends (1995)/3. High and Dry.mp3"
+          },
+          {
+            "title": "4. Fake Plastic Trees",
+            "file": "music/Radiohead/The Bends (1995)/4. Fake Plastic Trees.mp3"
+          },
+          {
+            "title": "5. Bones",
+            "file": "music/Radiohead/The Bends (1995)/5. Bones.mp3"
+          },
+          {
+            "title": "6. (Nice Dream)",
+            "file": "music/Radiohead/The Bends (1995)/6. (Nice Dream).mp3"
+          },
+          {
+            "title": "7. Just",
+            "file": "music/Radiohead/The Bends (1995)/7. Just.mp3"
+          },
+          {
+            "title": "8. My Iron Lung",
+            "file": "music/Radiohead/The Bends (1995)/8. My Iron Lung.mp3"
+          },
+          {
+            "title": "9. Bullet Proof ... I Wish I Was",
+            "file": "music/Radiohead/The Bends (1995)/9. Bullet Proof ... I Wish I Was.mp3"
+          }
+        ]
+      }
+    ]
   }
 ]
