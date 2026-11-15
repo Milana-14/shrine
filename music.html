@@ -11,15 +11,23 @@
 
     <header class="site-header">
         <h1>❤︎ My Music Collection ♡</h1>
-        <a href="index.html" style="color: #00eaff;"><-- Main page</a>
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+            <a href="index.html" style="color: #00eaff;"><-- Main page</a>
+
+            <div class="view-switcher">
+                <span style="font-size: 13px; color: #ff4d9d;">★ View:</span>
+                <button id="btn-detailed" class="retro-btn active" onclick="switchView('detailed')">[ Detailed ]</button>
+                <button id="btn-shelf" class="retro-btn" onclick="switchView('shelf')">[ Summary ]</button>
+            </div>
+        </div>
     </header>
 
     <main class="main-content" style="padding: 20px;">
-        
+
         <div id="music-container">
             <p style="color: #888;">Loading...</p>
         </div>
-        
+
     </main>
 
     <footer class="site-footer">
@@ -28,7 +36,6 @@
 
 </div>
 
-<!-- STICKERS -->
 <img src="images/flower_3.jpe" alt="I Love You" class="floating-sticker_13">
 <img src="images/gerard_2.jpe" alt="I Love You" class="floating-sticker_2">
 <img src="images/cat_1.png" alt="I Love You" class="floating-sticker_4">
@@ -43,19 +50,39 @@
 <img src="images/cat_5.png" alt="I Love You" class="floating-sticker_16">
 
 <script>
+    let globalMusicData = [];
+    let currentView = 'detailed';
+
+    function switchView(view) {
+        currentView = view;
+
+        document.getElementById('btn-detailed').classList.toggle('active', view === 'detailed');
+        document.getElementById('btn-shelf').classList.toggle('active', view === 'shelf');
+
+        renderMusicData();
+    }
+
     fetch('music-data.json')
         .then(response => response.json())
         .then(data => {
-            const container = document.getElementById('music-container');
-            container.innerHTML = '';
+            globalMusicData = data;
+            renderMusicData();
+        })
+        .catch(error => {
+            console.error('Music loading error:', error);
+            document.getElementById('music-container').innerHTML = '<p style="color: red;">Failed to load the music database :(</p>';
+        });
 
-            // artists
-            data.forEach(artistObj => {
+    function renderMusicData() {
+        const container = document.getElementById('music-container');
+        container.innerHTML = '';
+
+        if (currentView === 'detailed') {
+            globalMusicData.forEach(artistObj => {
                 let artistSection = document.createElement('div');
                 artistSection.className = 'box';
                 artistSection.innerHTML = `<h2 style="color: #ff4d9d;">★ ${artistObj.artist}</h2>`;
 
-                // albums
                 artistObj.albums.forEach(album => {
                     let albumDiv = document.createElement('div');
                     albumDiv.className = 'album-card';
@@ -67,36 +94,35 @@
                     });
 
                     let tracksHtml = sortedTracks.map(track => `
-        <div class="track-row">
-            <span class="track-title" title="${track.title}">${track.title}</span>
-            <div class="custom-player-wrapper">
-                <audio src="${track.file}" preload="metadata"></audio>
-                <button class="retro-play-btn" onclick="togglePlay(this)">▶</button>
-                <div class="player-controls-box">
-                    <input type="range" class="retro-slider" value="0" max="100" step="0.1" oninput="seekAudio(this)" onchange="seekAudio(this)">
-                    <span class="retro-time">00:00 / --:--</span>
-                </div>
-            </div>
-        </div>
-    `).join('');
+                        <div class="track-row">
+                            <span class="track-title" title="${track.title}">${track.title}</span>
+                            <div class="custom-player-wrapper">
+                                <audio src="${track.file}" preload="metadata"></audio>
+                                <button class="retro-play-btn" onclick="togglePlay(this)">▶</button>
+                                <div class="player-controls-box">
+                                    <input type="range" class="retro-slider" value="0" max="100" step="0.1" oninput="seekAudio(this)" onchange="seekAudio(this)">
+                                    <span class="retro-time">00:00 / --:--</span>
+                                </div>
+                            </div>
+                        </div>
+                    `).join('');
 
                     let cleanAlbumTitle = album.title.replace(/\s*\(\d{4}\)|\s*\b\d{4}\b/g, '').trim();
                     let albumYearText = album.year ? `(${album.year})` : '';
-
                     let randomAngle = Math.floor(Math.random() * 360);
 
                     albumDiv.innerHTML = `
-        <div class="album-art-container">
-            <img src="images/rolling_disk.png" alt="rolling_disk" class="rolling-disk" style="--start-angle: ${randomAngle}deg;">
-            <img src="${album.cover}" alt="${cleanAlbumTitle}" class="album-cover">
-        </div>
-        <div class="album-info">
-            <h3 class="album-title">${cleanAlbumTitle} <span class="album-year">${albumYearText}</span></h3>
-            <div class="tracks-container">
-                ${tracksHtml}
-            </div>
-        </div>
-    `;
+                        <div class="album-art-container">
+                            <img src="images/rolling_disk.png" alt="rolling_disk" class="rolling-disk" style="--start-angle: ${randomAngle}deg;">
+                            <img src="${album.cover}" alt="${cleanAlbumTitle}" class="album-cover">
+                        </div>
+                        <div class="album-info">
+                            <h3 class="album-title">${cleanAlbumTitle} <span class="album-year">${albumYearText}</span></h3>
+                            <div class="tracks-container">
+                                ${tracksHtml}
+                            </div>
+                        </div>
+                    `;
 
                     const disk = albumDiv.querySelector('.rolling-disk');
                     const audios = albumDiv.querySelectorAll('audio');
@@ -122,15 +148,50 @@
 
                 container.appendChild(artistSection);
             });
-        })
-        .catch(error => {
-            console.error('Music loading error:', error);
-            document.getElementById('music-container').innerHTML = '<p style="color: red;">Failed to load the music database :(</p>';
-        });
+
+            setTimeout(() => {
+                document.querySelectorAll('.track-row').forEach(row => {
+                    const audio = row.querySelector('audio');
+                    const timeDisplay = row.querySelector('.retro-time');
+                    if (audio) {
+                        audio.onloadedmetadata = () => {
+                            timeDisplay.textContent = `00:00 / ${formatTime(audio.duration)}`;
+                        };
+                    }
+                });
+            }, 500);
+
+        } else {
+            globalMusicData.forEach(artistObj => {
+                let artistSection = document.createElement('div');
+                artistSection.className = 'box';
+                artistSection.innerHTML = `<h2 style="color: #ff4d9d;">★ ${artistObj.artist}</h2>`;
+
+                let shelfContainer = document.createElement('div');
+                shelfContainer.className = 'shelf-container';
+
+                artistObj.albums.forEach(album => {
+                    let cleanAlbumTitle = album.title.replace(/\s*\(\d{4}\)|\s*\b\d{4}\b/g, '').trim();
+                    let albumYearText = album.year ? `(${album.year})` : '';
+
+                    let albumCard = document.createElement('div');
+                    albumCard.className = 'shelf-album-card';
+                    albumCard.innerHTML = `
+                        <img src="${album.cover}" alt="${cleanAlbumTitle}">
+                        <p class="shelf-album-title" title="${cleanAlbumTitle}">${cleanAlbumTitle}</p>
+                        <span class="shelf-album-year">${albumYearText}</span>
+                    `;
+                    shelfContainer.appendChild(albumCard);
+                });
+
+                artistSection.appendChild(shelfContainer);
+                container.appendChild(artistSection);
+            });
+        }
+    }
 </script>
 
 <script>
-    // Вспомогательная функция для форматирования секунд в ММ:СС
     function formatTime(seconds) {
         if (isNaN(seconds)) return "00:00";
         let m = Math.floor(seconds / 60);
@@ -146,7 +207,6 @@
         const albumCard = btn.closest('.album-card');
         const disk = albumCard ? albumCard.querySelector('.rolling-disk') : null;
 
-        // Останавливаем все остальные аудио на странице
         document.querySelectorAll('audio').forEach(a => {
             if (a !== audio) {
                 a.pause();
@@ -155,7 +215,6 @@
                 if (otherRow) {
                     let otherBtn = otherRow.querySelector('.retro-play-btn');
                     if (otherBtn) otherBtn.textContent = '▶';
-                    // Сбрасываем таймер остальных на исходный (00:00 / Общая длительность)
                     let otherTime = otherRow.querySelector('.retro-time');
                     if (otherTime && a.duration) {
                         otherTime.textContent = `00:00 / ${formatTime(a.duration)}`;
@@ -164,10 +223,8 @@
             }
         });
 
-        // Останавливаем все диски на странице
         document.querySelectorAll('.rolling-disk').forEach(d => d.classList.remove('spinning'));
 
-        // Управление текущим треком
         if (audio.paused) {
             audio.play();
             btn.textContent = '❚❚';
@@ -178,7 +235,6 @@
             if (disk) disk.classList.remove('spinning');
         }
 
-        // Обновление ползунка и таймера по мере воспроизведения
         audio.ontimeupdate = () => {
             if (audio.duration) {
                 let progress = (audio.currentTime / audio.duration) * 100;
@@ -187,7 +243,6 @@
             }
         };
 
-        // Когда песня заканчивается
         audio.onended = () => {
             btn.textContent = '▶';
             slider.value = 0;
@@ -196,7 +251,6 @@
         };
     }
 
-    // Функция перемотки при перемещении ползунка
     function seekAudio(slider) {
         const row = slider.closest('.track-row');
         const audio = row.querySelector('audio');
@@ -207,23 +261,6 @@
             timeDisplay.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
         }
     }
-
-    // Инициализация общей длительности треков сразу при загрузке страницы, 
-    // чтобы пользователь видел время альбома до нажатия Play
-    document.addEventListener("DOMContentLoaded", () => {
-        // Небольшая задержка, чтобы fetch успел отрисовать элементы
-        setTimeout(() => {
-            document.querySelectorAll('.track-row').forEach(row => {
-                const audio = row.querySelector('audio');
-                const timeDisplay = row.querySelector('.retro-time');
-                if (audio) {
-                    audio.onloadedmetadata = () => {
-                        timeDisplay.textContent = `00:00 / ${formatTime(audio.duration)}`;
-                    };
-                }
-            });
-        }, 500);
-    });
 </script>
 
 </body>

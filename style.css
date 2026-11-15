@@ -53,6 +53,7 @@ marquee {
 
 .main-content {
     flex-grow: 1;
+    padding: 20px;
 }
 
 .nav-links {
@@ -120,20 +121,22 @@ marquee {
     margin: 2px;
 }
 
-/* Album Card & Song Details */
 .album-card {
     display: flex;
-    /*gap: 15px;*/
     align-items: flex-start;
-    /*background: rgba(20, 20, 20, 0.6);*/
-    /*border: 1px solid rgba(172, 223, 228, 0.15);*/
-    /*border-radius: 12px;*/
-    /*padding: 20px;*/
-    /*margin-bottom: 25px;*/
     backdrop-filter: blur(5px);
 }
 
+.album-art-container {
+    position: relative;
+    width: 114px;
+    height: 114px;
+    flex-shrink: 0;
+}
+
 .album-cover {
+    position: relative;
+    z-index: 2;
     width: 114px;
     height: 114px;
     object-fit: cover;
@@ -173,10 +176,18 @@ marquee {
 }
 
 .tracks-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+    max-height: 110px;
+    overflow-y: auto;
+    padding-right: 4px;
+    margin-bottom: 20px;
     margin-left: 30px;
+}
+
+.tracks-container::-webkit-scrollbar {
+    width: 0;
 }
 
 .track-row {
@@ -184,8 +195,10 @@ marquee {
     align-items: center;
     justify-content: space-between;
     background: rgba(255, 255, 255, 0.03);
+    width: 397px;
     padding: 4px 10px;
-    border-radius: 8px;
+    border-radius: 0;
+    border: 1px solid rgba(172, 223, 228, 0.08);
     transition: background 0.2s ease;
 }
 
@@ -194,31 +207,133 @@ marquee {
 }
 
 .track-title {
-    font-size: 13px;
+    font-size: 12px;
     color: #e0e0e0;
-    margin-right: 15px;
+    margin-right: 8px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 50%;
+    max-width: 40%;
 }
 
-.minimal-audio {
-    height: 28px;
-    max-width: 240px;
-    width: 100%;
+.normal-audio {
+    width: 80%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #141414;
+    padding: 6px 10px;
+    margin-right: 12px;
+    border: 1px solid rgba(172, 223, 228, 0.08);
+    transition: background 0.2s ease;
     filter: invert(0.9) hue-rotate(180deg) brightness(0.85);
 }
 
-.spotify-widget {
-    background-color: #0d0d0d;
-    border: 2px solid #ff007f;
-    box-shadow: 4px 4px 0px #4a0024;
-    padding: 10px;
-    max-width: 320px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #fff;
-    margin: 15px 0;
+.normal-audio:hover {
+    border-color: #00eaff;
+}
+
+.rolling-disk {
+    position: absolute;
+    top: 5px;
+    right: -40px;
+    width: 108px;
+    height: 108px;
+    z-index: 1;
+    object-fit: contain;
+    transform: rotate(var(--start-angle, 0deg));
+}
+
+.rolling-disk.spinning {
+    animation: spin-forever 6s linear infinite;
+}
+
+@keyframes spin-forever {
+    from {
+        transform: rotate(var(--start-angle, 0deg));
+    }
+    to {
+        transform: rotate(calc(var(--start-angle, 0deg) + 360deg));
+    }
+}
+
+.custom-player-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 170px;
+    width: 100%;
+}
+
+.retro-play-btn {
+    background-color: transparent;
+    color: #00eaff;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 8px;
+    padding: 2px 4px;
+    cursor: pointer;
+    border-radius: 0;
+    text-transform: uppercase;
+    flex-shrink: 0;
+    transition: all 0.1s ease;
+}
+
+.retro-play-btn:hover {
+    color: #ffffff;
+    border-color: #00eaff;
+}
+
+.retro-play-btn:active {
+    transform: scale(0.95);
+}
+
+.player-controls-box {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 2px;
+}
+
+.retro-slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background: #4c3e48;
+    outline: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.retro-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 6px;
+    height: 8px;
+    background: #00eaff;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.retro-slider::-webkit-slider-thumb:hover {
+    background: #ff007f;
+}
+
+.retro-slider::-moz-range-thumb {
+    width: 8px;
+    height: 10px;
+    background: #00eaff;
+    border: 1px solid #ff007f;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.retro-time {
+    font-size: 9px;
+    color: #888;
+    text-align: right;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: -0.5px;
 }
 
 .blink-dot {
@@ -294,12 +409,6 @@ marquee {
 @keyframes eq-bounce {
     0%, 100% { height: 3px; }
     50% { height: 12px; }
-}
-
-.equalizer.paused span {
-    animation: none;
-    height: 3px;
-    background-color: #555;
 }
 
 .floating-sticker_2 {
@@ -428,269 +537,86 @@ marquee {
     color: #777;
 }
 
-.tracks-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Две колонки одинаковой ширины */
-    gap: 6px; /* Расстояние между треками */
-    max-height: 110px; /* Ограничение высоты блока, чтобы появлялся скролл */
-    overflow-y: auto; /* Вертикальный скроллбар при переполнении */
-    padding-right: 4px; /* Чтобы скролл не наезжал на текст */
-    margin-bottom: 20px;
-}
-
-.tracks-container::-webkit-scrollbar {
-    width: 6px;
-}
-
-.tracks-container::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.3);
-    /*border-radius: 4px;*/
-}
-
-.tracks-container::-webkit-scrollbar-thumb {
-    background: #990069;
-    /*border-radius: 4px;*/
-}
-
-.tracks-container::-webkit-scrollbar-thumb:hover {
-    background: #cc2470;
-}
-
-.track-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: rgba(255, 255, 255, 0.03);
-    /*padding: 6px 10px;*/
-    border-radius: 0;
-    border: 1px solid rgba(172, 223, 228, 0.08);
-    transition: background 0.2s ease;
-}
-
-.track-row:hover {
-    background: rgba(172, 223, 228, 0.06);
-}
-
-.track-row:hover {
-    background: rgba(172, 223, 228, 0.06);
-}
-
-.track-title {
-    font-size: 12px;
-    color: #e0e0e0;
-    margin-right: 8px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 60%; /* Название занимает половину, оставляя место плееру */
-}
-
-.minimal-audio {
-    height: 14px;
-    max-width: 180px;
-    width: 100%;
-    filter: invert(0.9) hue-rotate(180deg) brightness(0.85);
-}
-
 @media (max-width: 768px) {
     .tracks-container {
         grid-template-columns: 1fr;
     }
 }
 
-/* ==========================================================================
-   ЭСТЕТИКА НУЛЕВЫХ: ВИНИЛОВЫЙ/РОК-ПЛЕЕР ДЛЯ ГЛАВНОЙ СТРАНИЦЫ
-   ========================================================================== */
-
-.single-song-card {
-    background: linear-gradient(135deg, #1a0a14 0%, #0d0d0d 100%);
-    border: 2px dashed #ff007f;
-    padding: 15px;
-    box-shadow: inset 0 0 15px rgba(255, 0, 127, 0.15), 0 4px 15px rgba(0, 0, 0, 0.8);
-    position: relative;
-}
-
-/* Декоративный уголок в стиле Winamp/MySpace */
-.single-song-card::before {
-    content: "★ FEATURED TRACK ★";
-    position: absolute;
-    top: -10px;
-    right: 15px;
-    background: #000;
-    color: #00eaff;
-    font-size: 10px;
-    padding: 0 6px;
-    border: 1px solid #660042;
-    letter-spacing: 1px;
-}
-
-.song-genre-tag {
-    display: inline-block;
-    color: #a3a3a3;
-    font-size: 11px;
-    padding: 3px 8px;
-    border-radius: 3px;
-    margin-bottom: 12px;
-    letter-spacing: 0.5px;
-}
-
-.normal-audio {
-    width: 80%;
-    height: 42px;
+/* Стили для переключателя режимов и полочки альбомов */
+.view-switcher {
     display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
     align-items: center;
-    justify-content: space-between;
-    background: rgba(255, 255, 255, 0.03); ///
-    padding: 6px 10px;
-    margin-right: 12px;
-    border: 1px solid rgba(172, 223, 228, 0.08); ////
-    transition: background 0.2s ease;
-    filter: invert(0.9) hue-rotate(180deg) brightness(0.85);
-
-
-
-    background: #141414; ///
-    /*border: 1.5px solid #ff85d8; ////*/
 }
 
-.normal-audio:hover {
+.retro-btn {
+    background-color: #1a1a1a;
+    color: #00eaff;
+    border: 1px solid #ff007f;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+    padding: 6px 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.1s ease;
+}
+
+.retro-btn:hover {
+    background-color: #ff007f;
+    color: #ffffff;
     border-color: #00eaff;
 }
 
-/* ==========================================================================
-   АНИМАЦИЯ И ПОЗИЦИОНИРОВАНИЕ ВЫЕЗЖАЮЩЕГО ДИСКА
-   ========================================================================== */
-
-/* Контейнер для обложки и диска, чтобы они позиционировались относительно друг друга */
-.album-art-container {
-    position: relative;
-    width: 114px;
-    height: 114px;
-    flex-shrink: 0;
+.retro-btn.active {
+    background-color: #bf2272;
+    color: #ffffff;
+    border-color: #00eaff;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.8);
 }
 
-/* Обложка альбома остается поверх диска */
-.album-cover {
-    position: relative;
-    z-index: 2;
+/* Сокращенный вид: полка с альбомами */
+.shelf-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.shelf-album-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    background: #141414;
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: center;
+}
+
+.shelf-album-card img {
     width: 114px;
     height: 114px;
     object-fit: cover;
     border: 2px solid rgb(76 0 51);
     background-color: #000;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    margin-bottom: 8px;
 }
 
-.rolling-disk {
-    position: absolute;
-    top: 5px;
-    right: -40px;
-    width: 108px;
-    height: 108px;
-    z-index: 1;
-    object-fit: contain;
-    /* По умолчанию диск стоит на месте под случайным углом (--start-angle) */
-    transform: rotate(var(--start-angle, 0deg));
-}
-
-/* Класс, который запускает вращение с того угла, на котором диск остановился */
-.rolling-disk.spinning {
-    animation: spin-forever 6s linear infinite;
-}
-
-@keyframes spin-forever {
-    from {
-        transform: rotate(var(--start-angle, 0deg));
-    }
-    to {
-        transform: rotate(calc(var(--start-angle, 0deg) + 360deg));
-    }
-}
-
-
-
-.custom-player-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    max-width: 170px;
+.shelf-album-title {
+    color: #acdfe4;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     width: 100%;
 }
 
-/* Кнопка Play / Pause */
-.retro-play-btn {
-    background-color: transparent;
-    color: #00eaff;
-    /*border: 1px solid #ff007f;*/
-    font-family: "Courier New", Courier, monospace;
-    font-size: 8px;
-    padding: 2px 4px;
-    cursor: pointer;
-    border-radius: 0;
-    text-transform: uppercase;
-    flex-shrink: 0;
-    transition: all 0.1s ease;
-}
-
-.retro-play-btn:hover {
-    /*background-color: #ff007f;*/
-    color: #ffffff;
-    border-color: #00eaff;
-}
-
-.retro-play-btn:active {
-    transform: scale(0.95);
-}
-
-/* Контейнер для ползунка и времени */
-.player-controls-box {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    gap: 2px;
-}
-
-/* Кастомный ползунок прокрутки (Range Input) */
-.retro-slider {
-    -webkit-appearance: none;
-    width: 100%;
-    height: 4px;
-    background: #4c3e48;
-    outline: none;
-    border-radius: 0;
-    cursor: pointer;
-}
-
-/* Бегунок для Chrome / Safari / Edge */
-.retro-slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 6px;
-    height: 8px;
-    background: #00eaff;
-    border-radius: 0;
-    cursor: pointer;
-}
-
-.retro-slider::-webkit-slider-thumb:hover {
-    background: #ff007f;
-}
-
-/* Бегунок для Firefox */
-.retro-slider::-moz-range-thumb {
-    width: 8px;
-    height: 10px;
-    background: #00eaff;
-    border: 1px solid #ff007f;
-    border-radius: 0;
-    cursor: pointer;
-}
-
-/* Таймер (время трека) */
-.retro-time {
-    font-size: 9px;
-    color: #888;
-    text-align: right;
-    font-family: "Courier New", Courier, monospace;
-    letter-spacing: -0.5px;
+.shelf-album-year {
+    opacity: 0.6;
+    font-size: 10px;
 }
