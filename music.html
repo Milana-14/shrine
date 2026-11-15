@@ -68,24 +68,55 @@
 
                     let tracksHtml = sortedTracks.map(track => `
         <div class="track-row">
-            <span class="track-title">${track.title}</span>
-            <audio controls class="minimal-audio">
-                <source src="${track.file}" type="audio/mpeg">
-            </audio>
+            <span class="track-title" title="${track.title}">${track.title}</span>
+            <div class="custom-player-wrapper">
+                <audio src="${track.file}" preload="metadata"></audio>
+                <button class="retro-play-btn" onclick="togglePlay(this)">▶</button>
+                <div class="player-controls-box">
+                    <input type="range" class="retro-slider" value="0" max="100" step="0.1" oninput="seekAudio(this)" onchange="seekAudio(this)">
+                    <span class="retro-time">00:00 / --:--</span>
+                </div>
+            </div>
         </div>
     `).join('');
 
+                    let cleanAlbumTitle = album.title.replace(/\s*\(\d{4}\)|\s*\b\d{4}\b/g, '').trim();
                     let albumYearText = album.year ? `(${album.year})` : '';
 
+                    let randomAngle = Math.floor(Math.random() * 360);
+
                     albumDiv.innerHTML = `
-        <img src="${album.cover}" alt="${album.title}" class="album-cover">
+        <div class="album-art-container">
+            <img src="images/rolling_disk.png" alt="rolling_disk" class="rolling-disk" style="--start-angle: ${randomAngle}deg;">
+            <img src="${album.cover}" alt="${cleanAlbumTitle}" class="album-cover">
+        </div>
         <div class="album-info">
-            <h3 class="album-title">${album.title} <span class="album-year">${albumYearText}</span></h3>
+            <h3 class="album-title">${cleanAlbumTitle} <span class="album-year">${albumYearText}</span></h3>
             <div class="tracks-container">
                 ${tracksHtml}
             </div>
         </div>
     `;
+
+                    const disk = albumDiv.querySelector('.rolling-disk');
+                    const audios = albumDiv.querySelectorAll('audio');
+
+                    audios.forEach(audio => {
+                        audio.addEventListener('play', () => {
+                            document.querySelectorAll('audio').forEach(otherAudio => {
+                                if (otherAudio !== audio) otherAudio.pause();
+                            });
+                            disk.classList.add('spinning');
+                        });
+
+                        audio.addEventListener('pause', () => {
+                            let isAnyPlaying = Array.from(audios).some(a => !a.paused);
+                            if (!isAnyPlaying) {
+                                disk.classList.remove('spinning');
+                            }
+                        });
+                    });
+
                     artistSection.appendChild(albumDiv);
                 });
 
@@ -96,6 +127,103 @@
             console.error('Music loading error:', error);
             document.getElementById('music-container').innerHTML = '<p style="color: red;">Failed to load the music database :(</p>';
         });
+</script>
+
+<script>
+    // Вспомогательная функция для форматирования секунд в ММ:СС
+    function formatTime(seconds) {
+        if (isNaN(seconds)) return "00:00";
+        let m = Math.floor(seconds / 60);
+        let s = Math.floor(seconds % 60);
+        return (m < 10 ? "0" + m : m) + ":" + (s < 10 ? "0" + s : s);
+    }
+
+    function togglePlay(btn) {
+        const row = btn.closest('.track-row');
+        const audio = row.querySelector('audio');
+        const slider = row.querySelector('.retro-slider');
+        const timeDisplay = row.querySelector('.retro-time');
+        const albumCard = btn.closest('.album-card');
+        const disk = albumCard ? albumCard.querySelector('.rolling-disk') : null;
+
+        // Останавливаем все остальные аудио на странице
+        document.querySelectorAll('audio').forEach(a => {
+            if (a !== audio) {
+                a.pause();
+                a.currentTime = 0;
+                let otherRow = a.closest('.track-row');
+                if (otherRow) {
+                    let otherBtn = otherRow.querySelector('.retro-play-btn');
+                    if (otherBtn) otherBtn.textContent = '▶';
+                    // Сбрасываем таймер остальных на исходный (00:00 / Общая длительность)
+                    let otherTime = otherRow.querySelector('.retro-time');
+                    if (otherTime && a.duration) {
+                        otherTime.textContent = `00:00 / ${formatTime(a.duration)}`;
+                    }
+                }
+            }
+        });
+
+        // Останавливаем все диски на странице
+        document.querySelectorAll('.rolling-disk').forEach(d => d.classList.remove('spinning'));
+
+        // Управление текущим треком
+        if (audio.paused) {
+            audio.play();
+            btn.textContent = '❚❚';
+            if (disk) disk.classList.add('spinning');
+        } else {
+            audio.pause();
+            btn.textContent = '▶';
+            if (disk) disk.classList.remove('spinning');
+        }
+
+        // Обновление ползунка и таймера по мере воспроизведения
+        audio.ontimeupdate = () => {
+            if (audio.duration) {
+                let progress = (audio.currentTime / audio.duration) * 100;
+                slider.value = progress;
+                timeDisplay.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+            }
+        };
+
+        // Когда песня заканчивается
+        audio.onended = () => {
+            btn.textContent = '▶';
+            slider.value = 0;
+            timeDisplay.textContent = `00:00 / ${formatTime(audio.duration)}`;
+            if (disk) disk.classList.remove('spinning');
+        };
+    }
+
+    // Функция перемотки при перемещении ползунка
+    function seekAudio(slider) {
+        const row = slider.closest('.track-row');
+        const audio = row.querySelector('audio');
+        const timeDisplay = row.querySelector('.retro-time');
+        if (audio.duration) {
+            let seekTime = (slider.value / 100) * audio.duration;
+            audio.currentTime = seekTime;
+            timeDisplay.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+        }
+    }
+
+    // Инициализация общей длительности треков сразу при загрузке страницы, 
+    // чтобы пользователь видел время альбома до нажатия Play
+    document.addEventListener("DOMContentLoaded", () => {
+        // Небольшая задержка, чтобы fetch успел отрисовать элементы
+        setTimeout(() => {
+            document.querySelectorAll('.track-row').forEach(row => {
+                const audio = row.querySelector('audio');
+                const timeDisplay = row.querySelector('.retro-time');
+                if (audio) {
+                    audio.onloadedmetadata = () => {
+                        timeDisplay.textContent = `00:00 / ${formatTime(audio.duration)}`;
+                    };
+                }
+            });
+        }, 500);
+    });
 </script>
 
 </body>

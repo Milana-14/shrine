@@ -1,28 +1,24 @@
-/* Базовые настройки страницы */
 body {
     background-color: #0d0d0d;
-    background-image: 
-        linear-gradient(rgba(180, 0, 0, 0.1) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(180, 0, 0, 0.1) 1px, transparent 1px);
+    background-image:
+            linear-gradient(rgba(180, 0, 0, 0.1) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(180, 0, 0, 0.1) 1px, transparent 1px);
     background-size: 20px 20px;
     color: #e0e0e0;
-    font-family: "Courier New", Courier, monospace; /* Моноширинный шрифт как в старых блогах */
+    font-family: "Courier New", Courier, monospace;
     font-size: 14px;
     margin: 0;
     padding: 20px;
 }
 
-/* Центрируем сайт */
 .main-wrapper {
     position: relative;
     max-width: 1080px;
     margin: 0 auto;
     border: 2px solid #970a5f;
     background-color: #141414;
-    /*box-shadow: 0 0 150px rgb(200 0 143 / 0.2);*/
 }
 
-/* Шапка */
 .site-header {
     background-color: rgb(43 0 31 / 0.25);
     border-bottom: 1.5px solid #990069;
@@ -44,7 +40,6 @@ marquee {
     border: 1px dashed #660042;
 }
 
-/* Сетка: меню слева, контент справа */
 .content-grid {
     display: flex;
     gap: 15px;
@@ -60,22 +55,6 @@ marquee {
     flex-grow: 1;
 }
 
-/* Оформление блоков-рамок */
-.box {
-    border: 1px solid #555;
-    background-color: #1a1a1a;
-    padding: 12px;
-    margin-bottom: 15px;
-}
-
-.box h2, .box h3 {
-    margin-top: 0;
-    color: #ff4d9d;
-    border-bottom: 1px dashed #444;
-    padding-bottom: 5px;
-}
-
-/* Навигация */
 .nav-links {
     list-style: none;
     padding: 0;
@@ -97,39 +76,26 @@ marquee {
     padding: 2px 4px;
 }
 
-/* Карточка альбома */
-.album-card {
-    display: flex;
-    gap: 15px;
-    align-items: flex-start;
+.sidebar-divider {
+    border: none;
+    height: 1.5px;
+    background-color: #444;
+    margin: 30px -12px;
 }
 
-.album-cover {
-    width: 130px;
-    height: 130px;
-    object-fit: cover;
-    border: 2px solid rgb(76 0 51);
-    background-color: #000; /* Заглушка, пока нет картинки */
+.box {
+    border: 1px solid #555;
+    background-color: #1a1a1a;
+    padding: 12px;
+    margin-bottom: 15px;
 }
 
-.song-name{
-    color: #2aebff;
-    font-size: 19px;
-    font-weight: normal;
-}
-
-.song-genre{
-    color: #a8a8a8;
-}
-
-.retro-badge {
-    display: inline-block;
-    border: 1px solid #888;
-    background: #000;
-    color: #00eaff;
-    font-size: 11px;
-    padding: 3px 6px;
-    margin: 2px;
+.box h2,
+.box h3 {
+    margin-top: 0;
+    color: #ff4d9d;
+    border-bottom: 1px dashed #444;
+    padding-bottom: 5px;
 }
 
 .hobbies-columns {
@@ -144,166 +110,104 @@ marquee {
     padding-left: 20px;
 }
 
-.sidebar-divider {
-    border: none;
-    height: 1.5px;          /* Толщина линии */
-    background-color: #444; /* Цвет линии (можете заменить на свой) */
-    margin: 30px -12px;       /* Отступы сверху и снизу */
+.retro-badge {
+    display: inline-block;
+    border: 1px solid #888;
+    background: #000;
+    color: #00eaff;
+    font-size: 11px;
+    padding: 3px 6px;
+    margin: 2px;
 }
 
-/* Настройка самого стикера */
-.floating-sticker_1 {
-    position: absolute;
-    top: 100px;         /* Отступ сверху от рамки сайта */
-    left: 80px;        /* Выдвигаем стикер ЛЕЕВЕЕ границы сайта */
-    width: 230px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
-    pointer-events: auto; 
+/* Album Card & Song Details */
+.album-card {
+    display: flex;
+    /*gap: 15px;*/
+    align-items: flex-start;
+    /*background: rgba(20, 20, 20, 0.6);*/
+    /*border: 1px solid rgba(172, 223, 228, 0.15);*/
+    /*border-radius: 12px;*/
+    /*padding: 20px;*/
+    /*margin-bottom: 25px;*/
+    backdrop-filter: blur(5px);
 }
 
-.floating-sticker_2 {
-    position: absolute;
-    top: 200px;         /* Отступ сверху от рамки сайта */
-    right: 80px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
-    width: 220px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
-    pointer-events: auto;
+.album-cover {
+    width: 114px;
+    height: 114px;
+    object-fit: cover;
+    border: 2px solid rgb(76 0 51);
+    background-color: #000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    flex-shrink: 0;
 }
 
-.floating-sticker_3 {
-    position: absolute;
-    top: 550px;         /* Отступ сверху от рамки сайта */
-    right: 90px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
-    width: 180px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
-    pointer-events: auto;
+.album-info {
+    flex-grow: 1;
+    margin-left: 20px;
 }
 
-.floating-sticker_4 {
-    position: absolute;
-    top: 280px;         /* Отступ сверху от рамки сайта */
-    left: 60px;        /* Выдвигаем стикер ЛЕЕВЕЕ границы сайта */
-    width: 360px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
-    pointer-events: auto;
+.album-title {
+    margin: 0 0 15px 36px;
+    color: #acdfe4;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
-.floating-sticker_5 {
-    position: absolute;
-    top: 420px;         /* Отступ сверху от рамки сайта */
-    right: 230px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
-    width: 120px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
-    pointer-events: auto;
+.album-year {
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 400;
 }
 
-.floating-sticker_6 {
-    position: absolute;
-    top: 420px;         /* Отступ сверху от рамки сайта */
-    right: 0px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
-    width: 180px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
-    pointer-events: auto;
+.song-name {
+    color: #2aebff;
+    font-size: 19px;
+    font-weight: normal;
 }
 
-.floating-sticker_7 {
-    position: absolute;
-    top: 20px;         /* Отступ сверху от рамки сайта */
-    right: 140px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
-    width: 200px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
-    pointer-events: auto;
+.song-genre {
+    color: #a8a8a8;
 }
 
-.floating-sticker_8 {
-    position: absolute;
-    top: -90px;         /* Отступ сверху от рамки сайта */
-    left: 0px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
-    width: 380px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
-    pointer-events: auto;
+.tracks-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
 }
 
-.floating-sticker_9 {
-    position: absolute;
-    top: -30px;         /* Отступ сверху от рамки сайта */
-    right: -120px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
-    width: 360px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
-    pointer-events: auto;
-    transform: rotate(-10deg);
+.track-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 4px 10px;
+    border-radius: 8px;
+    transition: background 0.2s ease;
 }
 
-.floating-sticker_10 {
-    position: absolute;
-    top: 305px;         /* Отступ сверху от рамки сайта */
-    left: 130px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
-    width: 90px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
-    pointer-events: auto;
+.track-row:hover {
+    background: rgba(172, 223, 228, 0.06);
 }
 
-.floating-sticker_11 {
-    position: absolute;
-    top: 460px;         /* Отступ сверху от рамки сайта */
-    right: 10px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
-    width: 140px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
-    pointer-events: auto;
+.track-title {
+    font-size: 13px;
+    color: #e0e0e0;
+    margin-right: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 50%;
 }
 
-.floating-sticker_12 {
-    position: absolute;
-    top: 320px;         /* Отступ сверху от рамки сайта */
-    left: -8px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
-    width: 180px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
-    pointer-events: auto;
-}
-
-.floating-sticker_13 {
-    position: absolute;
-    top: 560px;         /* Отступ сверху от рамки сайта */
-    right: 0px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
-    width: 280px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
-    pointer-events: auto;
-}
-
-.floating-sticker_14 {
-    position: absolute;
-    top: 680px;         /* Отступ сверху от рамки сайта */
-    left: 10px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
-    width: 270px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
-    pointer-events: auto;
-}
-
-.floating-sticker_15 {
-    position: absolute;
-    top: 140px;         /* Отступ сверху от рамки сайта */
-    left: 10px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
-    width: 160px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
-    pointer-events: auto;
-}
-
-.floating-sticker_16 {
-    position: absolute;
-    top: 500px;         /* Отступ сверху от рамки сайта */
-    left: 10px;        /* Выдвигаем стикер ПРАВЕЕ границы сайта */
-    width: 170px;       /* Размер стикера */
-    z-index: 100;       /* Гарантирует, что стикер будет поверх текста и блоков, а не под ними */
-    pointer-events: auto;
-}
-
-.floating-sticker_17 {
-    position: absolute;
-    top: 808px;         /* Отступ сверху от рамки сайта */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 1100px;       /* Размер стикера */
-    pointer-events: auto;
+.minimal-audio {
+    height: 28px;
+    max-width: 240px;
+    width: 100%;
+    filter: invert(0.9) hue-rotate(180deg) brightness(0.85);
 }
 
 .spotify-widget {
@@ -315,16 +219,6 @@ marquee {
     font-family: 'Courier New', Courier, monospace;
     color: #fff;
     margin: 15px 0;
-}
-
-.spotify-header {
-    font-size: 11px;
-    font-weight: bold;
-    color: #ff66b2;
-    border-bottom: 1px dashed #ff007f;
-    padding-bottom: 5px;
-    margin-bottom: 8px;
-    letter-spacing: 1px;
 }
 
 .blink-dot {
@@ -379,7 +273,6 @@ marquee {
     text-overflow: ellipsis;
 }
 
-/* Мини-эквалайзер */
 .equalizer {
     display: flex;
     align-items: flex-end;
@@ -403,70 +296,174 @@ marquee {
     50% { height: 12px; }
 }
 
-/* Когда музыка на паузе, эквалайзер замирает */
 .equalizer.paused span {
     animation: none;
     height: 3px;
     background-color: #555;
 }
 
-/* Карточка альбома */
-.album-card {
-    display: flex;
-    align-items: flex-start;
-    background: rgba(20, 20, 20, 0.6);
-    border: 1px solid rgba(172, 223, 228, 0.15);
-    border-radius: 12px;
-    padding: 20px;
-    margin-bottom: 25px;
-    backdrop-filter: blur(5px);
+.floating-sticker_2 {
+    position: absolute;
+    top: 200px;
+    right: 80px;
+    width: 220px;
+    z-index: 100;
+    pointer-events: auto;
 }
 
-/* Обложка альбома */
-.album-cover {
+.floating-sticker_4 {
+    position: absolute;
+    top: 280px;
+    left: 60px;
+    width: 360px;
+    z-index: 100;
+    pointer-events: auto;
+}
+
+.floating-sticker_5 {
+    position: absolute;
+    top: 420px;
+    right: 230px;
     width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-    flex-shrink: 0;
+    z-index: 100;
+    pointer-events: auto;
 }
 
-/* Блок информации об альбоме */
-.album-info {
-    flex-grow: 1;
-    margin-left: 20px;
+.floating-sticker_6 {
+    position: absolute;
+    top: 420px;
+    right: 0px;
+    width: 180px;
+    z-index: 100;
+    pointer-events: auto;
 }
 
-.album-title {
-    margin: 0 0 15px 0;
-    color: #acdfe4;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
+.floating-sticker_7 {
+    position: absolute;
+    top: 20px;
+    right: 140px;
+    width: 200px;
+    z-index: 100;
+    pointer-events: auto;
 }
 
-.album-year {
-    opacity: 0.6;
-    font-size: 14px;
-    font-weight: 400;
+.floating-sticker_8 {
+    position: absolute;
+    top: -90px;
+    left: 0px;
+    width: 380px;
+    z-index: 100;
+    pointer-events: auto;
 }
 
-/* Контейнер для списка треков */
+.floating-sticker_9 {
+    position: absolute;
+    top: -30px;
+    right: -120px;
+    width: 360px;
+    z-index: 100;
+    pointer-events: auto;
+    transform: rotate(-10deg);
+}
+
+.floating-sticker_10 {
+    position: absolute;
+    top: 305px;
+    left: 130px;
+    width: 90px;
+    z-index: 100;
+    pointer-events: auto;
+}
+
+.floating-sticker_13 {
+    position: absolute;
+    top: 560px;
+    right: 0px;
+    width: 280px;
+    z-index: 100;
+    pointer-events: auto;
+}
+
+.floating-sticker_14 {
+    position: absolute;
+    top: 680px;
+    left: 10px;
+    width: 270px;
+    z-index: 100;
+    pointer-events: auto;
+}
+
+.floating-sticker_15 {
+    position: absolute;
+    top: 140px;
+    left: 10px;
+    width: 160px;
+    z-index: 100;
+    pointer-events: auto;
+}
+
+.floating-sticker_16 {
+    position: absolute;
+    top: 500px;
+    left: 10px;
+    width: 170px;
+    z-index: 100;
+    pointer-events: auto;
+}
+
+.floating-sticker_17 {
+    position: absolute;
+    top: 808px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1100px;
+    pointer-events: auto;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #444;
+    font-size: 12px;
+    color: #777;
+}
+
 .tracks-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Две колонки одинаковой ширины */
+    gap: 6px; /* Расстояние между треками */
+    max-height: 110px; /* Ограничение высоты блока, чтобы появлялся скролл */
+    overflow-y: auto; /* Вертикальный скроллбар при переполнении */
+    padding-right: 4px; /* Чтобы скролл не наезжал на текст */
+    margin-bottom: 20px;
 }
 
-/* Каждая строка с треком: название и плеер в один ряд */
+.tracks-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.tracks-container::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.3);
+    /*border-radius: 4px;*/
+}
+
+.tracks-container::-webkit-scrollbar-thumb {
+    background: #990069;
+    /*border-radius: 4px;*/
+}
+
+.tracks-container::-webkit-scrollbar-thumb:hover {
+    background: #cc2470;
+}
+
 .track-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: rgba(255, 255, 255, 0.03);
-    padding: 8px 14px;
-    border-radius: 8px;
+    /*padding: 6px 10px;*/
+    border-radius: 0;
+    border: 1px solid rgba(172, 223, 228, 0.08);
     transition: background 0.2s ease;
 }
 
@@ -474,31 +471,226 @@ marquee {
     background: rgba(172, 223, 228, 0.06);
 }
 
-/* Название песни */
+.track-row:hover {
+    background: rgba(172, 223, 228, 0.06);
+}
+
 .track-title {
-    font-size: 13px;
+    font-size: 12px;
     color: #e0e0e0;
-    margin-right: 15px;
+    margin-right: 8px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 50%; /* Ограничиваем ширину текста, чтобы плеер всегда помещался */
+    max-width: 60%; /* Название занимает половину, оставляя место плееру */
 }
 
-/* Минималистичный аудиоплеер */
 .minimal-audio {
-    height: 28px;
-    max-width: 240px;
+    height: 14px;
+    max-width: 180px;
     width: 100%;
-    filter: invert(0.9) hue-rotate(180deg) brightness(0.85); /* Делает стандартный белый плеер стильным темным */
+    filter: invert(0.9) hue-rotate(180deg) brightness(0.85);
+}
+
+@media (max-width: 768px) {
+    .tracks-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ==========================================================================
+   ЭСТЕТИКА НУЛЕВЫХ: ВИНИЛОВЫЙ/РОК-ПЛЕЕР ДЛЯ ГЛАВНОЙ СТРАНИЦЫ
+   ========================================================================== */
+
+.single-song-card {
+    background: linear-gradient(135deg, #1a0a14 0%, #0d0d0d 100%);
+    border: 2px dashed #ff007f;
+    padding: 15px;
+    box-shadow: inset 0 0 15px rgba(255, 0, 127, 0.15), 0 4px 15px rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+
+/* Декоративный уголок в стиле Winamp/MySpace */
+.single-song-card::before {
+    content: "★ FEATURED TRACK ★";
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    background: #000;
+    color: #00eaff;
+    font-size: 10px;
+    padding: 0 6px;
+    border: 1px solid #660042;
+    letter-spacing: 1px;
+}
+
+.song-genre-tag {
+    display: inline-block;
+    color: #a3a3a3;
+    font-size: 11px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+}
+
+.normal-audio {
+    width: 80%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.03); ///
+    padding: 6px 10px;
+    margin-right: 12px;
+    border: 1px solid rgba(172, 223, 228, 0.08); ////
+    transition: background 0.2s ease;
+    filter: invert(0.9) hue-rotate(180deg) brightness(0.85);
+
+
+
+    background: #141414; ///
+    /*border: 1.5px solid #ff85d8; ////*/
+}
+
+.normal-audio:hover {
+    border-color: #00eaff;
+}
+
+/* ==========================================================================
+   АНИМАЦИЯ И ПОЗИЦИОНИРОВАНИЕ ВЫЕЗЖАЮЩЕГО ДИСКА
+   ========================================================================== */
+
+/* Контейнер для обложки и диска, чтобы они позиционировались относительно друг друга */
+.album-art-container {
+    position: relative;
+    width: 114px;
+    height: 114px;
+    flex-shrink: 0;
+}
+
+/* Обложка альбома остается поверх диска */
+.album-cover {
+    position: relative;
+    z-index: 2;
+    width: 114px;
+    height: 114px;
+    object-fit: cover;
+    border: 2px solid rgb(76 0 51);
+    background-color: #000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.rolling-disk {
+    position: absolute;
+    top: 5px;
+    right: -40px;
+    width: 108px;
+    height: 108px;
+    z-index: 1;
+    object-fit: contain;
+    /* По умолчанию диск стоит на месте под случайным углом (--start-angle) */
+    transform: rotate(var(--start-angle, 0deg));
+}
+
+/* Класс, который запускает вращение с того угла, на котором диск остановился */
+.rolling-disk.spinning {
+    animation: spin-forever 6s linear infinite;
+}
+
+@keyframes spin-forever {
+    from {
+        transform: rotate(var(--start-angle, 0deg));
+    }
+    to {
+        transform: rotate(calc(var(--start-angle, 0deg) + 360deg));
+    }
 }
 
 
-/* Подвал */
-.site-footer {
-    text-align: center;
-    padding: 10px;
-    border-top: 1px solid #444;
-    font-size: 12px;
-    color: #777;
+
+.custom-player-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 170px;
+    width: 100%;
+}
+
+/* Кнопка Play / Pause */
+.retro-play-btn {
+    background-color: transparent;
+    color: #00eaff;
+    /*border: 1px solid #ff007f;*/
+    font-family: "Courier New", Courier, monospace;
+    font-size: 8px;
+    padding: 2px 4px;
+    cursor: pointer;
+    border-radius: 0;
+    text-transform: uppercase;
+    flex-shrink: 0;
+    transition: all 0.1s ease;
+}
+
+.retro-play-btn:hover {
+    /*background-color: #ff007f;*/
+    color: #ffffff;
+    border-color: #00eaff;
+}
+
+.retro-play-btn:active {
+    transform: scale(0.95);
+}
+
+/* Контейнер для ползунка и времени */
+.player-controls-box {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 2px;
+}
+
+/* Кастомный ползунок прокрутки (Range Input) */
+.retro-slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background: #4c3e48;
+    outline: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+/* Бегунок для Chrome / Safari / Edge */
+.retro-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 6px;
+    height: 8px;
+    background: #00eaff;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.retro-slider::-webkit-slider-thumb:hover {
+    background: #ff007f;
+}
+
+/* Бегунок для Firefox */
+.retro-slider::-moz-range-thumb {
+    width: 8px;
+    height: 10px;
+    background: #00eaff;
+    border: 1px solid #ff007f;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+/* Таймер (время трека) */
+.retro-time {
+    font-size: 9px;
+    color: #888;
+    text-align: right;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: -0.5px;
 }
