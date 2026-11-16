@@ -5,7 +5,7 @@
       {
         "title": "A Kiss for the Whole World (2023)",
         "year": 2023,
-        "cover": "music/default.png",
+        "cover": "music/Enter Shikari/A Kiss for the Whole World (2023)/cover.png",
         "tracks": [
           {
             "title": "01. A Kiss for the Whole World x",
@@ -60,7 +60,7 @@
       {
         "title": "Common Dreads (2009)",
         "year": 2009,
-        "cover": "music/default.png",
+        "cover": "music/Enter Shikari/Common Dreads (2009)/cover.png",
         "tracks": [
           {
             "title": "01. Common Dreads",
@@ -127,7 +127,7 @@
       {
         "title": "Lose Your Self (2026)",
         "year": 2026,
-        "cover": "music/default.png",
+        "cover": "music/Enter Shikari/Lose Your Self (2026)/cover.png",
         "tracks": [
           {
             "title": "01. LOSE YOUR SELF",
@@ -182,7 +182,7 @@
       {
         "title": "Nothing is True & Everything is Possible (2020)",
         "year": 2020,
-        "cover": "music/default.png",
+        "cover": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/cover.png",
         "tracks": [
           {
             "title": "01. THE GREAT UNKNOWN",
@@ -241,7 +241,7 @@
       {
         "title": "Take to the Skies (2007)",
         "year": 2007,
-        "cover": "music/default.png",
+        "cover": "music/Enter Shikari/Take to the Skies (2007)/cover.png",
         "tracks": [
           {
             "title": "01. Enter Shikari",
@@ -300,7 +300,7 @@
       {
         "title": "The Spark (2017)",
         "year": 2017,
-        "cover": "music/default.png",
+        "cover": "music/Enter Shikari/The Spark (2017)/cover.png",
         "tracks": [
           {
             "title": "01. The Spark",
@@ -323,7 +323,7 @@
       {
         "title": "Tribalism (2010)",
         "year": 2010,
-        "cover": "music/default.png",
+        "cover": "music/Enter Shikari/Tribalism (2010)/cover.png",
         "tracks": [
           {
             "title": "01. Tribalism",
@@ -391,7 +391,7 @@
       {
         "title": "Until Fear No Longer Defines Us (2011)",
         "year": 2011,
-        "cover": "music/default.png",
+        "cover": "music/Ghost Brigade/Until Fear No Longer Defines Us (2011)/cover.png",
         "tracks": [
           {
             "title": "01. In the Woods",
@@ -443,7 +443,7 @@
       {
         "title": "Chocolate Starfish And The Hot Dog Flavored Water (2000)",
         "year": 2000,
-        "cover": "music/default.png",
+        "cover": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/cover.png",
         "tracks": [
           {
             "title": "01. Intro",
@@ -515,7 +515,7 @@
       {
         "title": "Hybrid Theory (Bonus Edition) (2000)",
         "year": 2000,
-        "cover": "music/default.png",
+        "cover": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/cover.png",
         "tracks": [
           {
             "title": "01. Papercut",
@@ -582,7 +582,7 @@
       {
         "title": "Meteora (Bonus Edition) (2003)",
         "year": 2003,
-        "cover": "music/default.png",
+        "cover": "music/Linkin Park/Meteora (Bonus Edition) (2003)/cover.png",
         "tracks": [
           {
             "title": "01. Foreword",
@@ -653,7 +653,7 @@
       {
         "title": "Minutes to Midnight (2007)",
         "year": 2007,
-        "cover": "music/default.png",
+        "cover": "music/Linkin Park/Minutes to Midnight (2007)/cover.png",
         "tracks": [
           {
             "title": "01. Wake",
@@ -716,52 +716,146 @@
     ]
   },
   {
-    "artist": "Mazzy Star",
+    "artist": "Muse",
     "albums": [
       {
-        "title": "So Tonight That I Might See (1993)",
-        "year": 1993,
-        "cover": "music/default.png",
+        "title": "The 2nd Law (2012)",
+        "year": 2012,
+        "cover": "music/Muse/The 2nd Law (2012)/cover.png",
         "tracks": [
           {
-            "title": "01. Fade Into You",
-            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/01. Fade Into You.mp3"
+            "title": "01. Supremacy",
+            "file": "music/Muse/The 2nd Law (2012)/01. Supremacy.mp3"
           },
           {
-            "title": "02. Bells Ring",
-            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/02. Bells Ring.mp3"
+            "title": "02. Madness",
+            "file": "music/Muse/The 2nd Law (2012)/02. Madness.mp3"
           },
           {
-            "title": "03. Mary Of Silence",
-            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/03. Mary Of Silence.mp3"
+            "title": "04. Prelude",
+            "file": "music/Muse/The 2nd Law (2012)/04. Prelude.mp3"
           },
           {
-            "title": "04. Five String Serenade",
-            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/04. Five String Serenade.mp3"
+            "title": "05. Survival",
+            "file": "music/Muse/The 2nd Law (2012)/05. Survival.mp3"
           },
           {
-            "title": "05. Blue Light",
-            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/05. Blue Light.mp3"
+            "title": "06. Follow Me",
+            "file": "music/Muse/The 2nd Law (2012)/06. Follow Me.mp3"
           },
           {
-            "title": "06. She's My Baby",
-            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/06. She's My Baby.mp3"
+            "title": "07. Animals",
+            "file": "music/Muse/The 2nd Law (2012)/07. Animals.mp3"
           },
           {
-            "title": "07. Unreflected",
-            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/07. Unreflected.mp3"
+            "title": "08. Explorers",
+            "file": "music/Muse/The 2nd Law (2012)/08. Explorers.mp3"
           },
           {
-            "title": "08. Wasted",
-            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/08. Wasted.mp3"
+            "title": "09. Big Freeze",
+            "file": "music/Muse/The 2nd Law (2012)/09. Big Freeze.mp3"
           },
           {
-            "title": "09. Into Dust",
-            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/09. Into Dust.mp3"
+            "title": "10. Save Me",
+            "file": "music/Muse/The 2nd Law (2012)/10. Save Me.mp3"
           },
           {
-            "title": "10. So Tonight That I Might See",
-            "file": "music/Mazzy Star/So Tonight That I Might See (1993)/10. So Tonight That I Might See.mp3"
+            "title": "11. Liquid State",
+            "file": "music/Muse/The 2nd Law (2012)/11. Liquid State.mp3"
+          },
+          {
+            "title": "12. The 2nd Law- Unsustainable",
+            "file": "music/Muse/The 2nd Law (2012)/12. The 2nd Law- Unsustainable.mp3"
+          },
+          {
+            "title": "13. The 2nd Law- Isolated System",
+            "file": "music/Muse/The 2nd Law (2012)/13. The 2nd Law- Isolated System.mp3"
+          }
+        ]
+      },
+      {
+        "title": "The Resistance (2009)",
+        "year": 2009,
+        "cover": "music/Muse/The Resistance (2009)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Uprising",
+            "file": "music/Muse/The Resistance (2009)/01. Uprising.mp3"
+          },
+          {
+            "title": "02. Resistance",
+            "file": "music/Muse/The Resistance (2009)/02. Resistance.mp3"
+          },
+          {
+            "title": "03. Undisclosed Desires",
+            "file": "music/Muse/The Resistance (2009)/03. Undisclosed Desires.mp3"
+          },
+          {
+            "title": "04. United States of Eurasia (+Collateral Damage)",
+            "file": "music/Muse/The Resistance (2009)/04. United States of Eurasia (+Collateral Damage).mp3"
+          },
+          {
+            "title": "05. Guiding Light",
+            "file": "music/Muse/The Resistance (2009)/05. Guiding Light.mp3"
+          },
+          {
+            "title": "06. Unnatural Selection",
+            "file": "music/Muse/The Resistance (2009)/06. Unnatural Selection.mp3"
+          },
+          {
+            "title": "08. I Belong to You (+Mon Coeur S'Ouvre a Ta Voix)",
+            "file": "music/Muse/The Resistance (2009)/08. I Belong to You (+Mon Coeur S'Ouvre a Ta Voix).mp3"
+          },
+          {
+            "title": "09. Exogenesis- Symphony Pt. 1 (Overture)",
+            "file": "music/Muse/The Resistance (2009)/09. Exogenesis- Symphony Pt. 1 (Overture).mp3"
+          },
+          {
+            "title": "10. Exogenesis- Symphony Pt. 2 (Cross-pollination)",
+            "file": "music/Muse/The Resistance (2009)/10. Exogenesis- Symphony Pt. 2 (Cross-pollination).mp3"
+          },
+          {
+            "title": "11. Exogenesis- Symphony Pt. 3 (Redemption)",
+            "file": "music/Muse/The Resistance (2009)/11. Exogenesis- Symphony Pt. 3 (Redemption).mp3"
+          }
+        ]
+      },
+      {
+        "title": "The Wow! Signal (2026)",
+        "year": 2026,
+        "cover": "music/Muse/The Wow! Signal (2026)/cover.png",
+        "tracks": [
+          {
+            "title": "01. The Dark Forest",
+            "file": "music/Muse/The Wow! Signal (2026)/01. The Dark Forest.mp3"
+          },
+          {
+            "title": "02. Nightshift Superstar",
+            "file": "music/Muse/The Wow! Signal (2026)/02. Nightshift Superstar.mp3"
+          },
+          {
+            "title": "03. Shimmering Scars",
+            "file": "music/Muse/The Wow! Signal (2026)/03. Shimmering Scars.mp3"
+          },
+          {
+            "title": "04. Cryogen",
+            "file": "music/Muse/The Wow! Signal (2026)/04. Cryogen.mp3"
+          },
+          {
+            "title": "06. Hexagons",
+            "file": "music/Muse/The Wow! Signal (2026)/06. Hexagons.mp3"
+          },
+          {
+            "title": "08. Unravelling",
+            "file": "music/Muse/The Wow! Signal (2026)/08. Unravelling.mp3"
+          },
+          {
+            "title": "09. Hush",
+            "file": "music/Muse/The Wow! Signal (2026)/09. Hush.mp3"
+          },
+          {
+            "title": "10. Space Debris",
+            "file": "music/Muse/The Wow! Signal (2026)/10. Space Debris.mp3"
           }
         ]
       }
@@ -1089,7 +1183,7 @@
       {
         "title": "In Utero (1993)",
         "year": 1993,
-        "cover": "music/default.png",
+        "cover": "music/Nirvana/In Utero (1993)/cover.png",
         "tracks": [
           {
             "title": "02. Scentless Apprentice",
@@ -1134,109 +1228,61 @@
         ]
       },
       {
-        "title": "Nevermind (Remastered) (1991)",
+        "title": "Nevermind (1991)",
         "year": 1991,
-        "cover": "music/default.png",
+        "cover": "music/Nirvana/Nevermind (1991)/cover.png",
         "tracks": [
           {
             "title": "01. Smells Like Teen Spirit",
-            "file": "music/Nirvana/Nevermind (Remastered) (1991)/01. Smells Like Teen Spirit.mp3"
+            "file": "music/Nirvana/Nevermind (1991)/01. Smells Like Teen Spirit.mp3"
           },
           {
             "title": "02. In Bloom",
-            "file": "music/Nirvana/Nevermind (Remastered) (1991)/02. In Bloom.mp3"
+            "file": "music/Nirvana/Nevermind (1991)/02. In Bloom.mp3"
           },
           {
             "title": "03. Come As You Are",
-            "file": "music/Nirvana/Nevermind (Remastered) (1991)/03. Come As You Are.mp3"
+            "file": "music/Nirvana/Nevermind (1991)/03. Come As You Are.mp3"
           },
           {
             "title": "04. Breed",
-            "file": "music/Nirvana/Nevermind (Remastered) (1991)/04. Breed.mp3"
+            "file": "music/Nirvana/Nevermind (1991)/04. Breed.mp3"
           },
           {
             "title": "05. Lithium",
-            "file": "music/Nirvana/Nevermind (Remastered) (1991)/05. Lithium.mp3"
+            "file": "music/Nirvana/Nevermind (1991)/05. Lithium.mp3"
           },
           {
             "title": "06. Polly",
-            "file": "music/Nirvana/Nevermind (Remastered) (1991)/06. Polly.mp3"
+            "file": "music/Nirvana/Nevermind (1991)/06. Polly.mp3"
           },
           {
             "title": "07. Territorial Pissings",
-            "file": "music/Nirvana/Nevermind (Remastered) (1991)/07. Territorial Pissings.mp3"
+            "file": "music/Nirvana/Nevermind (1991)/07. Territorial Pissings.mp3"
           },
           {
             "title": "08. Drain You",
-            "file": "music/Nirvana/Nevermind (Remastered) (1991)/08. Drain You.mp3"
+            "file": "music/Nirvana/Nevermind (1991)/08. Drain You.mp3"
           },
           {
             "title": "09. Lounge Act",
-            "file": "music/Nirvana/Nevermind (Remastered) (1991)/09. Lounge Act.mp3"
+            "file": "music/Nirvana/Nevermind (1991)/09. Lounge Act.mp3"
           },
           {
             "title": "10. Stay Away",
-            "file": "music/Nirvana/Nevermind (Remastered) (1991)/10. Stay Away.mp3"
+            "file": "music/Nirvana/Nevermind (1991)/10. Stay Away.mp3"
           },
           {
             "title": "11. On A Plain",
-            "file": "music/Nirvana/Nevermind (Remastered) (1991)/11. On A Plain.mp3"
+            "file": "music/Nirvana/Nevermind (1991)/11. On A Plain.mp3"
           },
           {
             "title": "12. Something In The Way",
-            "file": "music/Nirvana/Nevermind (Remastered) (1991)/12. Something In The Way.mp3"
+            "file": "music/Nirvana/Nevermind (1991)/12. Something In The Way.mp3"
           },
           {
             "title": "13. Endless, Nameless",
-            "file": "music/Nirvana/Nevermind (Remastered) (1991)/13. Endless, Nameless.mp3"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "artist": "Pink Floyd",
-    "albums": [
-      {
-        "title": "The Dark Side of the Moon (1973)",
-        "year": 1973,
-        "cover": "music/default.png",
-        "tracks": [
-          {
-            "title": "01. Speak to Me",
-            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/01. Speak to Me.mp3"
-          },
-          {
-            "title": "02. Breathe (In the Air)",
-            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/02. Breathe (In the Air).mp3"
-          },
-          {
-            "title": "03. On the Run",
-            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/03. On the Run.mp3"
-          },
-          {
-            "title": "04. Time",
-            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/04. Time.mp3"
-          },
-          {
-            "title": "05. The Great Gig in the Sky",
-            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/05. The Great Gig in the Sky.mp3"
-          },
-          {
-            "title": "06. Money",
-            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/06. Money.mp3"
-          },
-          {
-            "title": "07. Us and Them",
-            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/07. Us and Them.mp3"
-          },
-          {
-            "title": "08. Any Colour You Like",
-            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/08. Any Colour You Like.mp3"
-          },
-          {
-            "title": "09. Brain Damage",
-            "file": "music/Pink Floyd/The Dark Side of the Moon (1973)/09. Brain Damage.mp3"
+            "file": "music/Nirvana/Nevermind (1991)/13. Endless, Nameless.mp3"
           }
         ]
       }
@@ -1456,84 +1502,12 @@
     ]
   },
   {
-    "artist": "Red Hot Chili Peppers",
-    "albums": [
-      {
-        "title": "Californication (1999)",
-        "year": 1999,
-        "cover": "music/default.png",
-        "tracks": [
-          {
-            "title": "01. Around the World",
-            "file": "music/Red Hot Chili Peppers/Californication (1999)/01. Around the World.mp3"
-          },
-          {
-            "title": "02. Parallel Universe",
-            "file": "music/Red Hot Chili Peppers/Californication (1999)/02. Parallel Universe.mp3"
-          },
-          {
-            "title": "03. Scar Tissue",
-            "file": "music/Red Hot Chili Peppers/Californication (1999)/03. Scar Tissue.mp3"
-          },
-          {
-            "title": "04. Otherside",
-            "file": "music/Red Hot Chili Peppers/Californication (1999)/04. Otherside.mp3"
-          },
-          {
-            "title": "05. Get on Top",
-            "file": "music/Red Hot Chili Peppers/Californication (1999)/05. Get on Top.mp3"
-          },
-          {
-            "title": "06. Californication",
-            "file": "music/Red Hot Chili Peppers/Californication (1999)/06. Californication.mp3"
-          },
-          {
-            "title": "07. Easily",
-            "file": "music/Red Hot Chili Peppers/Californication (1999)/07. Easily.mp3"
-          },
-          {
-            "title": "08. Porcelain",
-            "file": "music/Red Hot Chili Peppers/Californication (1999)/08. Porcelain.mp3"
-          },
-          {
-            "title": "09. Emit Remmus",
-            "file": "music/Red Hot Chili Peppers/Californication (1999)/09. Emit Remmus.mp3"
-          },
-          {
-            "title": "10. I Like Dirt",
-            "file": "music/Red Hot Chili Peppers/Californication (1999)/10. I Like Dirt.mp3"
-          },
-          {
-            "title": "11. This Velvet Glove",
-            "file": "music/Red Hot Chili Peppers/Californication (1999)/11. This Velvet Glove.mp3"
-          },
-          {
-            "title": "12. Savior",
-            "file": "music/Red Hot Chili Peppers/Californication (1999)/12. Savior.mp3"
-          },
-          {
-            "title": "13. Purple Stain",
-            "file": "music/Red Hot Chili Peppers/Californication (1999)/13. Purple Stain.mp3"
-          },
-          {
-            "title": "14. Right on Time",
-            "file": "music/Red Hot Chili Peppers/Californication (1999)/14. Right on Time.mp3"
-          },
-          {
-            "title": "15. Road Trippin'",
-            "file": "music/Red Hot Chili Peppers/Californication (1999)/15. Road Trippin'.mp3"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "artist": "Slipknot",
     "albums": [
       {
         "title": "All Hope Is Gone (2008)",
         "year": 2008,
-        "cover": "music/default.png",
+        "cover": "music/Slipknot/All Hope Is Gone (2008)/cover.png",
         "tracks": [
           {
             "title": "01. .execute.",
@@ -1602,100 +1576,9 @@
         ]
       },
       {
-        "title": "Slipknot (10th Anniversary Edition) (2009)",
-        "year": 2009,
-        "cover": "music/default.png",
-        "tracks": [
-          {
-            "title": "02. (sic)",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/02. (sic).mp3"
-          },
-          {
-            "title": "03. Eyeless",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/03. Eyeless.mp3"
-          },
-          {
-            "title": "04. Wait and Bleed",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/04. Wait and Bleed.mp3"
-          },
-          {
-            "title": "05. Surfacing",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/05. Surfacing.mp3"
-          },
-          {
-            "title": "06. Spit It Out",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/06. Spit It Out.mp3"
-          },
-          {
-            "title": "07. Tattered & Torn",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/07. Tattered & Torn.mp3"
-          },
-          {
-            "title": "08. Purity",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/08. Purity.mp3"
-          },
-          {
-            "title": "09. Liberate",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/09. Liberate.mp3"
-          },
-          {
-            "title": "10. Prosthetics",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/10. Prosthetics.mp3"
-          },
-          {
-            "title": "13. Only One",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/13. Only One.mp3"
-          },
-          {
-            "title": "14. Scissors",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/14. Scissors.mp3"
-          },
-          {
-            "title": "16. Me Inside",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/16. Me Inside.mp3"
-          },
-          {
-            "title": "17. Get This",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/17. Get This.mp3"
-          },
-          {
-            "title": "18. Spit It Out - Hyper Version",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/18. Spit It Out - Hyper Version.mp3"
-          },
-          {
-            "title": "19. Spit It Out - Stamp You out Mix",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/19. Spit It Out - Stamp You out Mix.mp3"
-          },
-          {
-            "title": "20. (sic) - Molt-Injected Mix",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/20. (sic) - Molt-Injected Mix.mp3"
-          },
-          {
-            "title": "21. Wait and Bleed - Terry Date Mix",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/21. Wait and Bleed - Terry Date Mix.mp3"
-          },
-          {
-            "title": "22. Wait and Bleed - Demo",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/22. Wait and Bleed - Demo.mp3"
-          },
-          {
-            "title": "23. Snap - Demo",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/23. Snap - Demo.mp3"
-          },
-          {
-            "title": "24. Interloper - Demo",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/24. Interloper - Demo.mp3"
-          },
-          {
-            "title": "25. Despise - Demo",
-            "file": "music/Slipknot/Slipknot (10th Anniversary Edition) (2009)/25. Despise - Demo.mp3"
-          }
-        ]
-      },
-      {
         "title": "Slipknot (1999)",
         "year": 1999,
-        "cover": "music/default.png",
+        "cover": "music/Slipknot/Slipknot (1999)/cover.png",
         "tracks": [
           {
             "title": "01. 742617000027",
@@ -1758,7 +1641,7 @@
       {
         "title": "Vol. 3- The Subliminal Verses (Special Edition) (2004)",
         "year": 2004,
-        "cover": "music/default.png",
+        "cover": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/cover.png",
         "tracks": [
           {
             "title": "01. Prelude 3.0",
@@ -1849,7 +1732,7 @@
       {
         "title": "We Are Not Your Kind (2019)",
         "year": 2019,
-        "cover": "music/default.png",
+        "cover": "music/Slipknot/We Are Not Your Kind (2019)/cover.png",
         "tracks": [
           {
             "title": "01. Insert Coin",
@@ -1912,12 +1795,225 @@
     ]
   },
   {
+    "artist": "System Of A Down",
+    "albums": [
+      {
+        "title": "Hypnotize (2005)",
+        "year": 2005,
+        "cover": "music/System Of A Down/Hypnotize (2005)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Attack",
+            "file": "music/System Of A Down/Hypnotize (2005)/01. Attack.mp3"
+          },
+          {
+            "title": "02. Dreaming",
+            "file": "music/System Of A Down/Hypnotize (2005)/02. Dreaming.mp3"
+          },
+          {
+            "title": "04. Hypnotize",
+            "file": "music/System Of A Down/Hypnotize (2005)/04. Hypnotize.mp3"
+          },
+          {
+            "title": "05. Stealing Society",
+            "file": "music/System Of A Down/Hypnotize (2005)/05. Stealing Society.mp3"
+          },
+          {
+            "title": "06. Tentative",
+            "file": "music/System Of A Down/Hypnotize (2005)/06. Tentative.mp3"
+          },
+          {
+            "title": "07. U-Fig",
+            "file": "music/System Of A Down/Hypnotize (2005)/07. U-Fig.mp3"
+          },
+          {
+            "title": "08. Holy Mountains",
+            "file": "music/System Of A Down/Hypnotize (2005)/08. Holy Mountains.mp3"
+          },
+          {
+            "title": "09. Vicinity Of Obscenity",
+            "file": "music/System Of A Down/Hypnotize (2005)/09. Vicinity Of Obscenity.mp3"
+          },
+          {
+            "title": "10. She's Like Heroin",
+            "file": "music/System Of A Down/Hypnotize (2005)/10. She's Like Heroin.mp3"
+          },
+          {
+            "title": "12. Soldier Side",
+            "file": "music/System Of A Down/Hypnotize (2005)/12. Soldier Side.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Mezmerize (2005)",
+        "year": 2005,
+        "cover": "music/System Of A Down/Mezmerize (2005)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Soldier Side - Intro",
+            "file": "music/System Of A Down/Mezmerize (2005)/01. Soldier Side - Intro.mp3"
+          },
+          {
+            "title": "02. B.Y.O.B.",
+            "file": "music/System Of A Down/Mezmerize (2005)/02. B.Y.O.B..mp3"
+          },
+          {
+            "title": "03. Revenga",
+            "file": "music/System Of A Down/Mezmerize (2005)/03. Revenga.mp3"
+          },
+          {
+            "title": "04. Cigaro",
+            "file": "music/System Of A Down/Mezmerize (2005)/04. Cigaro.mp3"
+          },
+          {
+            "title": "05. RadioVideo",
+            "file": "music/System Of A Down/Mezmerize (2005)/05. RadioVideo.mp3"
+          },
+          {
+            "title": "06. This Cocaine Makes Me Feel Like I'm On This Song",
+            "file": "music/System Of A Down/Mezmerize (2005)/06. This Cocaine Makes Me Feel Like I'm On This Song.mp3"
+          },
+          {
+            "title": "08. Question!",
+            "file": "music/System Of A Down/Mezmerize (2005)/08. Question!.mp3"
+          },
+          {
+            "title": "11. Lost In Hollywood",
+            "file": "music/System Of A Down/Mezmerize (2005)/11. Lost In Hollywood.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Steal This Album! (2002)",
+        "year": 2002,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Chic 'N' Stu",
+            "file": "music/System Of A Down/Steal This Album! (2002)/01. Chic 'N' Stu.mp3"
+          },
+          {
+            "title": "02. Innervision",
+            "file": "music/System Of A Down/Steal This Album! (2002)/02. Innervision.mp3"
+          },
+          {
+            "title": "03. Bubbles",
+            "file": "music/System Of A Down/Steal This Album! (2002)/03. Bubbles.mp3"
+          },
+          {
+            "title": "04. Boom!",
+            "file": "music/System Of A Down/Steal This Album! (2002)/04. Boom!.mp3"
+          },
+          {
+            "title": "05. Nüguns",
+            "file": "music/System Of A Down/Steal This Album! (2002)/05. Nüguns.mp3"
+          },
+          {
+            "title": "07. Mr. Jack",
+            "file": "music/System Of A Down/Steal This Album! (2002)/07. Mr. Jack.mp3"
+          },
+          {
+            "title": "08. I-E-A-I-A-I-O",
+            "file": "music/System Of A Down/Steal This Album! (2002)/08. I-E-A-I-A-I-O.mp3"
+          },
+          {
+            "title": "09. 36",
+            "file": "music/System Of A Down/Steal This Album! (2002)/09. 36.mp3"
+          },
+          {
+            "title": "10. Pictures",
+            "file": "music/System Of A Down/Steal This Album! (2002)/10. Pictures.mp3"
+          },
+          {
+            "title": "11. Highway Song",
+            "file": "music/System Of A Down/Steal This Album! (2002)/11. Highway Song.mp3"
+          },
+          {
+            "title": "12. Fuck the System",
+            "file": "music/System Of A Down/Steal This Album! (2002)/12. Fuck the System.mp3"
+          },
+          {
+            "title": "13. Ego Brain",
+            "file": "music/System Of A Down/Steal This Album! (2002)/13. Ego Brain.mp3"
+          },
+          {
+            "title": "14. Thetawaves",
+            "file": "music/System Of A Down/Steal This Album! (2002)/14. Thetawaves.mp3"
+          },
+          {
+            "title": "15. Roulette",
+            "file": "music/System Of A Down/Steal This Album! (2002)/15. Roulette.mp3"
+          },
+          {
+            "title": "16. Streamline",
+            "file": "music/System Of A Down/Steal This Album! (2002)/16. Streamline.mp3"
+          }
+        ]
+      },
+      {
+        "title": "System Of A Down (1998)",
+        "year": 1998,
+        "cover": "music/System Of A Down/System Of A Down (1998)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Suite-Pee",
+            "file": "music/System Of A Down/System Of A Down (1998)/01. Suite-Pee.mp3"
+          },
+          {
+            "title": "03. Sugar",
+            "file": "music/System Of A Down/System Of A Down (1998)/03. Sugar.mp3"
+          },
+          {
+            "title": "04. Suggestions",
+            "file": "music/System Of A Down/System Of A Down (1998)/04. Suggestions.mp3"
+          },
+          {
+            "title": "05. Spiders",
+            "file": "music/System Of A Down/System Of A Down (1998)/05. Spiders.mp3"
+          },
+          {
+            "title": "06. DDevil",
+            "file": "music/System Of A Down/System Of A Down (1998)/06. DDevil.mp3"
+          },
+          {
+            "title": "07. Soil",
+            "file": "music/System Of A Down/System Of A Down (1998)/07. Soil.mp3"
+          },
+          {
+            "title": "08. War",
+            "file": "music/System Of A Down/System Of A Down (1998)/08. War.mp3"
+          },
+          {
+            "title": "09. Mind",
+            "file": "music/System Of A Down/System Of A Down (1998)/09. Mind.mp3"
+          },
+          {
+            "title": "10. Peephole",
+            "file": "music/System Of A Down/System Of A Down (1998)/10. Peephole.mp3"
+          },
+          {
+            "title": "11. CUBErt",
+            "file": "music/System Of A Down/System Of A Down (1998)/11. CUBErt.mp3"
+          },
+          {
+            "title": "12. Darts",
+            "file": "music/System Of A Down/System Of A Down (1998)/12. Darts.mp3"
+          },
+          {
+            "title": "13. P.L.U.C.K.",
+            "file": "music/System Of A Down/System Of A Down (1998)/13. P.L.U.C.K..mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "artist": "The Smiths",
     "albums": [
       {
         "title": "Hatful of Hollow (1984)",
         "year": 1984,
-        "cover": "music/default.png",
+        "cover": "music/The Smiths/Hatful of Hollow (1984)/cover.png",
         "tracks": [
           {
             "title": "01. William, It Was Really Nothing - 2011 Remaster",
@@ -1964,12 +2060,102 @@
             "file": "music/The Smiths/Hatful of Hollow (1984)/11. You've Got Everything Now - David Jensen Session 260683.mp3"
           },
           {
+            "title": "12. Accept Yourself - David Jensen Session 250883",
+            "file": "music/The Smiths/Hatful of Hollow (1984)/12. Accept Yourself - David Jensen Session 250883.mp3"
+          },
+          {
             "title": "14. Back to the Old House - John Peel Session 140983",
             "file": "music/The Smiths/Hatful of Hollow (1984)/14. Back to the Old House - John Peel Session 140983.mp3"
           },
           {
+            "title": "15. Reel Around the Fountain - John Peel Session 180583",
+            "file": "music/The Smiths/Hatful of Hollow (1984)/15. Reel Around the Fountain - John Peel Session 180583.mp3"
+          },
+          {
             "title": "16. Please, Please, Please, Let Me Get What I Want - 2011 Remaster",
             "file": "music/The Smiths/Hatful of Hollow (1984)/16. Please, Please, Please, Let Me Get What I Want - 2011 Remaster.mp3"
+          }
+        ]
+      },
+      {
+        "title": "The Queen Is Dead (1986)",
+        "year": 1986,
+        "cover": "music/The Smiths/The Queen Is Dead (1986)/cover.png",
+        "tracks": [
+          {
+            "title": "03. I Know It's Over - 2011 Remaster",
+            "file": "music/The Smiths/The Queen Is Dead (1986)/03. I Know It's Over - 2011 Remaster.mp3"
+          },
+          {
+            "title": "04. Never Had No One Ever - 2011 Remaster",
+            "file": "music/The Smiths/The Queen Is Dead (1986)/04. Never Had No One Ever - 2011 Remaster.mp3"
+          },
+          {
+            "title": "05. Cemetry Gates - 2011 Remaster",
+            "file": "music/The Smiths/The Queen Is Dead (1986)/05. Cemetry Gates - 2011 Remaster.mp3"
+          },
+          {
+            "title": "06. Bigmouth Strikes Again - 2011 Remaster",
+            "file": "music/The Smiths/The Queen Is Dead (1986)/06. Bigmouth Strikes Again - 2011 Remaster.mp3"
+          },
+          {
+            "title": "07. The Boy with the Thorn in His Side - 2011 Remaster",
+            "file": "music/The Smiths/The Queen Is Dead (1986)/07. The Boy with the Thorn in His Side - 2011 Remaster.mp3"
+          },
+          {
+            "title": "08. Vicar in a Tutu - 2011 Remaster",
+            "file": "music/The Smiths/The Queen Is Dead (1986)/08. Vicar in a Tutu - 2011 Remaster.mp3"
+          },
+          {
+            "title": "09. There Is a Light That Never Goes Out - 2011 Remaster",
+            "file": "music/The Smiths/The Queen Is Dead (1986)/09. There Is a Light That Never Goes Out - 2011 Remaster.mp3"
+          },
+          {
+            "title": "10. Some Girls Are Bigger Than Others - 2011 Remaster",
+            "file": "music/The Smiths/The Queen Is Dead (1986)/10. Some Girls Are Bigger Than Others - 2011 Remaster.mp3"
+          }
+        ]
+      },
+      {
+        "title": "The Smiths (1984)",
+        "year": 1984,
+        "cover": "music/The Smiths/The Smiths (1984)/cover.jpg",
+        "tracks": [
+          {
+            "title": "01. Reel Around the Fountain - 2011 Remaster",
+            "file": "music/The Smiths/The Smiths (1984)/01. Reel Around the Fountain - 2011 Remaster.mp3"
+          },
+          {
+            "title": "02. You've Got Everything Now - 2011 Remaster",
+            "file": "music/The Smiths/The Smiths (1984)/02. You've Got Everything Now - 2011 Remaster.mp3"
+          },
+          {
+            "title": "03. Miserable Lie - 2011 Remaster",
+            "file": "music/The Smiths/The Smiths (1984)/03. Miserable Lie - 2011 Remaster.mp3"
+          },
+          {
+            "title": "05. The Hand That Rocks the Cradle - 2011 Remaster",
+            "file": "music/The Smiths/The Smiths (1984)/05. The Hand That Rocks the Cradle - 2011 Remaster.mp3"
+          },
+          {
+            "title": "06. This Charming Man - 2011 Remaster",
+            "file": "music/The Smiths/The Smiths (1984)/06. This Charming Man - 2011 Remaster.mp3"
+          },
+          {
+            "title": "07. Still Ill - 2011 Remaster",
+            "file": "music/The Smiths/The Smiths (1984)/07. Still Ill - 2011 Remaster.mp3"
+          },
+          {
+            "title": "08. Hand in Glove - 2011 Remaster",
+            "file": "music/The Smiths/The Smiths (1984)/08. Hand in Glove - 2011 Remaster.mp3"
+          },
+          {
+            "title": "09. What Difference Does It Make - 2011 Remaster",
+            "file": "music/The Smiths/The Smiths (1984)/09. What Difference Does It Make - 2011 Remaster.mp3"
+          },
+          {
+            "title": "11. Suffer Little Children - 2011 Remaster",
+            "file": "music/The Smiths/The Smiths (1984)/11. Suffer Little Children - 2011 Remaster.mp3"
           }
         ]
       }
