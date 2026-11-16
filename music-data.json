@@ -719,6 +719,210 @@
     "artist": "Muse",
     "albums": [
       {
+        "title": "Absolution (2003)",
+        "year": 2003,
+        "cover": "music/Muse/Absolution (2003)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Intro",
+            "file": "music/Muse/Absolution (2003)/01. Intro.mp3"
+          },
+          {
+            "title": "02. Apocalypse Please",
+            "file": "music/Muse/Absolution (2003)/02. Apocalypse Please.mp3"
+          },
+          {
+            "title": "03. Time is Running Out",
+            "file": "music/Muse/Absolution (2003)/03. Time is Running Out.mp3"
+          },
+          {
+            "title": "04. Sing for Absolution",
+            "file": "music/Muse/Absolution (2003)/04. Sing for Absolution.mp3"
+          },
+          {
+            "title": "05. Stockholm Syndrome",
+            "file": "music/Muse/Absolution (2003)/05. Stockholm Syndrome.mp3"
+          },
+          {
+            "title": "07. Interlude",
+            "file": "music/Muse/Absolution (2003)/07. Interlude.mp3"
+          },
+          {
+            "title": "08. Hysteria",
+            "file": "music/Muse/Absolution (2003)/08. Hysteria.mp3"
+          },
+          {
+            "title": "09. Blackout",
+            "file": "music/Muse/Absolution (2003)/09. Blackout.mp3"
+          },
+          {
+            "title": "11. The Small Print",
+            "file": "music/Muse/Absolution (2003)/11. The Small Print.mp3"
+          },
+          {
+            "title": "12. Fury",
+            "file": "music/Muse/Absolution (2003)/12. Fury.mp3"
+          },
+          {
+            "title": "13. Endlessly",
+            "file": "music/Muse/Absolution (2003)/13. Endlessly.mp3"
+          },
+          {
+            "title": "14. Thoughts of a Dying Atheist",
+            "file": "music/Muse/Absolution (2003)/14. Thoughts of a Dying Atheist.mp3"
+          },
+          {
+            "title": "15. Ruled by Secrecy",
+            "file": "music/Muse/Absolution (2003)/15. Ruled by Secrecy.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Black Holes and Revelations (2006)",
+        "year": 2006,
+        "cover": "music/Muse/Black Holes and Revelations (2006)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Take a Bow",
+            "file": "music/Muse/Black Holes and Revelations (2006)/01. Take a Bow.mp3"
+          },
+          {
+            "title": "03. Supermassive Black Hole",
+            "file": "music/Muse/Black Holes and Revelations (2006)/03. Supermassive Black Hole.mp3"
+          },
+          {
+            "title": "04. Map of the Problematique",
+            "file": "music/Muse/Black Holes and Revelations (2006)/04. Map of the Problematique.mp3"
+          },
+          {
+            "title": "05. Soldier's Poem",
+            "file": "music/Muse/Black Holes and Revelations (2006)/05. Soldier's Poem.mp3"
+          },
+          {
+            "title": "06. Invincible",
+            "file": "music/Muse/Black Holes and Revelations (2006)/06. Invincible.mp3"
+          },
+          {
+            "title": "07. Assassin",
+            "file": "music/Muse/Black Holes and Revelations (2006)/07. Assassin.mp3"
+          },
+          {
+            "title": "08. Exo-Politics",
+            "file": "music/Muse/Black Holes and Revelations (2006)/08. Exo-Politics.mp3"
+          },
+          {
+            "title": "09. City of Delusion",
+            "file": "music/Muse/Black Holes and Revelations (2006)/09. City of Delusion.mp3"
+          },
+          {
+            "title": "10. Hoodoo",
+            "file": "music/Muse/Black Holes and Revelations (2006)/10. Hoodoo.mp3"
+          },
+          {
+            "title": "11. Knights of Cydonia",
+            "file": "music/Muse/Black Holes and Revelations (2006)/11. Knights of Cydonia.mp3"
+          },
+          {
+            "title": "12. Glorious",
+            "file": "music/Muse/Black Holes and Revelations (2006)/12. Glorious.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Origin of Symmetry (2001)",
+        "year": 2001,
+        "cover": "music/Muse/Origin of Symmetry (2001)/cover.png",
+        "tracks": [
+          {
+            "title": "01. New Born",
+            "file": "music/Muse/Origin of Symmetry (2001)/01. New Born.mp3"
+          },
+          {
+            "title": "03. Space Dementia",
+            "file": "music/Muse/Origin of Symmetry (2001)/03. Space Dementia.mp3"
+          },
+          {
+            "title": "04. Hyper Music",
+            "file": "music/Muse/Origin of Symmetry (2001)/04. Hyper Music.mp3"
+          },
+          {
+            "title": "05. Plug in Baby",
+            "file": "music/Muse/Origin of Symmetry (2001)/05. Plug in Baby.mp3"
+          },
+          {
+            "title": "06. Citizen Erased",
+            "file": "music/Muse/Origin of Symmetry (2001)/06. Citizen Erased.mp3"
+          },
+          {
+            "title": "08. Screenager",
+            "file": "music/Muse/Origin of Symmetry (2001)/08. Screenager.mp3"
+          },
+          {
+            "title": "09. Darkshines",
+            "file": "music/Muse/Origin of Symmetry (2001)/09. Darkshines.mp3"
+          },
+          {
+            "title": "10. Feeling Good",
+            "file": "music/Muse/Origin of Symmetry (2001)/10. Feeling Good.mp3"
+          },
+          {
+            "title": "12. Futurism",
+            "file": "music/Muse/Origin of Symmetry (2001)/12. Futurism.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Showbiz (1999)",
+        "year": 1999,
+        "cover": "music/Muse/Showbiz (1999)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Sunburn",
+            "file": "music/Muse/Showbiz (1999)/01. Sunburn.mp3"
+          },
+          {
+            "title": "03. Fillip",
+            "file": "music/Muse/Showbiz (1999)/03. Fillip.mp3"
+          },
+          {
+            "title": "05. Cave",
+            "file": "music/Muse/Showbiz (1999)/05. Cave.mp3"
+          },
+          {
+            "title": "06. Showbiz",
+            "file": "music/Muse/Showbiz (1999)/06. Showbiz.mp3"
+          },
+          {
+            "title": "07. Unintended",
+            "file": "music/Muse/Showbiz (1999)/07. Unintended.mp3"
+          },
+          {
+            "title": "08. Uno",
+            "file": "music/Muse/Showbiz (1999)/08. Uno.mp3"
+          },
+          {
+            "title": "09. Sober",
+            "file": "music/Muse/Showbiz (1999)/09. Sober.mp3"
+          },
+          {
+            "title": "10. Escape",
+            "file": "music/Muse/Showbiz (1999)/10. Escape.mp3"
+          },
+          {
+            "title": "11. Overdue",
+            "file": "music/Muse/Showbiz (1999)/11. Overdue.mp3"
+          },
+          {
+            "title": "12. Hate This and I'll Love You",
+            "file": "music/Muse/Showbiz (1999)/12. Hate This and I'll Love You.mp3"
+          },
+          {
+            "title": "13. Spiral Static",
+            "file": "music/Muse/Showbiz (1999)/13. Spiral Static.mp3"
+          }
+        ]
+      },
+      {
         "title": "The 2nd Law (2012)",
         "year": 2012,
         "cover": "music/Muse/The 2nd Law (2012)/cover.png",
@@ -1289,6 +1493,78 @@
     ]
   },
   {
+    "artist": "Queens of the Stone Age",
+    "albums": [
+      {
+        "title": "Songs For The Deaf (2002)",
+        "year": 2002,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. You Think I Ain't Worth A Dollar, But I Feel Like A Millionaire - Album Version (With Interlude)",
+            "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/01. You Think I Ain't Worth A Dollar, But I Feel Like A Millionaire - Album Version (With Interlude).mp3"
+          },
+          {
+            "title": "02. No One Knows",
+            "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/02. No One Knows.mp3"
+          },
+          {
+            "title": "03. First It Giveth",
+            "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/03. First It Giveth.mp3"
+          },
+          {
+            "title": "04. Song For The Dead",
+            "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/04. Song For The Dead.mp3"
+          },
+          {
+            "title": "05. The Sky Is Fallin'",
+            "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/05. The Sky Is Fallin'.mp3"
+          },
+          {
+            "title": "07. Hanging Tree",
+            "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/07. Hanging Tree.mp3"
+          },
+          {
+            "title": "08. Go With The Flow",
+            "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/08. Go With The Flow.mp3"
+          },
+          {
+            "title": "09. Gonna Leave You",
+            "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/09. Gonna Leave You.mp3"
+          },
+          {
+            "title": "10. Do It Again",
+            "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/10. Do It Again.mp3"
+          },
+          {
+            "title": "11. God Is In The Radio",
+            "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/11. God Is In The Radio.mp3"
+          },
+          {
+            "title": "12. Another Love Song",
+            "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/12. Another Love Song.mp3"
+          },
+          {
+            "title": "13. Song For The Deaf",
+            "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/13. Song For The Deaf.mp3"
+          },
+          {
+            "title": "14. Mosquito Song",
+            "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/14. Mosquito Song.mp3"
+          },
+          {
+            "title": "15. The Lost Art Of Keeping A Secret - Live at the Troubadour Version",
+            "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/15. The Lost Art Of Keeping A Secret - Live at the Troubadour Version.mp3"
+          },
+          {
+            "title": "16. Everybody's Gonna Be Happy - Non-LP Version",
+            "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/16. Everybody's Gonna Be Happy - Non-LP Version.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "artist": "Radiohead",
     "albums": [
       {
@@ -1839,6 +2115,10 @@
             "file": "music/System Of A Down/Hypnotize (2005)/10. She's Like Heroin.mp3"
           },
           {
+            "title": "11. Lonely Day",
+            "file": "music/System Of A Down/Hypnotize (2005)/11. Lonely Day.mp3"
+          },
+          {
             "title": "12. Soldier Side",
             "file": "music/System Of A Down/Hypnotize (2005)/12. Soldier Side.mp3"
           }
@@ -1886,7 +2166,7 @@
       {
         "title": "Steal This Album! (2002)",
         "year": 2002,
-        "cover": "music/default.png",
+        "cover": "music/System Of A Down/Steal This Album! (2002)/cover.png",
         "tracks": [
           {
             "title": "01. Chic 'N' Stu",
@@ -2002,6 +2282,61 @@
           {
             "title": "13. P.L.U.C.K.",
             "file": "music/System Of A Down/System Of A Down (1998)/13. P.L.U.C.K..mp3"
+          }
+        ]
+      },
+      {
+        "title": "Toxicity (2001)",
+        "year": 2001,
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Prison Song",
+            "file": "music/System Of A Down/Toxicity (2001)/01. Prison Song.mp3"
+          },
+          {
+            "title": "03. Deer Dance",
+            "file": "music/System Of A Down/Toxicity (2001)/03. Deer Dance.mp3"
+          },
+          {
+            "title": "04. Jet Pilot",
+            "file": "music/System Of A Down/Toxicity (2001)/04. Jet Pilot.mp3"
+          },
+          {
+            "title": "05. X",
+            "file": "music/System Of A Down/Toxicity (2001)/05. X.mp3"
+          },
+          {
+            "title": "06. Chop Suey!",
+            "file": "music/System Of A Down/Toxicity (2001)/06. Chop Suey!.mp3"
+          },
+          {
+            "title": "07. Bounce",
+            "file": "music/System Of A Down/Toxicity (2001)/07. Bounce.mp3"
+          },
+          {
+            "title": "10. Science",
+            "file": "music/System Of A Down/Toxicity (2001)/10. Science.mp3"
+          },
+          {
+            "title": "11. Shimmy",
+            "file": "music/System Of A Down/Toxicity (2001)/11. Shimmy.mp3"
+          },
+          {
+            "title": "12. Toxicity",
+            "file": "music/System Of A Down/Toxicity (2001)/12. Toxicity.mp3"
+          },
+          {
+            "title": "13. Psycho",
+            "file": "music/System Of A Down/Toxicity (2001)/13. Psycho.mp3"
+          },
+          {
+            "title": "14. Aerials",
+            "file": "music/System Of A Down/Toxicity (2001)/14. Aerials.mp3"
+          },
+          {
+            "title": "15. Der Voghormia",
+            "file": "music/System Of A Down/Toxicity (2001)/15. Der Voghormia.mp3"
           }
         ]
       }
