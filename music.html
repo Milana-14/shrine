@@ -93,11 +93,12 @@
                         return numA - numB;
                     });
 
+                    // LAZY LOAD: Убираем src, заменяем на data-src. Длительность пока --:--
                     let tracksHtml = sortedTracks.map(track => `
                         <div class="track-row">
                             <span class="track-title" title="${track.title}">${track.title}</span>
                             <div class="custom-player-wrapper">
-                                <audio src="${track.file}" preload="metadata"></audio>
+                                <audio data-src="${track.file}" preload="none"></audio>
                                 <button class="retro-play-btn" onclick="togglePlay(this)">▶</button>
                                 <div class="player-controls-box">
                                     <input type="range" class="retro-slider" value="0" max="100" step="0.1" oninput="seekAudio(this)" onchange="seekAudio(this)">
@@ -149,18 +150,6 @@
                 container.appendChild(artistSection);
             });
 
-            setTimeout(() => {
-                document.querySelectorAll('.track-row').forEach(row => {
-                    const audio = row.querySelector('audio');
-                    const timeDisplay = row.querySelector('.retro-time');
-                    if (audio) {
-                        audio.onloadedmetadata = () => {
-                            timeDisplay.textContent = `00:00 / ${formatTime(audio.duration)}`;
-                        };
-                    }
-                });
-            }, 500);
-
         } else {
             globalMusicData.forEach(artistObj => {
                 let artistSection = document.createElement('div');
@@ -207,6 +196,12 @@
         const albumCard = btn.closest('.album-card');
         const disk = albumCard ? albumCard.querySelector('.rolling-disk') : null;
 
+        // ЛЕНИВАЯ ЗАГРУЗКА: подгружаем src только при первом нажатии Play
+        if (!audio.getAttribute('src') && audio.getAttribute('data-src')) {
+            audio.setAttribute('src', audio.getAttribute('data-src'));
+            audio.load(); // Инициализируем загрузку метаданных файла
+        }
+
         document.querySelectorAll('audio').forEach(a => {
             if (a !== audio) {
                 a.pause();
@@ -235,6 +230,11 @@
             if (disk) disk.classList.remove('spinning');
         }
 
+        // Как только аудио начнет воспроизводиться или загрузится мета-информация, обновим общую длительность
+        audio.onloadedmetadata = () => {
+            timeDisplay.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+        };
+
         audio.ontimeupdate = () => {
             if (audio.duration) {
                 let progress = (audio.currentTime / audio.duration) * 100;
@@ -246,7 +246,9 @@
         audio.onended = () => {
             btn.textContent = '▶';
             slider.value = 0;
-            timeDisplay.textContent = `00:00 / ${formatTime(audio.duration)}`;
+            if (audio.duration) {
+                timeDisplay.textContent = `00:00 / ${formatTime(audio.duration)}`;
+            }
             if (disk) disk.classList.remove('spinning');
         };
     }
@@ -255,6 +257,13 @@
         const row = slider.closest('.track-row');
         const audio = row.querySelector('audio');
         const timeDisplay = row.querySelector('.retro-time');
+
+        // Если трек еще не загружался, но пользователь дернул ползунок — подгрузим его
+        if (!audio.getAttribute('src') && audio.getAttribute('data-src')) {
+            audio.setAttribute('src', audio.getAttribute('data-src'));
+            audio.load();
+        }
+
         if (audio.duration) {
             let seekTime = (slider.value / 100) * audio.duration;
             audio.currentTime = seekTime;
