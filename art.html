@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>♡ Mila's Art Gallery ♡</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-wrapper">
+
+    <header class="site-header">
+        <h1>❤︎ Graphite Portraits ♡</h1>
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+            <a href="index.html" style="color: #00eaff;"><-- Main page</a>
+            <a href="music.html" style="color: #ff4d9d;">★ Music Collection</a>
+        </div>
+    </header>
+
+    <main class="main-content" style="padding: 20px;">
+        <div class="art-grid" id="art-container">
+            <p style="color: #888;">Loading art...</p>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>16.11.2026 | Made by me (Mila) bc I was rly bored</p>
+    </footer>
+
+</div>
+
+<div id="artModal" class="modal" onclick="closeModal()">
+    <button class="modal-close">&times;</button>
+    <img id="modalImg" src="" alt="Zoomed Art">
+</div>
+
+<script>
+    fetch('art-data.json')
+        .then(response => response.json())
+        .then(data => {
+            const container = document.getElementById('art-container');
+            container.innerHTML = '';
+
+            data.forEach(art => {
+                let card = document.createElement('div');
+                card.className = 'art-card';
+                card.innerHTML = `
+    <div class="art-image-wrapper">
+        <img src="${art.image}" alt="${art.title}" class="art-image" onclick="openModal('${art.image}')">
+    </div>
+    <h3 class="art-title">${art.title} ${art.year ? `(${art.year})` : ''}</h3>
+    <p class="art-desc">${art.materials || ''}</p>
+`;
+                container.appendChild(card);
+            });
+        })
+        .catch(error => {
+            document.getElementById('art-container').innerHTML = `
+                <div class="art-card">
+                    <img src="art/sample.jpg" alt="Sample Portrait" class="art-image" onclick="openModal('art/sample.jpg')">
+                    <h3 class="art-title">Some portrait)</h3>
+                    <p class="art-desc">Graphic pen</p>
+                </div>
+            `;
+        });
+
+    function openModal(src) {
+        const modal = document.getElementById('artModal');
+        const modalImg = document.getElementById('modalImg');
+        modal.style.display = 'flex';
+        modalImg.src = src;
+    }
+
+    function closeModal() {
+        document.getElementById('artModal').style.display = 'none';
+    }
+</script>
+
+</body>
+</html>

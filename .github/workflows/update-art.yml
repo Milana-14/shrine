@@ -1,0 +1,91 @@
+﻿name: Auto Update Art Gallery
+
+on:
+  push:
+    paths:
+      - 'art/**'
+
+jobs:
+  update-art-json:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate art JSON from folders
+        run: |
+          node -e '
+          const fs = require("fs");
+          const path = require("path");
+
+          const artRootDir = path.join(".", "art");
+          const artList = [];
+
+          if (fs.existsSync(artRootDir)) {
+              const entries = fs.readdirSync(artRootDir, { withFileTypes: true });
+
+              for (const entry of entries) {
+                  if (!entry.isDirectory()) continue;
+
+                  const folderName = entry.name;
+                  const folderPath = path.join(artRootDir, folderName);
+                  const files = fs.readdirSync(folderPath, { withFileTypes: true });
+
+                  let image = null;
+                  const possibleImages = ["cover.jpg", "cover.png", "portrait.jpg", "portrait.png", "art.jpg"];
+          
+                  for (const imgName of possibleImages) {
+                      const imgPath = path.join(folderPath, imgName);
+                      if (fs.existsSync(imgPath)) {
+                          image = path.relative(".", imgPath).replace(/\\/g, "/");
+                          break;
+                      }
+                  }
+
+                  // Если точного имени нет, берем первый попавшийся jpg/png
+                  if (!image) {
+                      const firstFile = files.find(f => f.isFile() && /\.(jpg|jpeg|png)$/i.test(f.name));
+                      if (firstFile) {
+                          image = path.relative(".", path.join(folderPath, firstFile.name)).replace(/\\/g, "/");
+                      }
+                  }
+
+                  if (!image) continue;
+
+                  // Читаем материалы из description.txt, если он есть
+                  let materials = "Графитный карандаш";
+                  const descPath = path.join(folderPath, "description.txt");
+                  if (fs.existsSync(descPath)) {
+                      materials = fs.readFileSync(descPath, "utf8").trim();
+                  }
+
+                  // Извлекаем год из названия папки (например, "Портрет (2025)")
+                  const yearMatch = folderName.match(/\b(19|20)\d{2}\b/);
+
+                  artList.push({
+                      title: folderName,
+                      year: yearMatch ? Number(yearMatch[0]) : null,
+                      materials: materials,
+                      image: image
+                  });
+              }
+          }
+
+          fs.writeFileSync("art-data.json", JSON.stringify(artList, null, 2));
+          console.log("art-data.json successfully generated!");
+          '
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add art-data.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update art-data.json [skip ci]" && git push)
