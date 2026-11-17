@@ -1,15 +1,19 @@
-﻿name: Auto Update Art Gallery
+﻿
+name: Auto Update Art Gallery
 
 on:
   push:
     paths:
       - 'art/**'
+      - '.github/workflows/update-art.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-art-json:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout repository
@@ -20,72 +24,105 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Generate art JSON from folders
+      - name: Generate art JSON
         run: |
-          node -e '
-          const fs = require("fs");
-          const path = require("path");
+          node <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
 
-          const artRootDir = path.join(".", "art");
-          const artList = [];
+          const root = process.cwd();
+          const artRoot = path.join(root, 'art');
+          const output = path.join(root, 'art-data.json');
 
-          if (fs.existsSync(artRootDir)) {
-              const entries = fs.readdirSync(artRootDir, { withFileTypes: true });
+          const extensions = ['.jpg', '.jpeg', '.png', '.webp', '.gif'];
+          const preferred = [
+            'cover.jpg', 'cover.jpeg', 'cover.png', 'cover.webp',
+            'portrait.jpg', 'portrait.jpeg', 'portrait.png', 'portrait.webp',
+            'art.jpg', 'art.png', 'drawing.png', 'image.webp'
+          ];
 
-              for (const entry of entries) {
-                  if (!entry.isDirectory()) continue;
-
-                  const folderName = entry.name;
-                  const folderPath = path.join(artRootDir, folderName);
-                  const files = fs.readdirSync(folderPath, { withFileTypes: true });
-
-                  let image = null;
-                  const possibleImages = ["cover.jpg", "cover.png", "portrait.jpg", "portrait.png", "art.jpg"];
-          
-                  for (const imgName of possibleImages) {
-                      const imgPath = path.join(folderPath, imgName);
-                      if (fs.existsSync(imgPath)) {
-                          image = path.relative(".", imgPath).replace(/\\/g, "/");
-                          break;
-                      }
-                  }
-
-                  // Если точного имени нет, берем первый попавшийся jpg/png
-                  if (!image) {
-                      const firstFile = files.find(f => f.isFile() && /\.(jpg|jpeg|png)$/i.test(f.name));
-                      if (firstFile) {
-                          image = path.relative(".", path.join(folderPath, firstFile.name)).replace(/\\/g, "/");
-                      }
-                  }
-
-                  if (!image) continue;
-
-                  // Читаем материалы из description.txt, если он есть
-                  let materials = "Графитный карандаш";
-                  const descPath = path.join(folderPath, "description.txt");
-                  if (fs.existsSync(descPath)) {
-                      materials = fs.readFileSync(descPath, "utf8").trim();
-                  }
-
-                  // Извлекаем год из названия папки (например, "Портрет (2025)")
-                  const yearMatch = folderName.match(/\b(19|20)\d{2}\b/);
-
-                  artList.push({
-                      title: folderName,
-                      year: yearMatch ? Number(yearMatch[0]) : null,
-                      materials: materials,
-                      image: image
-                  });
-              }
+          if (!fs.existsSync(artRoot)) {
+            throw new Error('The art/ directory does not exist!');
           }
 
-          fs.writeFileSync("art-data.json", JSON.stringify(artList, null, 2));
-          console.log("art-data.json successfully generated!");
-          '
+          const artworks = [];
+
+          function scan(dir) {
+            const entries = fs.readdirSync(dir, { withFileTypes: true });
+
+            const images = entries
+              .filter(e => e.isFile() &&
+                extensions.includes(path.extname(e.name).toLowerCase()))
+              .map(e => e.name)
+              .sort((a, b) => a.localeCompare(b));
+
+            if (dir !== artRoot && images.length > 0) {
+              const folderName = path.basename(dir);
+
+              const preferredImage = preferred.find(name =>
+                images.some(img => img.toLowerCase() === name)
+              );
+
+              const imageName = preferredImage || images[0];
+
+              const descriptionPath = path.join(dir, 'description.txt');
+
+              const materials = fs.existsSync(descriptionPath)
+                ? fs.readFileSync(descriptionPath, 'utf8').trim()
+                : 'Graphite pencil';
+
+              const yearMatch = folderName.match(/\b(19|20)\d{2}\b/);
+
+              const imagePath = path.relative(
+                root,
+                path.join(dir, imageName)
+              ).split(path.sep).join('/');
+
+              artworks.push({
+                title: folderName,
+                year: yearMatch ? Number(yearMatch[0]) : null,
+                materials: materials || 'Graphite pencil',
+                image: imagePath
+              });
+
+              console.log('Found artwork:', folderName, '->', imagePath);
+            }
+
+            for (const entry of entries) {
+              if (entry.isDirectory()) {
+                scan(path.join(dir, entry.name));
+              }
+            }
+          }
+
+          scan(artRoot);
+
+          if (artworks.length === 0) {
+            throw new Error(
+              'No artworks found! art-data.json was NOT overwritten.'
+            );
+          }
+
+          artworks.sort((a, b) => a.title.localeCompare(b.title));
+
+          fs.writeFileSync(
+            output,
+            JSON.stringify(artworks, null, 2) + '\n'
+          );
+
+          console.log(`Successfully generated ${artworks.length} artworks!`);
+          NODE
 
       - name: Commit and push if changed
         run: |
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions@github.com"
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
           git add art-data.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update art-data.json [skip ci]" && git push)
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update art-data.json [skip ci]"
+            git push
+          else
+            echo "No changes in art-data.json"
+          fi
