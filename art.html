@@ -41,18 +41,21 @@
             const container = document.getElementById('art-container');
             container.innerHTML = '';
 
-            data.forEach(art => {
-                let card = document.createElement('div');
-                card.className = 'art-card';
-                card.innerHTML = `
-    <div class="art-image-wrapper">
-        <img src="${art.image}" alt="${art.title}" class="art-image" onclick="openModal('${art.image}')">
-    </div>
-    <h3 class="art-title">${art.title} ${art.year ? `(${art.year})` : ''}</h3>
-    <p class="art-desc">${art.materials || ''}</p>
-`;
-                container.appendChild(card);
-            });
+                data.forEach(art => {
+                    let cleanTitle = art.title.replace(/\s*\(\d{4}\)|\s*\b\d{4}\b/g, '').trim();
+                    let yearText = art.year ? `(${art.year})` : '';
+
+                    let card = document.createElement('div');
+                    card.className = 'art-card';
+                    card.innerHTML = `
+                    <div class="art-image-wrapper">
+                        <img src="${art.image}" alt="${cleanTitle}" class="art-image" onclick="openModal('${art.image}')">
+                    </div>
+                    <h3 class="art-title">${cleanTitle} <span class="art-year">${yearText}</span></h3>
+                    <p class="art-desc">${art.materials || ''}</p>
+                `;
+                    container.appendChild(card);
+                });
         })
         .catch(error => {
             document.getElementById('art-container').innerHTML = `
