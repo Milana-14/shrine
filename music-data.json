@@ -513,140 +513,124 @@
     "artist": "Linkin Park",
     "albums": [
       {
-        "title": "Hybrid Theory (Bonus Edition) (2000)",
+        "title": "Hybrid Theory (2000)",
         "year": 2000,
-        "cover": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/cover.png",
+        "cover": "music/Linkin Park/Hybrid Theory (2000)/cover.png",
         "tracks": [
           {
             "title": "01. Papercut",
-            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/01. Papercut.mp3"
+            "file": "music/Linkin Park/Hybrid Theory (2000)/01. Papercut.mp3"
           },
           {
             "title": "02. One Step Closer",
-            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/02. One Step Closer.mp3"
+            "file": "music/Linkin Park/Hybrid Theory (2000)/02. One Step Closer.mp3"
           },
           {
             "title": "03. With You",
-            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/03. With You.mp3"
+            "file": "music/Linkin Park/Hybrid Theory (2000)/03. With You.mp3"
           },
           {
             "title": "04. Points of Authority",
-            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/04. Points of Authority.mp3"
+            "file": "music/Linkin Park/Hybrid Theory (2000)/04. Points of Authority.mp3"
           },
           {
             "title": "05. Crawling",
-            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/05. Crawling.mp3"
+            "file": "music/Linkin Park/Hybrid Theory (2000)/05. Crawling.mp3"
           },
           {
             "title": "06. Runaway",
-            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/06. Runaway.mp3"
+            "file": "music/Linkin Park/Hybrid Theory (2000)/06. Runaway.mp3"
           },
           {
             "title": "07. By Myself",
-            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/07. By Myself.mp3"
+            "file": "music/Linkin Park/Hybrid Theory (2000)/07. By Myself.mp3"
           },
           {
             "title": "08. In the End",
-            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/08. In the End.mp3"
+            "file": "music/Linkin Park/Hybrid Theory (2000)/08. In the End.mp3"
           },
           {
             "title": "09. A Place for My Head",
-            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/09. A Place for My Head.mp3"
+            "file": "music/Linkin Park/Hybrid Theory (2000)/09. A Place for My Head.mp3"
           },
           {
             "title": "10. Forgotten",
-            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/10. Forgotten.mp3"
+            "file": "music/Linkin Park/Hybrid Theory (2000)/10. Forgotten.mp3"
           },
           {
             "title": "11. Cure for the Itch",
-            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/11. Cure for the Itch.mp3"
+            "file": "music/Linkin Park/Hybrid Theory (2000)/11. Cure for the Itch.mp3"
           },
           {
             "title": "12. Pushing Me Away",
-            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/12. Pushing Me Away.mp3"
+            "file": "music/Linkin Park/Hybrid Theory (2000)/12. Pushing Me Away.mp3"
           },
           {
             "title": "13. My December",
-            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/13. My December.mp3"
+            "file": "music/Linkin Park/Hybrid Theory (2000)/13. My December.mp3"
           },
           {
             "title": "14. High Voltage",
-            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/14. High Voltage.mp3"
-          },
-          {
-            "title": "15. Papercut - Live at BBC1",
-            "file": "music/Linkin Park/Hybrid Theory (Bonus Edition) (2000)/15. Papercut - Live at BBC1.mp3"
+            "file": "music/Linkin Park/Hybrid Theory (2000)/14. High Voltage.mp3"
           }
         ]
       },
       {
-        "title": "Meteora (Bonus Edition) (2003)",
+        "title": "Meteora (2003)",
         "year": 2003,
-        "cover": "music/Linkin Park/Meteora (Bonus Edition) (2003)/cover.png",
+        "cover": "music/Linkin Park/Meteora (2003)/cover.png",
         "tracks": [
           {
             "title": "01. Foreword",
-            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/01. Foreword.mp3"
+            "file": "music/Linkin Park/Meteora (2003)/01. Foreword.mp3"
           },
           {
             "title": "02. Don't Stay",
-            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/02. Don't Stay.mp3"
+            "file": "music/Linkin Park/Meteora (2003)/02. Don't Stay.mp3"
           },
           {
             "title": "03. Somewhere I Belong",
-            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/03. Somewhere I Belong.mp3"
+            "file": "music/Linkin Park/Meteora (2003)/03. Somewhere I Belong.mp3"
           },
           {
             "title": "04. Lying from You",
-            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/04. Lying from You.mp3"
+            "file": "music/Linkin Park/Meteora (2003)/04. Lying from You.mp3"
           },
           {
             "title": "05. Hit the Floor",
-            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/05. Hit the Floor.mp3"
+            "file": "music/Linkin Park/Meteora (2003)/05. Hit the Floor.mp3"
           },
           {
             "title": "06. Easier to Run",
-            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/06. Easier to Run.mp3"
+            "file": "music/Linkin Park/Meteora (2003)/06. Easier to Run.mp3"
           },
           {
             "title": "07. Faint",
-            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/07. Faint.mp3"
+            "file": "music/Linkin Park/Meteora (2003)/07. Faint.mp3"
           },
           {
             "title": "08. Figure.09",
-            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/08. Figure.09.mp3"
+            "file": "music/Linkin Park/Meteora (2003)/08. Figure.09.mp3"
           },
           {
             "title": "09. Breaking the Habit",
-            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/09. Breaking the Habit.mp3"
+            "file": "music/Linkin Park/Meteora (2003)/09. Breaking the Habit.mp3"
           },
           {
             "title": "10. From the Inside",
-            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/10. From the Inside.mp3"
+            "file": "music/Linkin Park/Meteora (2003)/10. From the Inside.mp3"
           },
           {
             "title": "11. Nobody's Listening",
-            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/11. Nobody's Listening.mp3"
+            "file": "music/Linkin Park/Meteora (2003)/11. Nobody's Listening.mp3"
           },
           {
             "title": "12. Session",
-            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/12. Session.mp3"
+            "file": "music/Linkin Park/Meteora (2003)/12. Session.mp3"
           },
           {
             "title": "13. Numb",
-            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/13. Numb.mp3"
-          },
-          {
-            "title": "14. Lying from You - Live LP Underground Tour 2003",
-            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/14. Lying from You - Live LP Underground Tour 2003.mp3"
-          },
-          {
-            "title": "15. From the Inside - Live LP Underground Tour 2003",
-            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/15. From the Inside - Live LP Underground Tour 2003.mp3"
-          },
-          {
-            "title": "16. Easier to Run - Live LP Underground Tour 2003",
-            "file": "music/Linkin Park/Meteora (Bonus Edition) (2003)/16. Easier to Run - Live LP Underground Tour 2003.mp3"
+            "file": "music/Linkin Park/Meteora (2003)/13. Numb.mp3"
           }
         ]
       },
@@ -702,14 +686,6 @@
           {
             "title": "12. The Little Things Give You Away",
             "file": "music/Linkin Park/Minutes to Midnight (2007)/12. The Little Things Give You Away.mp3"
-          },
-          {
-            "title": "13. Faint - Live from Third Encore Studio, North Hollywood, CA, 3142007",
-            "file": "music/Linkin Park/Minutes to Midnight (2007)/13. Faint - Live from Third Encore Studio, North Hollywood, CA, 3142007.mp3"
-          },
-          {
-            "title": "14. What I've Done - Live from Third Encore Studio, North Hollywood, CA, 3142007",
-            "file": "music/Linkin Park/Minutes to Midnight (2007)/14. What I've Done - Live from Third Encore Studio, North Hollywood, CA, 3142007.mp3"
           }
         ]
       }
@@ -742,6 +718,10 @@
           {
             "title": "05. Stockholm Syndrome",
             "file": "music/Muse/Absolution (2003)/05. Stockholm Syndrome.mp3"
+          },
+          {
+            "title": "06. Falling Away With You",
+            "file": "music/Muse/Absolution (2003)/06. Falling Away With You.mp3"
           },
           {
             "title": "07. Interlude",
@@ -785,6 +765,10 @@
           {
             "title": "01. Take a Bow",
             "file": "music/Muse/Black Holes and Revelations (2006)/01. Take a Bow.mp3"
+          },
+          {
+            "title": "02. Muse",
+            "file": "music/Muse/Black Holes and Revelations (2006)/02. Muse.mp3"
           },
           {
             "title": "03. Supermassive Black Hole",
@@ -838,6 +822,10 @@
             "file": "music/Muse/Origin of Symmetry (2001)/01. New Born.mp3"
           },
           {
+            "title": "02. Bliss",
+            "file": "music/Muse/Origin of Symmetry (2001)/02. Bliss.mp3"
+          },
+          {
             "title": "03. Space Dementia",
             "file": "music/Muse/Origin of Symmetry (2001)/03. Space Dementia.mp3"
           },
@@ -854,6 +842,10 @@
             "file": "music/Muse/Origin of Symmetry (2001)/06. Citizen Erased.mp3"
           },
           {
+            "title": "07. Micro Cuts",
+            "file": "music/Muse/Origin of Symmetry (2001)/07. Micro Cuts.mp3"
+          },
+          {
             "title": "08. Screenager",
             "file": "music/Muse/Origin of Symmetry (2001)/08. Screenager.mp3"
           },
@@ -864,6 +856,10 @@
           {
             "title": "10. Feeling Good",
             "file": "music/Muse/Origin of Symmetry (2001)/10. Feeling Good.mp3"
+          },
+          {
+            "title": "11. Megalomania",
+            "file": "music/Muse/Origin of Symmetry (2001)/11. Megalomania.mp3"
           },
           {
             "title": "12. Futurism",
@@ -881,8 +877,16 @@
             "file": "music/Muse/Showbiz (1999)/01. Sunburn.mp3"
           },
           {
+            "title": "02. Muscle Museum",
+            "file": "music/Muse/Showbiz (1999)/02. Muscle Museum.mp3"
+          },
+          {
             "title": "03. Fillip",
             "file": "music/Muse/Showbiz (1999)/03. Fillip.mp3"
+          },
+          {
+            "title": "04. Falling Down",
+            "file": "music/Muse/Showbiz (1999)/04. Falling Down.mp3"
           },
           {
             "title": "05. Cave",
@@ -1046,8 +1050,16 @@
             "file": "music/Muse/The Wow! Signal (2026)/04. Cryogen.mp3"
           },
           {
+            "title": "05. Be With You",
+            "file": "music/Muse/The Wow! Signal (2026)/05. Be With You.mp3"
+          },
+          {
             "title": "06. Hexagons",
             "file": "music/Muse/The Wow! Signal (2026)/06. Hexagons.mp3"
+          },
+          {
+            "title": "07. The Sickness In You & I",
+            "file": "music/Muse/The Wow! Signal (2026)/07. The Sickness In You & I.mp3"
           },
           {
             "title": "08. Unravelling",
@@ -1390,6 +1402,10 @@
         "cover": "music/Nirvana/In Utero (1993)/cover.png",
         "tracks": [
           {
+            "title": "01. Serve The Servants",
+            "file": "music/Nirvana/In Utero (1993)/01. Serve The Servants.mp3"
+          },
+          {
             "title": "02. Scentless Apprentice",
             "file": "music/Nirvana/In Utero (1993)/02. Scentless Apprentice.mp3"
           },
@@ -1412,6 +1428,10 @@
           {
             "title": "07. Very Ape",
             "file": "music/Nirvana/In Utero (1993)/07. Very Ape.mp3"
+          },
+          {
+            "title": "08. Milk It",
+            "file": "music/Nirvana/In Utero (1993)/08. Milk It.mp3"
           },
           {
             "title": "09. Pennyroyal Tea",
@@ -1498,7 +1518,7 @@
       {
         "title": "Songs For The Deaf (2002)",
         "year": 2002,
-        "cover": "music/default.png",
+        "cover": "music/Queens of the Stone Age/Songs For The Deaf (2002)/cover.png",
         "tracks": [
           {
             "title": "01. You Think I Ain't Worth A Dollar, But I Feel Like A Millionaire - Album Version (With Interlude)",
@@ -1519,6 +1539,10 @@
           {
             "title": "05. The Sky Is Fallin'",
             "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/05. The Sky Is Fallin'.mp3"
+          },
+          {
+            "title": "06. Six Shooter",
+            "file": "music/Queens of the Stone Age/Songs For The Deaf (2002)/06. Six Shooter.mp3"
           },
           {
             "title": "07. Hanging Tree",
@@ -1844,10 +1868,6 @@
           {
             "title": "15. Vermilion, Pt. 2 - Bloodstone Mix",
             "file": "music/Slipknot/All Hope Is Gone (2008)/15. Vermilion, Pt. 2 - Bloodstone Mix.mp3"
-          },
-          {
-            "title": "16. Psychosocial - Live",
-            "file": "music/Slipknot/All Hope Is Gone (2008)/16. Psychosocial - Live.mp3"
           }
         ]
       },
@@ -1895,6 +1915,10 @@
           {
             "title": "10. Prosthetics",
             "file": "music/Slipknot/Slipknot (1999)/10. Prosthetics.mp3"
+          },
+          {
+            "title": "11. No Life",
+            "file": "music/Slipknot/Slipknot (1999)/11. No Life.mp3"
           },
           {
             "title": "12. Diluted",
@@ -1966,6 +1990,10 @@
           {
             "title": "12. The Nameless",
             "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/12. The Nameless.mp3"
+          },
+          {
+            "title": "13. The Virus of Life",
+            "file": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/13. The Virus of Life.mp3"
           },
           {
             "title": "14. Danger - Keep Away",
@@ -2087,6 +2115,10 @@
             "file": "music/System Of A Down/Hypnotize (2005)/02. Dreaming.mp3"
           },
           {
+            "title": "03. Kill Rock 'n Roll",
+            "file": "music/System Of A Down/Hypnotize (2005)/03. Kill Rock 'n Roll.mp3"
+          },
+          {
             "title": "04. Hypnotize",
             "file": "music/System Of A Down/Hypnotize (2005)/04. Hypnotize.mp3"
           },
@@ -2158,6 +2190,14 @@
             "file": "music/System Of A Down/Mezmerize (2005)/08. Question!.mp3"
           },
           {
+            "title": "09. Sad Statue",
+            "file": "music/System Of A Down/Mezmerize (2005)/09. Sad Statue.mp3"
+          },
+          {
+            "title": "10. Old School Hollywood",
+            "file": "music/System Of A Down/Mezmerize (2005)/10. Old School Hollywood.mp3"
+          },
+          {
             "title": "11. Lost In Hollywood",
             "file": "music/System Of A Down/Mezmerize (2005)/11. Lost In Hollywood.mp3"
           }
@@ -2187,6 +2227,10 @@
           {
             "title": "05. Nüguns",
             "file": "music/System Of A Down/Steal This Album! (2002)/05. Nüguns.mp3"
+          },
+          {
+            "title": "06. A.D.D. (American Dream Denial)",
+            "file": "music/System Of A Down/Steal This Album! (2002)/06. A.D.D. (American Dream Denial).mp3"
           },
           {
             "title": "07. Mr. Jack",
@@ -2238,6 +2282,10 @@
           {
             "title": "01. Suite-Pee",
             "file": "music/System Of A Down/System Of A Down (1998)/01. Suite-Pee.mp3"
+          },
+          {
+            "title": "02. Know",
+            "file": "music/System Of A Down/System Of A Down (1998)/02. Know.mp3"
           },
           {
             "title": "03. Sugar",
@@ -2295,6 +2343,10 @@
             "file": "music/System Of A Down/Toxicity (2001)/01. Prison Song.mp3"
           },
           {
+            "title": "02. Needles",
+            "file": "music/System Of A Down/Toxicity (2001)/02. Needles.mp3"
+          },
+          {
             "title": "03. Deer Dance",
             "file": "music/System Of A Down/Toxicity (2001)/03. Deer Dance.mp3"
           },
@@ -2313,6 +2365,14 @@
           {
             "title": "07. Bounce",
             "file": "music/System Of A Down/Toxicity (2001)/07. Bounce.mp3"
+          },
+          {
+            "title": "08. Forest",
+            "file": "music/System Of A Down/Toxicity (2001)/08. Forest.mp3"
+          },
+          {
+            "title": "09. ATWA",
+            "file": "music/System Of A Down/Toxicity (2001)/09. ATWA.mp3"
           },
           {
             "title": "10. Science",
@@ -2399,6 +2459,10 @@
             "file": "music/The Smiths/Hatful of Hollow (1984)/12. Accept Yourself - David Jensen Session 250883.mp3"
           },
           {
+            "title": "13. Girl Afraid",
+            "file": "music/The Smiths/Hatful of Hollow (1984)/13. Girl Afraid.mp3"
+          },
+          {
             "title": "14. Back to the Old House - John Peel Session 140983",
             "file": "music/The Smiths/Hatful of Hollow (1984)/14. Back to the Old House - John Peel Session 140983.mp3"
           },
@@ -2417,6 +2481,14 @@
         "year": 1986,
         "cover": "music/The Smiths/The Queen Is Dead (1986)/cover.png",
         "tracks": [
+          {
+            "title": "01. The Queen Is Dead",
+            "file": "music/The Smiths/The Queen Is Dead (1986)/01. The Queen Is Dead.mp3"
+          },
+          {
+            "title": "02. Frankly, Mr. Shankly",
+            "file": "music/The Smiths/The Queen Is Dead (1986)/02. Frankly, Mr. Shankly.mp3"
+          },
           {
             "title": "03. I Know It's Over - 2011 Remaster",
             "file": "music/The Smiths/The Queen Is Dead (1986)/03. I Know It's Over - 2011 Remaster.mp3"
@@ -2467,6 +2539,10 @@
           {
             "title": "03. Miserable Lie - 2011 Remaster",
             "file": "music/The Smiths/The Smiths (1984)/03. Miserable Lie - 2011 Remaster.mp3"
+          },
+          {
+            "title": "04. Pretty Girls Make Graves",
+            "file": "music/The Smiths/The Smiths (1984)/04. Pretty Girls Make Graves.mp3"
           },
           {
             "title": "05. The Hand That Rocks the Cradle - 2011 Remaster",
