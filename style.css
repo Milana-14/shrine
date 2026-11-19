@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Julee';
+    src: url('fonts/Julee-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     background-color: #0d0d0d;
     background-image:
@@ -19,6 +27,14 @@ body {
     background-color: #141414;
 }
 
+.main-wrapper h2 {
+    font-family: 'Julee', cursive;
+}
+
+.main-wrapper h3 {
+    font-family: 'Julee', cursive;
+}
+
 .site-header {
     background-color: rgb(43 0 31 / 0.25);
     border-bottom: 1.5px solid #990069;
@@ -27,6 +43,7 @@ body {
 }
 
 .site-header h1 {
+    font-family: 'Julee', cursive;
     margin: 0 0 10px 0;
     color: #cc2470;
     text-shadow: 2px 2px 0px #000000;
@@ -522,10 +539,19 @@ marquee {
 
 .floating-sticker_17 {
     position: absolute;
-    top: 808px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 1100px;
+    top: 820px;
+    right: 45px;
+    width: 290px;
+    z-index: 100;
+    pointer-events: auto;
+}
+
+.floating-sticker_18 {
+    position: absolute;
+    top: 920px;
+    left: 30px;
+    width: 200px;
+    z-index: 100;
     pointer-events: auto;
 }
 
@@ -708,4 +734,250 @@ marquee {
     cursor: pointer;
     background: none;
     border: none;
+}
+
+
+
+::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+html, body {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    width: 100%;
+    overflow-x: clip;
+}
+
+img, iframe {
+    max-width: 100%;
+}
+
+@media (max-width: 900px) {
+    body {
+        padding: 10px;
+    }
+
+    .content-grid {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+
+    .hobbies-columns {
+        margin-left: 15px;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+
+    .track-row {
+        width: 100%;
+    }
+
+    .tracks-container {
+        margin-left: 0;
+    }
+
+    .album-title {
+        margin-left: 0;
+    }
+
+    .floating-sticker_2,
+    .floating-sticker_6,
+    .floating-sticker_7,
+    .floating-sticker_9,
+    .floating-sticker_13,
+    .floating-sticker_17 {
+        right: 4px !important;
+        left: auto !important;
+    }
+
+    .floating-sticker_4,
+    .floating-sticker_8,
+    .floating-sticker_10,
+    .floating-sticker_14,
+    .floating-sticker_15,
+    .floating-sticker_16,
+    .floating-sticker_18 {
+        left: 4px !important;
+        right: auto !important;
+    }
+
+    .floating-sticker_5 {
+        right: 12px !important;
+        left: auto !important;
+        top: 360px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 6px;
+        font-size: 13px;
+        background-size: 16px 16px;
+    }
+
+    .site-header {
+        padding: 10px;
+    }
+
+    .site-header h1 {
+        font-size: 22px;
+        letter-spacing: 1px;
+        word-break: break-word;
+    }
+
+    .box {
+        padding: 10px;
+        margin-bottom: 12px;
+    }
+
+    .hobbies-columns {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 8px;
+    }
+
+    .album-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 12px;
+    }
+
+    .album-info {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .album-title {
+        margin: 0 0 10px 0;
+        font-size: 16px;
+    }
+
+    .tracks-container {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        max-height: 180px;
+        padding-right: 0;
+    }
+
+    .track-row {
+        width: 100%;
+        padding: 6px 8px;
+    }
+
+    .track-title {
+        max-width: 52%;
+        font-size: 11px;
+    }
+
+    .custom-player-wrapper {
+        max-width: 46%;
+        gap: 6px;
+    }
+
+    .normal-audio {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .view-switcher {
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .shelf-container {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .shelf-album-card {
+        width: calc(50% - 8px);
+        max-width: 160px;
+    }
+
+    .art-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding: 10px 0;
+    }
+
+    .art-image-wrapper {
+        height: 260px;
+    }
+
+    .art-card:hover {
+        transform: translateY(-2px);
+    }
+
+    .art-card:hover .art-image {
+        transform: scale(1.03);
+    }
+    
+    [class^="floating-sticker_"] {
+        max-width: 95px !important;
+        width: auto !important;
+        height: auto;
+        opacity: 0.75;
+        pointer-events: none;
+    }
+
+    [class^="floating-sticker_"] {
+        display: none !important;
+    }
+
+    .floating-sticker_2,
+    .floating-sticker_6,
+    .floating-sticker_7,
+    .floating-sticker_9,
+    .floating-sticker_13,
+    .floating-sticker_17,
+    .floating-sticker_4,
+    .floating-sticker_8,
+    .floating-sticker_10,
+    .floating-sticker_14,
+    .floating-sticker_15,
+    .floating-sticker_16,
+    .floating-sticker_18,
+    .floating-sticker_5 {
+        display: none !important;
+    }
+}
+
+@media (max-width: 390px) {
+    .site-header h1 {
+        font-size: 19px;
+    }
+
+    .retro-btn {
+        padding: 5px 8px;
+        font-size: 11px;
+    }
+
+    .art-image-wrapper {
+        height: 220px;
+    }
 }
