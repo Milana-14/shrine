@@ -1,65 +1,249 @@
 [
   {
-    "artist": "Enter Shikari",
+    "artist": "AFI",
     "albums": [
       {
-        "title": "A Kiss for the Whole World (2023)",
-        "year": 2023,
-        "cover": "music/Enter Shikari/A Kiss for the Whole World (2023)/cover.png",
+        "title": "DECEMBERUNDERGROUND (2006)",
+        "year": 2006,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/AFI/DECEMBERUNDERGROUND (2006)/cover.png",
         "tracks": [
           {
-            "title": "01. A Kiss for the Whole World x",
-            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/01. A Kiss for the Whole World x.mp3"
+            "title": "01. Prelude 1221",
+            "file": "music/AFI/DECEMBERUNDERGROUND (2006)/01. Prelude 1221.mp3"
           },
           {
-            "title": "02. (pls) set me on fire",
-            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/02. (pls) set me on fire.mp3"
+            "title": "02. Kill Caustic",
+            "file": "music/AFI/DECEMBERUNDERGROUND (2006)/02. Kill Caustic.mp3"
           },
           {
-            "title": "03. It Hurts",
-            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/03. It Hurts.mp3"
+            "title": "03. Miss Murder",
+            "file": "music/AFI/DECEMBERUNDERGROUND (2006)/03. Miss Murder.mp3"
           },
           {
-            "title": "04. Leap into the Lightning",
-            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/04. Leap into the Lightning.mp3"
+            "title": "04. Summer Shudder",
+            "file": "music/AFI/DECEMBERUNDERGROUND (2006)/04. Summer Shudder.mp3"
           },
           {
-            "title": "05. feed yøur søul",
-            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/05. feed yøur søul.mp3"
+            "title": "05. The Interview",
+            "file": "music/AFI/DECEMBERUNDERGROUND (2006)/05. The Interview.mp3"
           },
           {
-            "title": "06. Dead Wood",
-            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/06. Dead Wood.mp3"
+            "title": "06. Love Like Winter",
+            "file": "music/AFI/DECEMBERUNDERGROUND (2006)/06. Love Like Winter.mp3"
           },
           {
-            "title": "07. Jailbreak",
-            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/07. Jailbreak.mp3"
+            "title": "07. Affliction",
+            "file": "music/AFI/DECEMBERUNDERGROUND (2006)/07. Affliction.mp3"
           },
           {
-            "title": "08. Bloodshot",
-            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/08. Bloodshot.mp3"
+            "title": "08. The Missing Frame",
+            "file": "music/AFI/DECEMBERUNDERGROUND (2006)/08. The Missing Frame.mp3"
           },
           {
-            "title": "09. Bloodshot (Coda)",
-            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/09. Bloodshot (Coda).mp3"
+            "title": "09. Kiss and Control",
+            "file": "music/AFI/DECEMBERUNDERGROUND (2006)/09. Kiss and Control.mp3"
           },
           {
-            "title": "10. goldfĭsh ~",
-            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/10. goldfĭsh ~.mp3"
+            "title": "10. The Killing Lights",
+            "file": "music/AFI/DECEMBERUNDERGROUND (2006)/10. The Killing Lights.mp3"
           },
           {
-            "title": "11. Giant Pacific Octopus (i don't know you anymore)",
-            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/11. Giant Pacific Octopus (i don't know you anymore).mp3"
+            "title": "11. 37mm",
+            "file": "music/AFI/DECEMBERUNDERGROUND (2006)/11. 37mm.mp3"
           },
           {
-            "title": "12. giant pacific octopus swirling off into infinity...",
-            "file": "music/Enter Shikari/A Kiss for the Whole World (2023)/12. giant pacific octopus swirling off into infinity....mp3"
+            "title": "12. Endlessly, She Said",
+            "file": "music/AFI/DECEMBERUNDERGROUND (2006)/12. Endlessly, She Said.mp3"
           }
         ]
       },
       {
+        "title": "Sing The Sorrow (2003)",
+        "year": 2003,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/AFI/Sing The Sorrow (2003)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Miseria Cantare (The Beginning)",
+            "file": "music/AFI/Sing The Sorrow (2003)/01. Miseria Cantare (The Beginning).mp3"
+          },
+          {
+            "title": "02. The Leaving Song Pt. II",
+            "file": "music/AFI/Sing The Sorrow (2003)/02. The Leaving Song Pt. II.mp3"
+          },
+          {
+            "title": "03. Bleed Black",
+            "file": "music/AFI/Sing The Sorrow (2003)/03. Bleed Black.mp3"
+          },
+          {
+            "title": "04. Silver And Cold",
+            "file": "music/AFI/Sing The Sorrow (2003)/04. Silver And Cold.mp3"
+          },
+          {
+            "title": "05. Dancing Through Sunday",
+            "file": "music/AFI/Sing The Sorrow (2003)/05. Dancing Through Sunday.mp3"
+          },
+          {
+            "title": "06. Girl's Not Grey",
+            "file": "music/AFI/Sing The Sorrow (2003)/06. Girl's Not Grey.mp3"
+          },
+          {
+            "title": "07. Death Of Seasons",
+            "file": "music/AFI/Sing The Sorrow (2003)/07. Death Of Seasons.mp3"
+          },
+          {
+            "title": "08. The Great Disappointment",
+            "file": "music/AFI/Sing The Sorrow (2003)/08. The Great Disappointment.mp3"
+          },
+          {
+            "title": "09. Paper Airplanes (Makeshift Wings)",
+            "file": "music/AFI/Sing The Sorrow (2003)/09. Paper Airplanes (Makeshift Wings).mp3"
+          },
+          {
+            "title": "10. This Celluloid Dream",
+            "file": "music/AFI/Sing The Sorrow (2003)/10. This Celluloid Dream.mp3"
+          },
+          {
+            "title": "11. The Leaving Song",
+            "file": "music/AFI/Sing The Sorrow (2003)/11. The Leaving Song.mp3"
+          },
+          {
+            "title": "12. ...but home is nowhere",
+            "file": "music/AFI/Sing The Sorrow (2003)/12. ...but home is nowhere.mp3"
+          },
+          {
+            "title": "13. This Time Imperfect",
+            "file": "music/AFI/Sing The Sorrow (2003)/13. This Time Imperfect.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "C418",
+    "albums": [
+      {
+        "title": "Minecraft - Volume Alpha (2011)",
+        "year": 2011,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/C418/Minecraft - Volume Alpha (2011)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Key",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/01. Key.mp3"
+          },
+          {
+            "title": "02. Door",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/02. Door.mp3"
+          },
+          {
+            "title": "03. Subwoofer Lullaby",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/03. Subwoofer Lullaby.mp3"
+          },
+          {
+            "title": "04. Death",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/04. Death.mp3"
+          },
+          {
+            "title": "05. Living Mice",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/05. Living Mice.mp3"
+          },
+          {
+            "title": "06. Moog City",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/06. Moog City.mp3"
+          },
+          {
+            "title": "07. Haggstrom",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/07. Haggstrom.mp3"
+          },
+          {
+            "title": "08. Minecraft",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/08. Minecraft.mp3"
+          },
+          {
+            "title": "09. Oxygène",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/09. Oxygène.mp3"
+          },
+          {
+            "title": "10. Équinoxe",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/10. Équinoxe.mp3"
+          },
+          {
+            "title": "11. Mice on Venus",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/11. Mice on Venus.mp3"
+          },
+          {
+            "title": "12. Dry Hands",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/12. Dry Hands.mp3"
+          },
+          {
+            "title": "13. Wet Hands",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/13. Wet Hands.mp3"
+          },
+          {
+            "title": "14. Clark",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/14. Clark.mp3"
+          },
+          {
+            "title": "15. Chris",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/15. Chris.mp3"
+          },
+          {
+            "title": "16. Thirteen",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/16. Thirteen.mp3"
+          },
+          {
+            "title": "17. Excuse",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/17. Excuse.mp3"
+          },
+          {
+            "title": "18. Sweden",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/18. Sweden.mp3"
+          },
+          {
+            "title": "19. Cat",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/19. Cat.mp3"
+          },
+          {
+            "title": "20. Dog",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/20. Dog.mp3"
+          },
+          {
+            "title": "21. Danny",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/21. Danny.mp3"
+          },
+          {
+            "title": "22. Beginning",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/22. Beginning.mp3"
+          },
+          {
+            "title": "23. Droopy Likes Ricochet",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/23. Droopy Likes Ricochet.mp3"
+          },
+          {
+            "title": "24. Droopy Likes Your Face",
+            "file": "music/C418/Minecraft - Volume Alpha (2011)/24. Droopy Likes Your Face.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Enter Shikari",
+    "albums": [
+      {
         "title": "Common Dreads (2009)",
         "year": 2009,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Enter Shikari/Common Dreads (2009)/cover.png",
         "tracks": [
           {
@@ -125,122 +309,13 @@
         ]
       },
       {
-        "title": "Lose Your Self (2026)",
-        "year": 2026,
-        "cover": "music/Enter Shikari/Lose Your Self (2026)/cover.png",
-        "tracks": [
-          {
-            "title": "01. LOSE YOUR SELF",
-            "file": "music/Enter Shikari/Lose Your Self (2026)/01. LOSE YOUR SELF.mp3"
-          },
-          {
-            "title": "02. Find Out The Hard Way...",
-            "file": "music/Enter Shikari/Lose Your Self (2026)/02. Find Out The Hard Way....mp3"
-          },
-          {
-            "title": "03. Dead In The Water",
-            "file": "music/Enter Shikari/Lose Your Self (2026)/03. Dead In The Water.mp3"
-          },
-          {
-            "title": "04. demons",
-            "file": "music/Enter Shikari/Lose Your Self (2026)/04. demons.mp3"
-          },
-          {
-            "title": "05. The Flick Of A Switch I.",
-            "file": "music/Enter Shikari/Lose Your Self (2026)/05. The Flick Of A Switch I..mp3"
-          },
-          {
-            "title": "06. i can't keep my hands clean",
-            "file": "music/Enter Shikari/Lose Your Self (2026)/06. i can't keep my hands clean.mp3"
-          },
-          {
-            "title": "07. it's OK",
-            "file": "music/Enter Shikari/Lose Your Self (2026)/07. it's OK.mp3"
-          },
-          {
-            "title": "08. The Flick Of A Switch II.",
-            "file": "music/Enter Shikari/Lose Your Self (2026)/08. The Flick Of A Switch II..mp3"
-          },
-          {
-            "title": "09. Shipwrecked!",
-            "file": "music/Enter Shikari/Lose Your Self (2026)/09. Shipwrecked!.mp3"
-          },
-          {
-            "title": "10. Spaceship Earth (I. Avec Abandon)",
-            "file": "music/Enter Shikari/Lose Your Self (2026)/10. Spaceship Earth (I. Avec Abandon).mp3"
-          },
-          {
-            "title": "11. Spaceship Earth (II. Angoscioso)",
-            "file": "music/Enter Shikari/Lose Your Self (2026)/11. Spaceship Earth (II. Angoscioso).mp3"
-          },
-          {
-            "title": "12. Spaceship Earth (III. Maestoso)",
-            "file": "music/Enter Shikari/Lose Your Self (2026)/12. Spaceship Earth (III. Maestoso).mp3"
-          }
-        ]
-      },
-      {
-        "title": "Nothing is True & Everything is Possible (2020)",
-        "year": 2020,
-        "cover": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/cover.png",
-        "tracks": [
-          {
-            "title": "01. THE GREAT UNKNOWN",
-            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/01. THE GREAT UNKNOWN.mp3"
-          },
-          {
-            "title": "02. Crossing The Rubicon",
-            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/02. Crossing The Rubicon.mp3"
-          },
-          {
-            "title": "03. { The Dreamer's Hotel }",
-            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/03. { The Dreamer's Hotel }.mp3"
-          },
-          {
-            "title": "04. Waltzing off the Face of the Earth (I. Crescendo)",
-            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/04. Waltzing off the Face of the Earth (I. Crescendo).mp3"
-          },
-          {
-            "title": "05. modern living….",
-            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/05. modern living…..mp3"
-          },
-          {
-            "title": "06. apøcaholics anonymøus (main theme in B minor)",
-            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/06. apøcaholics anonymøus (main theme in B minor).mp3"
-          },
-          {
-            "title": "07. the pressure's on.",
-            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/07. the pressure's on..mp3"
-          },
-          {
-            "title": "08. Reprise 3",
-            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/08. Reprise 3.mp3"
-          },
-          {
-            "title": "09. T.I.N.A.",
-            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/09. T.I.N.A..mp3"
-          },
-          {
-            "title": "10. Elegy For Extinction",
-            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/10. Elegy For Extinction.mp3"
-          },
-          {
-            "title": "11. Marionettes (I. The Discovery of Strings)",
-            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/11. Marionettes (I. The Discovery of Strings).mp3"
-          },
-          {
-            "title": "13. satellites ",
-            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/13. satellites .mp3"
-          },
-          {
-            "title": "14. thē kĭñg",
-            "file": "music/Enter Shikari/Nothing is True & Everything is Possible (2020)/14. thē kĭñg.mp3"
-          }
-        ]
-      },
-      {
         "title": "Take to the Skies (2007)",
         "year": 2007,
+        "genres": [
+          "electronicore",
+          "hardcore",
+          "punk"
+        ],
         "cover": "music/Enter Shikari/Take to the Skies (2007)/cover.png",
         "tracks": [
           {
@@ -296,90 +371,75 @@
             "file": "music/Enter Shikari/Take to the Skies (2007)/13. Reprise 2.mp3"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "artist": "Etta James",
+    "albums": [
       {
-        "title": "The Spark (2017)",
-        "year": 2017,
-        "cover": "music/Enter Shikari/The Spark (2017)/cover.png",
+        "title": "At Last! (1960)",
+        "year": 1960,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/Etta James/At Last! (1960)/cover.png",
         "tracks": [
           {
-            "title": "01. The Spark",
-            "file": "music/Enter Shikari/The Spark (2017)/01. The Spark.mp3"
+            "title": "01. Anything To Say You're Mine",
+            "file": "music/Etta James/At Last! (1960)/01. Anything To Say You're Mine.mp3"
           },
           {
-            "title": "03. Live Outside",
-            "file": "music/Enter Shikari/The Spark (2017)/03. Live Outside.mp3"
+            "title": "02. My Dearest Darling",
+            "file": "music/Etta James/At Last! (1960)/02. My Dearest Darling.mp3"
           },
           {
-            "title": "06. Rabble Rouser",
-            "file": "music/Enter Shikari/The Spark (2017)/06. Rabble Rouser.mp3"
+            "title": "03. Trust In Me",
+            "file": "music/Etta James/At Last! (1960)/03. Trust In Me.mp3"
           },
           {
-            "title": "09. The Revolt of the Atoms",
-            "file": "music/Enter Shikari/The Spark (2017)/09. The Revolt of the Atoms.mp3"
-          }
-        ]
-      },
-      {
-        "title": "Tribalism (2010)",
-        "year": 2010,
-        "cover": "music/Enter Shikari/Tribalism (2010)/cover.png",
-        "tracks": [
-          {
-            "title": "01. Tribalism",
-            "file": "music/Enter Shikari/Tribalism (2010)/01. Tribalism.mp3"
+            "title": "04. A Sunday Kind Of Love",
+            "file": "music/Etta James/At Last! (1960)/04. A Sunday Kind Of Love.mp3"
           },
           {
-            "title": "02. Thumper",
-            "file": "music/Enter Shikari/Tribalism (2010)/02. Thumper.mp3"
+            "title": "05. Tough Mary - Single Version",
+            "file": "music/Etta James/At Last! (1960)/05. Tough Mary - Single Version.mp3"
           },
           {
-            "title": "03. All Eyes on The Saint",
-            "file": "music/Enter Shikari/Tribalism (2010)/03. All Eyes on The Saint.mp3"
+            "title": "06. I Just Want To Make Love To You - Single Version",
+            "file": "music/Etta James/At Last! (1960)/06. I Just Want To Make Love To You - Single Version.mp3"
           },
           {
-            "title": "04. We Can Breathe In Space",
-            "file": "music/Enter Shikari/Tribalism (2010)/04. We Can Breathe In Space.mp3"
+            "title": "07. At Last",
+            "file": "music/Etta James/At Last! (1960)/07. At Last.mp3"
           },
           {
-            "title": "05. Insomnia - Live At Brixton '07",
-            "file": "music/Enter Shikari/Tribalism (2010)/05. Insomnia - Live At Brixton '07.mp3"
+            "title": "08. All I could do was cry",
+            "file": "music/Etta James/At Last! (1960)/08. All I could do was cry.mp3"
           },
           {
-            "title": "06. Juggernauts - Nero Remix",
-            "file": "music/Enter Shikari/Tribalism (2010)/06. Juggernauts - Nero Remix.mp3"
+            "title": "09. Stormy Weather",
+            "file": "music/Etta James/At Last! (1960)/09. Stormy Weather.mp3"
           },
           {
-            "title": "07. No Sleep Tonight - The Qemists Remix",
-            "file": "music/Enter Shikari/Tribalism (2010)/07. No Sleep Tonight - The Qemists Remix.mp3"
+            "title": "10. Girl Of My Dreams",
+            "file": "music/Etta James/At Last! (1960)/10. Girl Of My Dreams.mp3"
           },
           {
-            "title": "08. Wall - High Contrast Remix",
-            "file": "music/Enter Shikari/Tribalism (2010)/08. Wall - High Contrast Remix.mp3"
+            "title": "11. My Heart Cries - Single Version",
+            "file": "music/Etta James/At Last! (1960)/11. My Heart Cries - Single Version.mp3"
           },
           {
-            "title": "10. Juggernauts - Blue Bear's True Tiger Remix",
-            "file": "music/Enter Shikari/Tribalism (2010)/10. Juggernauts - Blue Bear's True Tiger Remix.mp3"
+            "title": "12. Spoonful - Single Version",
+            "file": "music/Etta James/At Last! (1960)/12. Spoonful - Single Version.mp3"
           },
           {
-            "title": "11. No Sleep Tonight - Rout Remix",
-            "file": "music/Enter Shikari/Tribalism (2010)/11. No Sleep Tonight - Rout Remix.mp3"
+            "title": "13. It's A Crying Shame - Single Version",
+            "file": "music/Etta James/At Last! (1960)/13. It's A Crying Shame - Single Version.mp3"
           },
           {
-            "title": "12. No Sleep Tonight - LightsGoBlue Remix",
-            "file": "music/Enter Shikari/Tribalism (2010)/12. No Sleep Tonight - LightsGoBlue Remix.mp3"
-          },
-          {
-            "title": "13. Havoc A - Live at Rock City",
-            "file": "music/Enter Shikari/Tribalism (2010)/13. Havoc A - Live at Rock City.mp3"
-          },
-          {
-            "title": "14. Labyrinth - Live at Rock City",
-            "file": "music/Enter Shikari/Tribalism (2010)/14. Labyrinth - Live at Rock City.mp3"
-          },
-          {
-            "title": "15. Hectic - Live at Rock City",
-            "file": "music/Enter Shikari/Tribalism (2010)/15. Hectic - Live at Rock City.mp3"
+            "title": "14. If I Can't Have You",
+            "file": "music/Etta James/At Last! (1960)/14. If I Can't Have You.mp3"
           }
         ]
       }
@@ -391,6 +451,9 @@
       {
         "title": "Until Fear No Longer Defines Us (2011)",
         "year": 2011,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Ghost Brigade/Until Fear No Longer Defines Us (2011)/cover.png",
         "tracks": [
           {
@@ -438,11 +501,287 @@
     ]
   },
   {
+    "artist": "HIM",
+    "albums": [
+      {
+        "title": "Razorblade Romance (1999)",
+        "year": 1999,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/HIM/Razorblade Romance (1999)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Your Sweet 666",
+            "file": "music/HIM/Razorblade Romance (1999)/01. Your Sweet 666.mp3"
+          },
+          {
+            "title": "02. Poison girl",
+            "file": "music/HIM/Razorblade Romance (1999)/02. Poison girl.mp3"
+          },
+          {
+            "title": "03. Join Me - Razorblade Mix",
+            "file": "music/HIM/Razorblade Romance (1999)/03. Join Me - Razorblade Mix.mp3"
+          },
+          {
+            "title": "05. Bury me deep inside",
+            "file": "music/HIM/Razorblade Romance (1999)/05. Bury me deep inside.mp3"
+          },
+          {
+            "title": "06. Join Me - Live",
+            "file": "music/HIM/Razorblade Romance (1999)/06. Join Me - Live.mp3"
+          },
+          {
+            "title": "06. Wicked game",
+            "file": "music/HIM/Razorblade Romance (1999)/06. Wicked game.mp3"
+          },
+          {
+            "title": "07. I love you",
+            "file": "music/HIM/Razorblade Romance (1999)/07. I love you.mp3"
+          },
+          {
+            "title": "08. Gone With The Sin",
+            "file": "music/HIM/Razorblade Romance (1999)/08. Gone With The Sin.mp3"
+          },
+          {
+            "title": "09. Razorblade kiss",
+            "file": "music/HIM/Razorblade Romance (1999)/09. Razorblade kiss.mp3"
+          },
+          {
+            "title": "10. Resurrection",
+            "file": "music/HIM/Razorblade Romance (1999)/10. Resurrection.mp3"
+          },
+          {
+            "title": "11. Death is in love with us",
+            "file": "music/HIM/Razorblade Romance (1999)/11. Death is in love with us.mp3"
+          },
+          {
+            "title": "12. Heaven tonight",
+            "file": "music/HIM/Razorblade Romance (1999)/12. Heaven tonight.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Jeff Buckley",
+    "albums": [
+      {
+        "title": "Grace (1994)",
+        "year": 1994,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/Jeff Buckley/Grace (1994)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Mojo Pin",
+            "file": "music/Jeff Buckley/Grace (1994)/01. Mojo Pin.mp3"
+          },
+          {
+            "title": "02. Grace",
+            "file": "music/Jeff Buckley/Grace (1994)/02. Grace.mp3"
+          },
+          {
+            "title": "03. Last Goodbye",
+            "file": "music/Jeff Buckley/Grace (1994)/03. Last Goodbye.mp3"
+          },
+          {
+            "title": "04. Lilac Wine",
+            "file": "music/Jeff Buckley/Grace (1994)/04. Lilac Wine.mp3"
+          },
+          {
+            "title": "05. So Real",
+            "file": "music/Jeff Buckley/Grace (1994)/05. So Real.mp3"
+          },
+          {
+            "title": "06. Hallelujah",
+            "file": "music/Jeff Buckley/Grace (1994)/06. Hallelujah.mp3"
+          },
+          {
+            "title": "07. Lover, You Should've Come Over",
+            "file": "music/Jeff Buckley/Grace (1994)/07. Lover, You Should've Come Over.mp3"
+          },
+          {
+            "title": "08. Corpus Christi Carol",
+            "file": "music/Jeff Buckley/Grace (1994)/08. Corpus Christi Carol.mp3"
+          },
+          {
+            "title": "09. Eternal Life",
+            "file": "music/Jeff Buckley/Grace (1994)/09. Eternal Life.mp3"
+          },
+          {
+            "title": "10. Dream Brother",
+            "file": "music/Jeff Buckley/Grace (1994)/10. Dream Brother.mp3"
+          },
+          {
+            "title": "11. Forget Her",
+            "file": "music/Jeff Buckley/Grace (1994)/11. Forget Her.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Kino",
+    "albums": [
+      {
+        "title": "Звезда по имени Солнце (1989)",
+        "year": 1989,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/Kino/Звезда по имени Солнце (1989)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Песня без слов",
+            "file": "music/Kino/Звезда по имени Солнце (1989)/01. Песня без слов.mp3"
+          },
+          {
+            "title": "02. Звезда по имени Солнце",
+            "file": "music/Kino/Звезда по имени Солнце (1989)/02. Звезда по имени Солнце.mp3"
+          },
+          {
+            "title": "03. Невесёлая Песня",
+            "file": "music/Kino/Звезда по имени Солнце (1989)/03. Невесёлая Песня.mp3"
+          },
+          {
+            "title": "04. Сказка",
+            "file": "music/Kino/Звезда по имени Солнце (1989)/04. Сказка.mp3"
+          },
+          {
+            "title": "05. Место для шага вперёд",
+            "file": "music/Kino/Звезда по имени Солнце (1989)/05. Место для шага вперёд.mp3"
+          },
+          {
+            "title": "06. Пачка сигарет",
+            "file": "music/Kino/Звезда по имени Солнце (1989)/06. Пачка сигарет.mp3"
+          },
+          {
+            "title": "07. Стук (Одно лишь слово)",
+            "file": "music/Kino/Звезда по имени Солнце (1989)/07. Стук (Одно лишь слово).mp3"
+          },
+          {
+            "title": "08. Печаль",
+            "file": "music/Kino/Звезда по имени Солнце (1989)/08. Печаль.mp3"
+          },
+          {
+            "title": "09. Апрель",
+            "file": "music/Kino/Звезда по имени Солнце (1989)/09. Апрель.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Последний герой (1989)",
+        "year": 1989,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/Kino/Последний герой (1989)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Хочу перемен",
+            "file": "music/Kino/Последний герой (1989)/01. Хочу перемен.mp3"
+          },
+          {
+            "title": "02. Электричка",
+            "file": "music/Kino/Последний герой (1989)/02. Электричка.mp3"
+          },
+          {
+            "title": "03. Война",
+            "file": "music/Kino/Последний герой (1989)/03. Война.mp3"
+          },
+          {
+            "title": "04. Троллейбус",
+            "file": "music/Kino/Последний герой (1989)/04. Троллейбус.mp3"
+          },
+          {
+            "title": "05. Печаль",
+            "file": "music/Kino/Последний герой (1989)/05. Печаль.mp3"
+          },
+          {
+            "title": "06. Последний герой",
+            "file": "music/Kino/Последний герой (1989)/06. Последний герой.mp3"
+          },
+          {
+            "title": "07. Группа крови",
+            "file": "music/Kino/Последний герой (1989)/07. Группа крови.mp3"
+          },
+          {
+            "title": "08. Мама, мы все тяжело больны",
+            "file": "music/Kino/Последний герой (1989)/08. Мама, мы все тяжело больны.mp3"
+          },
+          {
+            "title": "09. В наших глазах",
+            "file": "music/Kino/Последний герой (1989)/09. В наших глазах.mp3"
+          },
+          {
+            "title": "10. Спокойная ночь",
+            "file": "music/Kino/Последний герой (1989)/10. Спокойная ночь.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Чёрный альбом (1990)",
+        "year": 1990,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/Kino/Чёрный альбом (1990)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Лето",
+            "file": "music/Kino/Чёрный альбом (1990)/01. Лето.mp3"
+          },
+          {
+            "title": "02. Красно-желтые Дни",
+            "file": "music/Kino/Чёрный альбом (1990)/02. Красно-желтые Дни.mp3"
+          },
+          {
+            "title": "03. Нам с тобой",
+            "file": "music/Kino/Чёрный альбом (1990)/03. Нам с тобой.mp3"
+          },
+          {
+            "title": "04. Звезда",
+            "file": "music/Kino/Чёрный альбом (1990)/04. Звезда.mp3"
+          },
+          {
+            "title": "05. Кукушка",
+            "file": "music/Kino/Чёрный альбом (1990)/05. Кукушка.mp3"
+          },
+          {
+            "title": "06. Когда твоя девушка больна",
+            "file": "music/Kino/Чёрный альбом (1990)/06. Когда твоя девушка больна.mp3"
+          },
+          {
+            "title": "07. Муравейник",
+            "file": "music/Kino/Чёрный альбом (1990)/07. Муравейник.mp3"
+          },
+          {
+            "title": "08. Следи за собой",
+            "file": "music/Kino/Чёрный альбом (1990)/08. Следи за собой.mp3"
+          },
+          {
+            "title": "09. Сосны на морском берегу",
+            "file": "music/Kino/Чёрный альбом (1990)/09. Сосны на морском берегу.mp3"
+          },
+          {
+            "title": "10. Завтpа война",
+            "file": "music/Kino/Чёрный альбом (1990)/10. Завтpа война.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "artist": "Limp Bizkit",
     "albums": [
       {
         "title": "Chocolate Starfish And The Hot Dog Flavored Water (2000)",
         "year": 2000,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/cover.png",
         "tracks": [
           {
@@ -515,6 +854,9 @@
       {
         "title": "Hybrid Theory (2000)",
         "year": 2000,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Linkin Park/Hybrid Theory (2000)/cover.png",
         "tracks": [
           {
@@ -578,6 +920,9 @@
       {
         "title": "Meteora (2003)",
         "year": 2003,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Linkin Park/Meteora (2003)/cover.png",
         "tracks": [
           {
@@ -637,6 +982,9 @@
       {
         "title": "Minutes to Midnight (2007)",
         "year": 2007,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Linkin Park/Minutes to Midnight (2007)/cover.png",
         "tracks": [
           {
@@ -692,11 +1040,115 @@
     ]
   },
   {
+    "artist": "Michael Jackson",
+    "albums": [
+      {
+        "title": "Bad (1987)",
+        "year": 1987,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/Michael Jackson/Bad (1987)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Bad",
+            "file": "music/Michael Jackson/Bad (1987)/01. Bad.mp3"
+          },
+          {
+            "title": "02. The Way You Make Me Feel",
+            "file": "music/Michael Jackson/Bad (1987)/02. The Way You Make Me Feel.mp3"
+          },
+          {
+            "title": "03. The Girl Is Mine",
+            "file": "music/Michael Jackson/Bad (1987)/03. The Girl Is Mine.mp3"
+          },
+          {
+            "title": "04. Liberian Girl",
+            "file": "music/Michael Jackson/Bad (1987)/04. Liberian Girl.mp3"
+          },
+          {
+            "title": "05. Just Good Friends",
+            "file": "music/Michael Jackson/Bad (1987)/05. Just Good Friends.mp3"
+          },
+          {
+            "title": "06. Another Part of Me",
+            "file": "music/Michael Jackson/Bad (1987)/06. Another Part of Me.mp3"
+          },
+          {
+            "title": "07. Man in the Mirror",
+            "file": "music/Michael Jackson/Bad (1987)/07. Man in the Mirror.mp3"
+          },
+          {
+            "title": "08. I Just Can't Stop Loving You",
+            "file": "music/Michael Jackson/Bad (1987)/08. I Just Can't Stop Loving You.mp3"
+          },
+          {
+            "title": "09. Dirty Diana",
+            "file": "music/Michael Jackson/Bad (1987)/09. Dirty Diana.mp3"
+          },
+          {
+            "title": "10. Smooth Criminal",
+            "file": "music/Michael Jackson/Bad (1987)/10. Smooth Criminal.mp3"
+          },
+          {
+            "title": "11. Leave Me Alone",
+            "file": "music/Michael Jackson/Bad (1987)/11. Leave Me Alone.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Thriller (1982)",
+        "year": 1982,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/Michael Jackson/Thriller (1982)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Wanna Be Startin' Somethin'",
+            "file": "music/Michael Jackson/Thriller (1982)/01. Wanna Be Startin' Somethin'.mp3"
+          },
+          {
+            "title": "02. Baby Be Mine",
+            "file": "music/Michael Jackson/Thriller (1982)/02. Baby Be Mine.mp3"
+          },
+          {
+            "title": "03. The Girl Is Mine (with Paul McCartney)",
+            "file": "music/Michael Jackson/Thriller (1982)/03. The Girl Is Mine (with Paul McCartney).mp3"
+          },
+          {
+            "title": "05. Beat It",
+            "file": "music/Michael Jackson/Thriller (1982)/05. Beat It.mp3"
+          },
+          {
+            "title": "06. Billie Jean",
+            "file": "music/Michael Jackson/Thriller (1982)/06. Billie Jean.mp3"
+          },
+          {
+            "title": "07. Human Nature",
+            "file": "music/Michael Jackson/Thriller (1982)/07. Human Nature.mp3"
+          },
+          {
+            "title": "08. P.Y.T. (Pretty Young Thing)",
+            "file": "music/Michael Jackson/Thriller (1982)/08. P.Y.T. (Pretty Young Thing).mp3"
+          },
+          {
+            "title": "09. The Lady in My Life",
+            "file": "music/Michael Jackson/Thriller (1982)/09. The Lady in My Life.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "artist": "Muse",
     "albums": [
       {
         "title": "Absolution (2003)",
         "year": 2003,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Muse/Absolution (2003)/cover.png",
         "tracks": [
           {
@@ -760,6 +1212,9 @@
       {
         "title": "Black Holes and Revelations (2006)",
         "year": 2006,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Muse/Black Holes and Revelations (2006)/cover.png",
         "tracks": [
           {
@@ -815,6 +1270,9 @@
       {
         "title": "Origin of Symmetry (2001)",
         "year": 2001,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Muse/Origin of Symmetry (2001)/cover.png",
         "tracks": [
           {
@@ -870,6 +1328,9 @@
       {
         "title": "Showbiz (1999)",
         "year": 1999,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Muse/Showbiz (1999)/cover.png",
         "tracks": [
           {
@@ -929,6 +1390,9 @@
       {
         "title": "The 2nd Law (2012)",
         "year": 2012,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Muse/The 2nd Law (2012)/cover.png",
         "tracks": [
           {
@@ -984,6 +1448,9 @@
       {
         "title": "The Resistance (2009)",
         "year": 2009,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Muse/The Resistance (2009)/cover.png",
         "tracks": [
           {
@@ -1031,6 +1498,9 @@
       {
         "title": "The Wow! Signal (2026)",
         "year": 2026,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Muse/The Wow! Signal (2026)/cover.png",
         "tracks": [
           {
@@ -1083,6 +1553,9 @@
       {
         "title": "Danger Days - The True Lives of the Fabulous Killjoys (2010)",
         "year": 2010,
+        "genres": [
+          "other"
+        ],
         "cover": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/cover.jpg",
         "tracks": [
           {
@@ -1150,6 +1623,9 @@
       {
         "title": "Hidden album - The Paper Kingdom  (2012)",
         "year": 2012,
+        "genres": [
+          "other"
+        ],
         "cover": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/cover.png",
         "tracks": [
           {
@@ -1221,6 +1697,9 @@
       {
         "title": "I Brought You My Bullets, You Brought Me Your Love (2002)",
         "year": 2002,
+        "genres": [
+          "other"
+        ],
         "cover": "music/My Chemical Romance/I Brought You My Bullets, You Brought Me Your Love (2002)/cover.jpg",
         "tracks": [
           {
@@ -1272,6 +1751,9 @@
       {
         "title": "The Black Parade (2006)",
         "year": 2006,
+        "genres": [
+          "other"
+        ],
         "cover": "music/My Chemical Romance/The Black Parade (2006)/cover.jpg",
         "tracks": [
           {
@@ -1335,6 +1817,9 @@
       {
         "title": "Three Cheers for Sweet Revenge (2004)",
         "year": 2004,
+        "genres": [
+          "other"
+        ],
         "cover": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/cover.png",
         "tracks": [
           {
@@ -1390,6 +1875,85 @@
             "file": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/9. Thank You for the Venom.mp3"
           }
         ]
+      },
+      {
+        "title": "Under Pressure (2005)",
+        "year": 2005,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Under Pressure",
+            "file": "music/My Chemical Romance/Under Pressure (2005)/01. Under Pressure.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "NewJeans",
+    "albums": [
+      {
+        "title": "NewJeans 1st EP 'New Jeans' (2022)",
+        "year": 2022,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/NewJeans/NewJeans 1st EP 'New Jeans' (2022)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Attention",
+            "file": "music/NewJeans/NewJeans 1st EP 'New Jeans' (2022)/01. Attention.mp3"
+          },
+          {
+            "title": "02. Hype Boy",
+            "file": "music/NewJeans/NewJeans 1st EP 'New Jeans' (2022)/02. Hype Boy.mp3"
+          },
+          {
+            "title": "03. Cookie",
+            "file": "music/NewJeans/NewJeans 1st EP 'New Jeans' (2022)/03. Cookie.mp3"
+          },
+          {
+            "title": "04. Hurt",
+            "file": "music/NewJeans/NewJeans 1st EP 'New Jeans' (2022)/04. Hurt.mp3"
+          }
+        ]
+      },
+      {
+        "title": "NewJeans 2nd EP 'Get Up' (2023)",
+        "year": 2023,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/NewJeans/NewJeans 2nd EP 'Get Up' (2023)/cover.png",
+        "tracks": [
+          {
+            "title": "01. New Jeans",
+            "file": "music/NewJeans/NewJeans 2nd EP 'Get Up' (2023)/01. New Jeans.mp3"
+          },
+          {
+            "title": "02. Super Shy",
+            "file": "music/NewJeans/NewJeans 2nd EP 'Get Up' (2023)/02. Super Shy.mp3"
+          },
+          {
+            "title": "03. ETA",
+            "file": "music/NewJeans/NewJeans 2nd EP 'Get Up' (2023)/03. ETA.mp3"
+          },
+          {
+            "title": "04. Cool With You",
+            "file": "music/NewJeans/NewJeans 2nd EP 'Get Up' (2023)/04. Cool With You.mp3"
+          },
+          {
+            "title": "05. Get Up",
+            "file": "music/NewJeans/NewJeans 2nd EP 'Get Up' (2023)/05. Get Up.mp3"
+          },
+          {
+            "title": "06. ASAP",
+            "file": "music/NewJeans/NewJeans 2nd EP 'Get Up' (2023)/06. ASAP.mp3"
+          }
+        ]
       }
     ]
   },
@@ -1399,6 +1963,9 @@
       {
         "title": "In Utero (1993)",
         "year": 1993,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Nirvana/In Utero (1993)/cover.png",
         "tracks": [
           {
@@ -1454,6 +2021,9 @@
       {
         "title": "Nevermind (1991)",
         "year": 1991,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Nirvana/Nevermind (1991)/cover.png",
         "tracks": [
           {
@@ -1513,11 +2083,156 @@
     ]
   },
   {
+    "artist": "OLIVIA inspi' REIRA(TRAPNEST)",
+    "albums": [
+      {
+        "title": "OLIVIA inspi' REIRA(TRAPNEST) (2007)",
+        "year": 2007,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/OLIVIA inspi' REIRA(TRAPNEST)/OLIVIA inspi' REIRA(TRAPNEST) (2007)/cover.png",
+        "tracks": [
+          {
+            "title": "01. a little pain",
+            "file": "music/OLIVIA inspi' REIRA(TRAPNEST)/OLIVIA inspi' REIRA(TRAPNEST) (2007)/01. a little pain.mp3"
+          },
+          {
+            "title": "02. Wish",
+            "file": "music/OLIVIA inspi' REIRA(TRAPNEST)/OLIVIA inspi' REIRA(TRAPNEST) (2007)/02. Wish.mp3"
+          },
+          {
+            "title": "03. Starless Night",
+            "file": "music/OLIVIA inspi' REIRA(TRAPNEST)/OLIVIA inspi' REIRA(TRAPNEST) (2007)/03. Starless Night.mp3"
+          },
+          {
+            "title": "04. Shadow of Love",
+            "file": "music/OLIVIA inspi' REIRA(TRAPNEST)/OLIVIA inspi' REIRA(TRAPNEST) (2007)/04. Shadow of Love.mp3"
+          },
+          {
+            "title": "05. Tell me",
+            "file": "music/OLIVIA inspi' REIRA(TRAPNEST)/OLIVIA inspi' REIRA(TRAPNEST) (2007)/05. Tell me.mp3"
+          },
+          {
+            "title": "06. Rock you",
+            "file": "music/OLIVIA inspi' REIRA(TRAPNEST)/OLIVIA inspi' REIRA(TRAPNEST) (2007)/06. Rock you.mp3"
+          },
+          {
+            "title": "07. Winter sleep",
+            "file": "music/OLIVIA inspi' REIRA(TRAPNEST)/OLIVIA inspi' REIRA(TRAPNEST) (2007)/07. Winter sleep.mp3"
+          },
+          {
+            "title": "08. Recorded Butterflies - Studio Live",
+            "file": "music/OLIVIA inspi' REIRA(TRAPNEST)/OLIVIA inspi' REIRA(TRAPNEST) (2007)/08. Recorded Butterflies - Studio Live.mp3"
+          },
+          {
+            "title": "09. Wish - Live",
+            "file": "music/OLIVIA inspi' REIRA(TRAPNEST)/OLIVIA inspi' REIRA(TRAPNEST) (2007)/09. Wish - Live.mp3"
+          },
+          {
+            "title": "10. a little pain - Studio Live",
+            "file": "music/OLIVIA inspi' REIRA(TRAPNEST)/OLIVIA inspi' REIRA(TRAPNEST) (2007)/10. a little pain - Studio Live.mp3"
+          }
+        ]
+      },
+      {
+        "title": "WishStarless Night (2006)",
+        "year": 2006,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/OLIVIA inspi' REIRA(TRAPNEST)/WishStarless Night (2006)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Wish",
+            "file": "music/OLIVIA inspi' REIRA(TRAPNEST)/WishStarless Night (2006)/01. Wish.mp3"
+          },
+          {
+            "title": "02. Starless Night",
+            "file": "music/OLIVIA inspi' REIRA(TRAPNEST)/WishStarless Night (2006)/02. Starless Night.mp3"
+          },
+          {
+            "title": "03. Close your eyes",
+            "file": "music/OLIVIA inspi' REIRA(TRAPNEST)/WishStarless Night (2006)/03. Close your eyes.mp3"
+          }
+        ]
+      },
+      {
+        "title": "a little pain (2006)",
+        "year": 2006,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/OLIVIA inspi' REIRA(TRAPNEST)/a little pain (2006)/cover.png",
+        "tracks": [
+          {
+            "title": "01. a little pain",
+            "file": "music/OLIVIA inspi' REIRA(TRAPNEST)/a little pain (2006)/01. a little pain.mp3"
+          },
+          {
+            "title": "02. Tears & Rainbows",
+            "file": "music/OLIVIA inspi' REIRA(TRAPNEST)/a little pain (2006)/02. Tears & Rainbows.mp3"
+          },
+          {
+            "title": "03. let go",
+            "file": "music/OLIVIA inspi' REIRA(TRAPNEST)/a little pain (2006)/03. let go.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Pornofilmy",
+    "albums": [
+      {
+        "title": "Это пройдёт (2020)",
+        "year": 2020,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/Pornofilmy/Это пройдёт (2020)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Это пройдёт",
+            "file": "music/Pornofilmy/Это пройдёт (2020)/01. Это пройдёт.mp3"
+          },
+          {
+            "title": "02. Дядя Володя",
+            "file": "music/Pornofilmy/Это пройдёт (2020)/02. Дядя Володя.mp3"
+          },
+          {
+            "title": "03. Нас догонит любовь",
+            "file": "music/Pornofilmy/Это пройдёт (2020)/03. Нас догонит любовь.mp3"
+          },
+          {
+            "title": "04. Чужое горе",
+            "file": "music/Pornofilmy/Это пройдёт (2020)/04. Чужое горе.mp3"
+          },
+          {
+            "title": "05. Звёздочка",
+            "file": "music/Pornofilmy/Это пройдёт (2020)/05. Звёздочка.mp3"
+          },
+          {
+            "title": "06. Доброе сердце",
+            "file": "music/Pornofilmy/Это пройдёт (2020)/06. Доброе сердце.mp3"
+          },
+          {
+            "title": "07. Уроки любви",
+            "file": "music/Pornofilmy/Это пройдёт (2020)/07. Уроки любви.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "artist": "Queens of the Stone Age",
     "albums": [
       {
         "title": "Songs For The Deaf (2002)",
         "year": 2002,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Queens of the Stone Age/Songs For The Deaf (2002)/cover.png",
         "tracks": [
           {
@@ -1594,6 +2309,9 @@
       {
         "title": "In Rainbows (2007)",
         "year": 2007,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Radiohead/In Rainbows (2007)/cover.png",
         "tracks": [
           {
@@ -1641,6 +2359,9 @@
       {
         "title": "Kid A (2000)",
         "year": 2000,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Radiohead/Kid A (2000)/cover.png",
         "tracks": [
           {
@@ -1692,6 +2413,9 @@
       {
         "title": "OK Computer (1997)",
         "year": 1997,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Radiohead/OK Computer (1997)/cover.png",
         "tracks": [
           {
@@ -1747,6 +2471,9 @@
       {
         "title": "The Bends (1995)",
         "year": 1995,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Radiohead/The Bends (1995)/cover.png",
         "tracks": [
           {
@@ -1807,6 +2534,9 @@
       {
         "title": "All Hope Is Gone (2008)",
         "year": 2008,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Slipknot/All Hope Is Gone (2008)/cover.png",
         "tracks": [
           {
@@ -1874,6 +2604,9 @@
       {
         "title": "Slipknot (1999)",
         "year": 1999,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Slipknot/Slipknot (1999)/cover.png",
         "tracks": [
           {
@@ -1941,6 +2674,9 @@
       {
         "title": "Vol. 3- The Subliminal Verses (Special Edition) (2004)",
         "year": 2004,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/cover.png",
         "tracks": [
           {
@@ -2036,6 +2772,9 @@
       {
         "title": "We Are Not Your Kind (2019)",
         "year": 2019,
+        "genres": [
+          "other"
+        ],
         "cover": "music/Slipknot/We Are Not Your Kind (2019)/cover.png",
         "tracks": [
           {
@@ -2104,6 +2843,9 @@
       {
         "title": "Hypnotize (2005)",
         "year": 2005,
+        "genres": [
+          "other"
+        ],
         "cover": "music/System Of A Down/Hypnotize (2005)/cover.png",
         "tracks": [
           {
@@ -2159,6 +2901,9 @@
       {
         "title": "Mezmerize (2005)",
         "year": 2005,
+        "genres": [
+          "other"
+        ],
         "cover": "music/System Of A Down/Mezmerize (2005)/cover.png",
         "tracks": [
           {
@@ -2206,6 +2951,9 @@
       {
         "title": "Steal This Album! (2002)",
         "year": 2002,
+        "genres": [
+          "other"
+        ],
         "cover": "music/System Of A Down/Steal This Album! (2002)/cover.png",
         "tracks": [
           {
@@ -2277,6 +3025,9 @@
       {
         "title": "System Of A Down (1998)",
         "year": 1998,
+        "genres": [
+          "other"
+        ],
         "cover": "music/System Of A Down/System Of A Down (1998)/cover.png",
         "tracks": [
           {
@@ -2336,6 +3087,9 @@
       {
         "title": "Toxicity (2001)",
         "year": 2001,
+        "genres": [
+          "other"
+        ],
         "cover": "music/default.png",
         "tracks": [
           {
@@ -2403,11 +3157,152 @@
     ]
   },
   {
+    "artist": "Tame Impala",
+    "albums": [
+      {
+        "title": "Currents (2015)",
+        "year": 2015,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/Tame Impala/Currents (2015)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Let It Happen",
+            "file": "music/Tame Impala/Currents (2015)/01. Let It Happen.mp3"
+          },
+          {
+            "title": "02. Nangs",
+            "file": "music/Tame Impala/Currents (2015)/02. Nangs.mp3"
+          },
+          {
+            "title": "03. The Moment",
+            "file": "music/Tame Impala/Currents (2015)/03. The Moment.mp3"
+          },
+          {
+            "title": "04. Yes I'm Changing",
+            "file": "music/Tame Impala/Currents (2015)/04. Yes I'm Changing.mp3"
+          },
+          {
+            "title": "05. Eventually",
+            "file": "music/Tame Impala/Currents (2015)/05. Eventually.mp3"
+          },
+          {
+            "title": "06. Gossip",
+            "file": "music/Tame Impala/Currents (2015)/06. Gossip.mp3"
+          },
+          {
+            "title": "07. The Less I Know The Better",
+            "file": "music/Tame Impala/Currents (2015)/07. The Less I Know The Better.mp3"
+          },
+          {
+            "title": "08. Past Life",
+            "file": "music/Tame Impala/Currents (2015)/08. Past Life.mp3"
+          },
+          {
+            "title": "09. Disciples",
+            "file": "music/Tame Impala/Currents (2015)/09. Disciples.mp3"
+          },
+          {
+            "title": "10. 'Cause I'm A Man",
+            "file": "music/Tame Impala/Currents (2015)/10. 'Cause I'm A Man.mp3"
+          },
+          {
+            "title": "11. Reality In Motion",
+            "file": "music/Tame Impala/Currents (2015)/11. Reality In Motion.mp3"
+          },
+          {
+            "title": "12. LoveParanoia",
+            "file": "music/Tame Impala/Currents (2015)/12. LoveParanoia.mp3"
+          },
+          {
+            "title": "13. New Person, Same Old Mistakes",
+            "file": "music/Tame Impala/Currents (2015)/13. New Person, Same Old Mistakes.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "The Marías",
+    "albums": [
+      {
+        "title": "Submarine (2024)",
+        "year": 2024,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/The Marías/Submarine (2024)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Ride",
+            "file": "music/The Marías/Submarine (2024)/01. Ride.mp3"
+          },
+          {
+            "title": "02. Hamptons",
+            "file": "music/The Marías/Submarine (2024)/02. Hamptons.mp3"
+          },
+          {
+            "title": "03. Echo",
+            "file": "music/The Marías/Submarine (2024)/03. Echo.mp3"
+          },
+          {
+            "title": "04. Run Your Mouth",
+            "file": "music/The Marías/Submarine (2024)/04. Run Your Mouth.mp3"
+          },
+          {
+            "title": "05. Real Life",
+            "file": "music/The Marías/Submarine (2024)/05. Real Life.mp3"
+          },
+          {
+            "title": "06. Blur",
+            "file": "music/The Marías/Submarine (2024)/06. Blur.mp3"
+          },
+          {
+            "title": "07. Paranoia",
+            "file": "music/The Marías/Submarine (2024)/07. Paranoia.mp3"
+          },
+          {
+            "title": "08. Lejos de Ti",
+            "file": "music/The Marías/Submarine (2024)/08. Lejos de Ti.mp3"
+          },
+          {
+            "title": "09. Love You Anyway",
+            "file": "music/The Marías/Submarine (2024)/09. Love You Anyway.mp3"
+          },
+          {
+            "title": "10. Ay No Puedo",
+            "file": "music/The Marías/Submarine (2024)/10. Ay No Puedo.mp3"
+          },
+          {
+            "title": "11. No One Noticed",
+            "file": "music/The Marías/Submarine (2024)/11. No One Noticed.mp3"
+          },
+          {
+            "title": "12. Vicious Sensitive Robot",
+            "file": "music/The Marías/Submarine (2024)/12. Vicious Sensitive Robot.mp3"
+          },
+          {
+            "title": "13. If Only",
+            "file": "music/The Marías/Submarine (2024)/13. If Only.mp3"
+          },
+          {
+            "title": "14. Sienna",
+            "file": "music/The Marías/Submarine (2024)/14. Sienna.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "artist": "The Smiths",
     "albums": [
       {
         "title": "Hatful of Hollow (1984)",
         "year": 1984,
+        "genres": [
+          "other"
+        ],
         "cover": "music/The Smiths/Hatful of Hollow (1984)/cover.png",
         "tracks": [
           {
@@ -2479,6 +3374,9 @@
       {
         "title": "The Queen Is Dead (1986)",
         "year": 1986,
+        "genres": [
+          "other"
+        ],
         "cover": "music/The Smiths/The Queen Is Dead (1986)/cover.png",
         "tracks": [
           {
@@ -2526,6 +3424,9 @@
       {
         "title": "The Smiths (1984)",
         "year": 1984,
+        "genres": [
+          "other"
+        ],
         "cover": "music/The Smiths/The Smiths (1984)/cover.jpg",
         "tracks": [
           {
@@ -2567,6 +3468,69 @@
           {
             "title": "11. Suffer Little Children - 2011 Remaster",
             "file": "music/The Smiths/The Smiths (1984)/11. Suffer Little Children - 2011 Remaster.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "The Used",
+    "albums": [
+      {
+        "title": "The Used (2002)",
+        "year": 2002,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/default.png",
+        "tracks": [
+          {
+            "title": "01. Maybe Memories",
+            "file": "music/The Used/The Used (2002)/01. Maybe Memories.mp3"
+          },
+          {
+            "title": "02. The Taste of Ink",
+            "file": "music/The Used/The Used (2002)/02. The Taste of Ink.mp3"
+          },
+          {
+            "title": "03. Bulimic",
+            "file": "music/The Used/The Used (2002)/03. Bulimic.mp3"
+          },
+          {
+            "title": "04. Say Days Ago",
+            "file": "music/The Used/The Used (2002)/04. Say Days Ago.mp3"
+          },
+          {
+            "title": "05. Poetic Tragedy",
+            "file": "music/The Used/The Used (2002)/05. Poetic Tragedy.mp3"
+          },
+          {
+            "title": "06. Buried Myself Alive",
+            "file": "music/The Used/The Used (2002)/06. Buried Myself Alive.mp3"
+          },
+          {
+            "title": "07. A Box Full Of Sharp Objects",
+            "file": "music/The Used/The Used (2002)/07. A Box Full Of Sharp Objects.mp3"
+          },
+          {
+            "title": "08. Blue and Yellow",
+            "file": "music/The Used/The Used (2002)/08. Blue and Yellow.mp3"
+          },
+          {
+            "title": "09. Greener with the Scenery",
+            "file": "music/The Used/The Used (2002)/09. Greener with the Scenery.mp3"
+          },
+          {
+            "title": "10. Noise and Kisses",
+            "file": "music/The Used/The Used (2002)/10. Noise and Kisses.mp3"
+          },
+          {
+            "title": "11. On My Own",
+            "file": "music/The Used/The Used (2002)/11. On My Own.mp3"
+          },
+          {
+            "title": "12. Pieces Mended",
+            "file": "music/The Used/The Used (2002)/12. Pieces Mended.mp3"
           }
         ]
       }
