@@ -1,10 +1,11 @@
-﻿
-name: Auto Update Music Hierarchy
+﻿name: Auto Update Music Hierarchy
 
 on:
   push:
     paths:
       - 'music/**'
+      - '.github/workflows/update-music.yml'
+  workflow_dispatch:
 
 jobs:
   update-json:
@@ -30,182 +31,84 @@ jobs:
           const musicRootDir = path.join(".", "music");
           const musicList = [];
 
-          function scanDir(currentPath, artist = "", album = "")
-          {
-              if (!fs.existsSync(currentPath)) return;
+          if (fs.existsSync(musicRootDir)) {
+              const artists = fs.readdirSync(musicRootDir, { withFileTypes: true });
 
-              const entries = fs.readdirSync(currentPath, { withFileTypes: true });
+              for (const entry of artists) {
+                  if (!entry.isDirectory()) continue;
 
-              if (!artist)
-              {
-                  for (const entry of entries)
-                  {
-                      if (entry.isDirectory())
-                      {
-                          scanDir(path.join(currentPath, entry.name), entry.name, "");
-                      }
-                  }
-
-                  return;
-              }
-
-              if (!album)
-              {
                   const artistObj = {
-                      artist: artist,
+                      artist: entry.name,
                       albums: []
                   };
 
-                  for (const entry of entries)
-                  {
-                      if (entry.isDirectory())
-                      {
-                          scanDir(path.join(currentPath, entry.name), artist, entry.name);
-                      }
-                  }
-
-                  artistObj.albums = musicList
-                      .filter(item => item.artist === artist)
-                      .flatMap(item => item.albums);
-
                   musicList.push(artistObj);
-                  return;
-              }
 
-              const tracks = [];
+                  const artistPath = path.join(musicRootDir, entry.name);
+                  const albums = fs.readdirSync(artistPath, { withFileTypes: true });
 
-              for (const entry of entries)
-              {
-                  if (!entry.isFile() || !entry.name.toLowerCase().endsWith(".mp3")) continue;
+                  for (const albumEntry of albums) {
+                      if (!albumEntry.isDirectory()) continue;
 
-                  const baseName = path.basename(entry.name, path.extname(entry.name));
+                      const albumPath = path.join(artistPath, albumEntry.name);
+                      const album = albumEntry.name;
 
-                  tracks.push({
-                      title: baseName.replace(/_/g, " "),
-                      file: path.relative(".", path.join(currentPath, entry.name)).replace(/\\/g, "/")
-                  });
-              }
+                      const tracks = fs.readdirSync(albumPath, { withFileTypes: true })
+                          .filter(file => file.isFile() && file.name.toLowerCase().endsWith(".mp3"))
+                          .map(file => {
+                              const baseName = path.basename(file.name, path.extname(file.name));
 
-              if (tracks.length === 0) return;
-
-              let cover = null;
-              const possibleCovers = [
-                  "cover.jpg",
-                  "cover.png",
-                  "folder.jpg",
-                  "folder.png"
-              ];
-
-              for (const cov of possibleCovers)
-              {
-                  const covPath = path.join(currentPath, cov);
-
-                  if (fs.existsSync(covPath))
-                  {
-                      cover = path.relative(".", covPath).replace(/\\/g, "/");
-                      break;
-                  }
-              }
-
-              if (!cover)
-              {
-                  cover = "music/default.png";
-              }
-
-              const albumObj = {
-                  title: album,
-                  year: null,
-                  cover: cover,
-                  tracks: tracks
-              };
-
-              const artistObj = musicList.find(item => item.artist === artist);
-
-              if (artistObj)
-              {
-                  artistObj.albums.push(albumObj);
-              }
-              else
-              {
-                  musicList.push({
-                      artist: artist,
-                      albums: [albumObj]
-                  });
-              }
-          }
-
-          if (fs.existsSync(musicRootDir))
-          {
-              const artists = fs.readdirSync(musicRootDir, { withFileTypes: true });
-
-              for (const entry of artists)
-              {
-                  if (entry.isDirectory())
-                  {
-                      const artistObj = {
-                          artist: entry.name,
-                          albums: []
-                      };
-
-                      musicList.push(artistObj);
-
-                      const artistPath = path.join(musicRootDir, entry.name);
-                      const albums = fs.readdirSync(artistPath, { withFileTypes: true });
-
-                      for (const albumEntry of albums)
-                      {
-                          if (!albumEntry.isDirectory()) continue;
-
-                          const albumPath = path.join(artistPath, albumEntry.name);
-                          const album = albumEntry.name;
-
-                          const tracks = fs.readdirSync(albumPath, { withFileTypes: true })
-                              .filter(file => file.isFile() && file.name.toLowerCase().endsWith(".mp3"))
-                              .map(file => {
-                                  const baseName = path.basename(file.name, path.extname(file.name));
-
-                                  return {
-                                      title: baseName.replace(/_/g, " "),
-                                      file: path.relative(".", path.join(albumPath, file.name)).replace(/\\/g, "/")
-                                  };
-                              });
-
-                          if (tracks.length === 0) continue;
-
-                          let cover = null;
-
-                          const possibleCovers = [
-                              "cover.jpg",
-                              "cover.png",
-                              "folder.jpg",
-                              "folder.png"
-                          ];
-
-                          for (const cov of possibleCovers)
-                          {
-                              const covPath = path.join(albumPath, cov);
-
-                              if (fs.existsSync(covPath))
-                              {
-                                  cover = path.relative(".", covPath).replace(/\\/g, "/");
-                                  break;
-                              }
-                          }
-
-                          if (!cover)
-                          {
-                              cover = "music/default.png";
-                          }
-
-                          const yearMatch = album.match(/\b(19|20)\d{2}\b/);
-
-                          artistObj.albums.push({
-                              title: album,
-                              year: yearMatch ? Number(yearMatch[0]) : null,
-                              cover: cover,
-                              tracks: tracks
+                              return {
+                                  title: baseName.replace(/_/g, " "),
+                                  file: path.relative(".", path.join(albumPath, file.name)).replace(/\\/g, "/")
+                              };
                           });
+
+                      if (tracks.length === 0) continue;
+
+                      let cover = null;
+                      const possibleCovers = [
+                          "cover.jpg",
+                          "cover.png",
+                          "folder.jpg",
+                          "folder.png"
+                      ];
+
+                      for (const cov of possibleCovers) {
+                          const covPath = path.join(albumPath, cov);
+
+                          if (fs.existsSync(covPath)) {
+                              cover = path.relative(".", covPath).replace(/\\/g, "/");
+                              break;
+                          }
                       }
+
+                      if (!cover) {
+                          cover = "music/default.png";
+                      }
+
+                      let genres = ["other"];
+                      const genreFilePath = path.join(albumPath, "genre.txt");
+
+                      if (fs.existsSync(genreFilePath)) {
+                          const rawGenre = fs.readFileSync(genreFilePath, "utf8").trim();
+                          if (rawGenre) {
+                              genres = rawGenre
+                                  .split(",")
+                                  .map(g => g.trim().toLowerCase())
+                                  .filter(Boolean);
+                          }
+                      }
+
+                      const yearMatch = album.match(/\b(19|20)\d{2}\b/);
+
+                      artistObj.albums.push({
+                          title: album,
+                          year: yearMatch ? Number(yearMatch[0]) : null,
+                          genres: genres,
+                          cover: cover,
+                          tracks: tracks
+                      });
                   }
               }
           }

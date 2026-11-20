@@ -24,6 +24,11 @@
 
     <main class="main-content" style="padding: 20px;">
 
+        <div id="genre-filter-bar" class="view-switcher" style="flex-wrap: wrap; margin-bottom: 15px;">
+            <span style="font-size: 13px; color: #ff4d9d;"><img src="images/pixels/disc.gif" alt="disk" style="margin-bottom: -5px"> Genre:</span>
+            <div id="genre-buttons" style="display: flex; flex-wrap: wrap; gap: 6px;"></div>
+        </div>
+
         <div id="music-container">
             <p style="color: #888;">Loading...</p>
         </div>
@@ -53,6 +58,44 @@
 <script>
     let globalMusicData = [];
     let currentView = 'detailed';
+    let selectedGenre = 'all';
+
+    function getAllGenres(data) {
+        const set = new Set();
+        data.forEach(artistObj => {
+            (artistObj.albums || []).forEach(album => {
+                (album.genres || ['other']).forEach(g => set.add(g));
+            });
+        });
+        return ['all', ...Array.from(set).sort()];
+    }
+
+    function renderGenreButtons() {
+        const wrap = document.getElementById('genre-buttons');
+        if (!wrap) return;
+        wrap.innerHTML = '';
+
+        const genres = getAllGenres(globalMusicData);
+        genres.forEach(genre => {
+            const btn = document.createElement('button');
+            btn.className = 'retro-btn' + (selectedGenre === genre ? ' active' : '');
+            btn.textContent = genre === 'all' ? '[ All ]' : `[ ${genre} ]`;
+            btn.onclick = () => {
+                selectedGenre = genre;
+                renderGenreButtons();
+                renderMusicData();
+            };
+            wrap.appendChild(btn);
+        });
+    }
+
+    function getFilteredAlbums(artistObj) {
+        return (artistObj.albums || []).filter(album => {
+            if (selectedGenre === 'all') return true;
+            const albumGenres = album.genres || ['other'];
+            return albumGenres.includes(selectedGenre);
+        });
+    }
 
     function switchView(view) {
         currentView = view;
@@ -67,6 +110,7 @@
         .then(response => response.json())
         .then(data => {
             globalMusicData = data;
+            renderGenreButtons();
             renderMusicData();
         })
         .catch(error => {
@@ -80,11 +124,14 @@
 
         if (currentView === 'detailed') {
             globalMusicData.forEach(artistObj => {
+                const filteredAlbums = getFilteredAlbums(artistObj);
+                if (filteredAlbums.length === 0) return;
+
                 let artistSection = document.createElement('div');
                 artistSection.className = 'box';
                 artistSection.innerHTML = `<h2 style="color: #ff4d9d;">★ ${artistObj.artist}</h2>`;
 
-                artistObj.albums.forEach(album => {
+                filteredAlbums.forEach(album => {
                     let albumDiv = document.createElement('div');
                     albumDiv.className = 'album-card';
 
@@ -152,6 +199,9 @@
 
         } else {
             globalMusicData.forEach(artistObj => {
+                const filteredAlbums = getFilteredAlbums(artistObj);
+                if (filteredAlbums.length === 0) return;
+
                 let artistSection = document.createElement('div');
                 artistSection.className = 'box';
                 artistSection.innerHTML = `<h2 style="color: #ff4d9d;">★ ${artistObj.artist}</h2>`;
@@ -159,7 +209,7 @@
                 let shelfContainer = document.createElement('div');
                 shelfContainer.className = 'shelf-container';
 
-                artistObj.albums.forEach(album => {
+                filteredAlbums.forEach(album => {
                     let cleanAlbumTitle = album.title.replace(/\s*\(\d{4}\)|\s*\b\d{4}\b/g, '').trim();
                     let albumYearText = album.year ? `(${album.year})` : '';
 
