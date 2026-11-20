@@ -504,6 +504,56 @@
     "artist": "HIM",
     "albums": [
       {
+        "title": "Greatest Love Songs Vol. 666 (1997)",
+        "year": 1997,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/HIM/Greatest Love Songs Vol. 666 (1997)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Your Sweet 666",
+            "file": "music/HIM/Greatest Love Songs Vol. 666 (1997)/01. Your Sweet 666.mp3"
+          },
+          {
+            "title": "02. Wicked Game",
+            "file": "music/HIM/Greatest Love Songs Vol. 666 (1997)/02. Wicked Game.mp3"
+          },
+          {
+            "title": "03. The Heartless",
+            "file": "music/HIM/Greatest Love Songs Vol. 666 (1997)/03. The Heartless.mp3"
+          },
+          {
+            "title": "04. Our Diabolikal Rapture",
+            "file": "music/HIM/Greatest Love Songs Vol. 666 (1997)/04. Our Diabolikal Rapture.mp3"
+          },
+          {
+            "title": "05. It's All Tears (Drown In This Love)",
+            "file": "music/HIM/Greatest Love Songs Vol. 666 (1997)/05. It's All Tears (Drown In This Love).mp3"
+          },
+          {
+            "title": "06. When Love and Death Embrace",
+            "file": "music/HIM/Greatest Love Songs Vol. 666 (1997)/06. When Love and Death Embrace.mp3"
+          },
+          {
+            "title": "07. The Beginning Of The End",
+            "file": "music/HIM/Greatest Love Songs Vol. 666 (1997)/07. The Beginning Of The End.mp3"
+          },
+          {
+            "title": "08. Don't Fear The Reaper",
+            "file": "music/HIM/Greatest Love Songs Vol. 666 (1997)/08. Don't Fear The Reaper.mp3"
+          },
+          {
+            "title": "09. For You",
+            "file": "music/HIM/Greatest Love Songs Vol. 666 (1997)/09. For You.mp3"
+          },
+          {
+            "title": "10. Hidden Track",
+            "file": "music/HIM/Greatest Love Songs Vol. 666 (1997)/10. Hidden Track.mp3"
+          }
+        ]
+      },
+      {
         "title": "Razorblade Romance (1999)",
         "year": 1999,
         "genres": [
@@ -1745,6 +1795,78 @@
           {
             "title": "9. This Is the Best Day Ever",
             "file": "music/My Chemical Romance/I Brought You My Bullets, You Brought Me Your Love (2002)/9. This Is the Best Day Ever.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Number Five (2013)",
+        "year": 2013,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/My Chemical Romance/Number Five (2013)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Surrender the Night",
+            "file": "music/My Chemical Romance/Number Five (2013)/01. Surrender the Night.mp3"
+          },
+          {
+            "title": "02. Burn Bright",
+            "file": "music/My Chemical Romance/Number Five (2013)/02. Burn Bright.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Number Four (2013)",
+        "year": 2013,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/My Chemical Romance/Number Four (2013)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Kiss The Ring",
+            "file": "music/My Chemical Romance/Number Four (2013)/01. Kiss The Ring.mp3"
+          },
+          {
+            "title": "02. Make Room!!!!",
+            "file": "music/My Chemical Romance/Number Four (2013)/02. Make Room!!!!.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Number One (2012)",
+        "year": 2012,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/My Chemical Romance/Number One (2012)/cover.png",
+        "tracks": [
+          {
+            "title": "01. Boy Division",
+            "file": "music/My Chemical Romance/Number One (2012)/01. Boy Division.mp3"
+          },
+          {
+            "title": "02. Tomorrow's Money",
+            "file": "music/My Chemical Romance/Number One (2012)/02. Tomorrow's Money.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Number Two (2012)",
+        "year": 2012,
+        "genres": [
+          "other"
+        ],
+        "cover": "music/My Chemical Romance/Number Two (2012)/cover.png",
+        "tracks": [
+          {
+            "title": "01. AMBULANCE",
+            "file": "music/My Chemical Romance/Number Two (2012)/01. AMBULANCE.mp3"
+          },
+          {
+            "title": "02. Gun",
+            "file": "music/My Chemical Romance/Number Two (2012)/02. Gun.mp3"
           }
         ]
       },
