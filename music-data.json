@@ -6,7 +6,9 @@
         "title": "DECEMBERUNDERGROUND (2006)",
         "year": 2006,
         "genres": [
-          "other"
+          "alternative rock",
+          "post-hardcore",
+          "emo"
         ],
         "cover": "music/AFI/DECEMBERUNDERGROUND (2006)/cover.png",
         "tracks": [
@@ -64,7 +66,9 @@
         "title": "Sing The Sorrow (2003)",
         "year": 2003,
         "genres": [
-          "other"
+          "post-hardcore",
+          "alternative rock",
+          "emo"
         ],
         "cover": "music/AFI/Sing The Sorrow (2003)/cover.png",
         "tracks": [
@@ -131,7 +135,10 @@
         "title": "Minecraft - Volume Alpha (2011)",
         "year": 2011,
         "genres": [
-          "other"
+          "ambient",
+          "electronic",
+          "minimalism",
+          "video game music"
         ],
         "cover": "music/C418/Minecraft - Volume Alpha (2011)/cover.png",
         "tracks": [
@@ -242,7 +249,11 @@
         "title": "Common Dreads (2009)",
         "year": 2009,
         "genres": [
-          "other"
+          "electronicore",
+          "post-hardcore",
+          "electronic",
+          "dubstep",
+          "drum and bass"
         ],
         "cover": "music/Enter Shikari/Common Dreads (2009)/cover.png",
         "tracks": [
@@ -313,8 +324,8 @@
         "year": 2007,
         "genres": [
           "electronicore",
-          "hardcore",
-          "punk"
+          "post-hardcore",
+          "punk rock"
         ],
         "cover": "music/Enter Shikari/Take to the Skies (2007)/cover.png",
         "tracks": [
@@ -381,7 +392,9 @@
         "title": "At Last! (1960)",
         "year": 1960,
         "genres": [
-          "other"
+          "soul",
+          "r&b",
+          "blues"
         ],
         "cover": "music/Etta James/At Last! (1960)/cover.png",
         "tracks": [
@@ -452,7 +465,10 @@
         "title": "Until Fear No Longer Defines Us (2011)",
         "year": 2011,
         "genres": [
-          "other"
+          "doom metal",
+          "post-metal",
+          "melodic death metal",
+          "progressive metal"
         ],
         "cover": "music/Ghost Brigade/Until Fear No Longer Defines Us (2011)/cover.png",
         "tracks": [
@@ -507,7 +523,10 @@
         "title": "Greatest Love Songs Vol. 666 (1997)",
         "year": 1997,
         "genres": [
-          "other"
+          "love metal",
+          "gothic metal",
+          "gothic rock",
+          "alternative metal"
         ],
         "cover": "music/HIM/Greatest Love Songs Vol. 666 (1997)/cover.png",
         "tracks": [
@@ -557,7 +576,10 @@
         "title": "Razorblade Romance (1999)",
         "year": 1999,
         "genres": [
-          "other"
+          "love metal",
+          "gothic metal",
+          "gothic rock",
+          "alternative metal"
         ],
         "cover": "music/HIM/Razorblade Romance (1999)/cover.png",
         "tracks": [
@@ -620,7 +642,9 @@
         "title": "Grace (1994)",
         "year": 1994,
         "genres": [
-          "other"
+          "alternative rock",
+          "folk rock",
+          "indie rock"
         ],
         "cover": "music/Jeff Buckley/Grace (1994)/cover.png",
         "tracks": [
@@ -679,7 +703,10 @@
         "title": "Звезда по имени Солнце (1989)",
         "year": 1989,
         "genres": [
-          "other"
+          "russian rock",
+          "new wave",
+          "post-punk",
+          "rock"
         ],
         "cover": "music/Kino/Звезда по имени Солнце (1989)/cover.png",
         "tracks": [
@@ -725,7 +752,10 @@
         "title": "Последний герой (1989)",
         "year": 1989,
         "genres": [
-          "other"
+          "russian rock",
+          "new wave",
+          "post-punk",
+          "rock"
         ],
         "cover": "music/Kino/Последний герой (1989)/cover.png",
         "tracks": [
@@ -775,7 +805,10 @@
         "title": "Чёрный альбом (1990)",
         "year": 1990,
         "genres": [
-          "other"
+          "russian rock",
+          "new wave",
+          "post-punk",
+          "rock"
         ],
         "cover": "music/Kino/Чёрный альбом (1990)/cover.png",
         "tracks": [
@@ -830,7 +863,8 @@
         "title": "Chocolate Starfish And The Hot Dog Flavored Water (2000)",
         "year": 2000,
         "genres": [
-          "other"
+          "nu-metal",
+          "rap metal"
         ],
         "cover": "music/Limp Bizkit/Chocolate Starfish And The Hot Dog Flavored Water (2000)/cover.png",
         "tracks": [
@@ -905,7 +939,8 @@
         "title": "Hybrid Theory (2000)",
         "year": 2000,
         "genres": [
-          "other"
+          "nu-metal",
+          "alternative rock"
         ],
         "cover": "music/Linkin Park/Hybrid Theory (2000)/cover.png",
         "tracks": [
@@ -971,7 +1006,8 @@
         "title": "Meteora (2003)",
         "year": 2003,
         "genres": [
-          "other"
+          "nu-metal",
+          "alternative rock"
         ],
         "cover": "music/Linkin Park/Meteora (2003)/cover.png",
         "tracks": [
@@ -1033,7 +1069,9 @@
         "title": "Minutes to Midnight (2007)",
         "year": 2007,
         "genres": [
-          "other"
+          "alternative rock",
+          "pop rock",
+          "hard rock"
         ],
         "cover": "music/Linkin Park/Minutes to Midnight (2007)/cover.png",
         "tracks": [
@@ -1096,7 +1134,9 @@
         "title": "Bad (1987)",
         "year": 1987,
         "genres": [
-          "other"
+          "pop",
+          "r&b",
+          "funk"
         ],
         "cover": "music/Michael Jackson/Bad (1987)/cover.png",
         "tracks": [
@@ -1150,7 +1190,9 @@
         "title": "Thriller (1982)",
         "year": 1982,
         "genres": [
-          "other"
+          "pop",
+          "r&b",
+          "funk"
         ],
         "cover": "music/Michael Jackson/Thriller (1982)/cover.png",
         "tracks": [
@@ -1197,7 +1239,9 @@
         "title": "Absolution (2003)",
         "year": 2003,
         "genres": [
-          "other"
+          "alternative rock",
+          "progressive rock",
+          "space rock"
         ],
         "cover": "music/Muse/Absolution (2003)/cover.png",
         "tracks": [
@@ -1263,7 +1307,9 @@
         "title": "Black Holes and Revelations (2006)",
         "year": 2006,
         "genres": [
-          "other"
+          "alternative rock",
+          "space rock",
+          "electronic rock"
         ],
         "cover": "music/Muse/Black Holes and Revelations (2006)/cover.png",
         "tracks": [
@@ -1321,7 +1367,9 @@
         "title": "Origin of Symmetry (2001)",
         "year": 2001,
         "genres": [
-          "other"
+          "alternative rock",
+          "progressive rock",
+          "space rock"
         ],
         "cover": "music/Muse/Origin of Symmetry (2001)/cover.png",
         "tracks": [
@@ -1379,7 +1427,8 @@
         "title": "Showbiz (1999)",
         "year": 1999,
         "genres": [
-          "other"
+          "alternative rock",
+          "post-britpop"
         ],
         "cover": "music/Muse/Showbiz (1999)/cover.png",
         "tracks": [
@@ -1441,7 +1490,10 @@
         "title": "The 2nd Law (2012)",
         "year": 2012,
         "genres": [
-          "other"
+          "electronic rock",
+          "alternative rock",
+          "pop rock",
+          "dubstep"
         ],
         "cover": "music/Muse/The 2nd Law (2012)/cover.png",
         "tracks": [
@@ -1499,7 +1551,9 @@
         "title": "The Resistance (2009)",
         "year": 2009,
         "genres": [
-          "other"
+          "alternative rock",
+          "progressive rock",
+          "symphonic rock"
         ],
         "cover": "music/Muse/The Resistance (2009)/cover.png",
         "tracks": [
@@ -1549,7 +1603,8 @@
         "title": "The Wow! Signal (2026)",
         "year": 2026,
         "genres": [
-          "other"
+          "alternative rock",
+          "space rock"
         ],
         "cover": "music/Muse/The Wow! Signal (2026)/cover.png",
         "tracks": [
@@ -1604,7 +1659,10 @@
         "title": "Danger Days - The True Lives of the Fabulous Killjoys (2010)",
         "year": 2010,
         "genres": [
-          "other"
+          "alternative rock",
+          "pop punk",
+          "power pop",
+          "glam rock"
         ],
         "cover": "music/My Chemical Romance/Danger Days - The True Lives of the Fabulous Killjoys (2010)/cover.jpg",
         "tracks": [
@@ -1674,7 +1732,8 @@
         "title": "Hidden album - The Paper Kingdom (2012)",
         "year": 2012,
         "genres": [
-          "other"
+          "alternative rock",
+          "emo"
         ],
         "cover": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/cover.png",
         "tracks": [
@@ -1748,7 +1807,9 @@
         "title": "I Brought You My Bullets, You Brought Me Your Love (2002)",
         "year": 2002,
         "genres": [
-          "other"
+          "post-hardcore",
+          "emo",
+          "screamo"
         ],
         "cover": "music/My Chemical Romance/I Brought You My Bullets, You Brought Me Your Love (2002)/cover.jpg",
         "tracks": [
@@ -1802,7 +1863,8 @@
         "title": "Number Five (2013)",
         "year": 2013,
         "genres": [
-          "other"
+          "alternative rock",
+          "punk rock"
         ],
         "cover": "music/My Chemical Romance/Number Five (2013)/cover.png",
         "tracks": [
@@ -1820,7 +1882,8 @@
         "title": "Number Four (2013)",
         "year": 2013,
         "genres": [
-          "other"
+          "alternative rock",
+          "garage rock"
         ],
         "cover": "music/My Chemical Romance/Number Four (2013)/cover.png",
         "tracks": [
@@ -1838,7 +1901,8 @@
         "title": "Number One (2012)",
         "year": 2012,
         "genres": [
-          "other"
+          "alternative rock",
+          "punk rock"
         ],
         "cover": "music/My Chemical Romance/Number One (2012)/cover.png",
         "tracks": [
@@ -1856,7 +1920,8 @@
         "title": "Number Two (2012)",
         "year": 2012,
         "genres": [
-          "other"
+          "alternative rock",
+          "garage rock"
         ],
         "cover": "music/My Chemical Romance/Number Two (2012)/cover.png",
         "tracks": [
@@ -1874,7 +1939,9 @@
         "title": "The Black Parade (2006)",
         "year": 2006,
         "genres": [
-          "other"
+          "alternative rock",
+          "emo",
+          "pop punk"
         ],
         "cover": "music/My Chemical Romance/The Black Parade (2006)/cover.jpg",
         "tracks": [
@@ -1940,7 +2007,10 @@
         "title": "Three Cheers for Sweet Revenge (2004)",
         "year": 2004,
         "genres": [
-          "other"
+          "post-hardcore",
+          "emo",
+          "alternative rock",
+          "screamo"
         ],
         "cover": "music/My Chemical Romance/Three Cheers for Sweet Revenge (2004)/cover.png",
         "tracks": [
@@ -2002,7 +2072,8 @@
         "title": "Under Pressure (2005)",
         "year": 2005,
         "genres": [
-          "other"
+          "alternative rock",
+          "post-hardcore"
         ],
         "cover": "music/My Chemical Romance/Under Pressure (2005)/cover.png",
         "tracks": [
@@ -2021,7 +2092,9 @@
         "title": "NewJeans 1st EP 'New Jeans' (2022)",
         "year": 2022,
         "genres": [
-          "other"
+          "k-pop",
+          "r&b",
+          "uk garage"
         ],
         "cover": "music/NewJeans/NewJeans 1st EP 'New Jeans' (2022)/cover.png",
         "tracks": [
@@ -2047,7 +2120,10 @@
         "title": "NewJeans 2nd EP 'Get Up' (2023)",
         "year": 2023,
         "genres": [
-          "other"
+          "k-pop",
+          "r&b",
+          "uk garage",
+          "jersey club"
         ],
         "cover": "music/NewJeans/NewJeans 2nd EP 'Get Up' (2023)/cover.png",
         "tracks": [
@@ -2086,7 +2162,8 @@
         "title": "In Utero (1993)",
         "year": 1993,
         "genres": [
-          "other"
+          "grunge",
+          "alternative rock"
         ],
         "cover": "music/Nirvana/In Utero (1993)/cover.png",
         "tracks": [
@@ -2144,7 +2221,8 @@
         "title": "Nevermind (1991)",
         "year": 1991,
         "genres": [
-          "other"
+          "grunge",
+          "alternative rock"
         ],
         "cover": "music/Nirvana/Nevermind (1991)/cover.png",
         "tracks": [
@@ -2211,7 +2289,8 @@
         "title": "OLIVIA inspi' REIRA(TRAPNEST) (2007)",
         "year": 2007,
         "genres": [
-          "other"
+          "j-rock",
+          "pop rock"
         ],
         "cover": "music/OLIVIA inspi' REIRA(TRAPNEST)/OLIVIA inspi' REIRA(TRAPNEST) (2007)/cover.png",
         "tracks": [
@@ -2261,7 +2340,8 @@
         "title": "WishStarless Night (2006)",
         "year": 2006,
         "genres": [
-          "other"
+          "j-rock",
+          "pop rock"
         ],
         "cover": "music/OLIVIA inspi' REIRA(TRAPNEST)/WishStarless Night (2006)/cover.png",
         "tracks": [
@@ -2283,7 +2363,8 @@
         "title": "a little pain (2006)",
         "year": 2006,
         "genres": [
-          "other"
+          "j-rock",
+          "pop rock"
         ],
         "cover": "music/OLIVIA inspi' REIRA(TRAPNEST)/a little pain (2006)/cover.png",
         "tracks": [
@@ -2310,7 +2391,8 @@
         "title": "Это пройдёт (2020)",
         "year": 2020,
         "genres": [
-          "other"
+          "punk rock",
+          "russian rock"
         ],
         "cover": "music/Pornofilmy/Это пройдёт (2020)/cover.png",
         "tracks": [
@@ -2353,7 +2435,9 @@
         "title": "Songs For The Deaf (2002)",
         "year": 2002,
         "genres": [
-          "other"
+          "stoner rock",
+          "alternative rock",
+          "hard rock"
         ],
         "cover": "music/Queens of the Stone Age/Songs For The Deaf (2002)/cover.png",
         "tracks": [
@@ -2432,7 +2516,9 @@
         "title": "In Rainbows (2007)",
         "year": 2007,
         "genres": [
-          "other"
+          "alternative rock",
+          "art rock",
+          "indie rock"
         ],
         "cover": "music/Radiohead/In Rainbows (2007)/cover.png",
         "tracks": [
@@ -2482,7 +2568,9 @@
         "title": "Kid A (2000)",
         "year": 2000,
         "genres": [
-          "other"
+          "electronic",
+          "art rock",
+          "experimental rock"
         ],
         "cover": "music/Radiohead/Kid A (2000)/cover.png",
         "tracks": [
@@ -2536,7 +2624,9 @@
         "title": "OK Computer (1997)",
         "year": 1997,
         "genres": [
-          "other"
+          "alternative rock",
+          "art rock",
+          "progressive rock"
         ],
         "cover": "music/Radiohead/OK Computer (1997)/cover.png",
         "tracks": [
@@ -2594,7 +2684,8 @@
         "title": "The Bends (1995)",
         "year": 1995,
         "genres": [
-          "other"
+          "alternative rock",
+          "britpop"
         ],
         "cover": "music/Radiohead/The Bends (1995)/cover.png",
         "tracks": [
@@ -2657,7 +2748,9 @@
         "title": "All Hope Is Gone (2008)",
         "year": 2008,
         "genres": [
-          "other"
+          "nu-metal",
+          "groove metal",
+          "alternative metal"
         ],
         "cover": "music/Slipknot/All Hope Is Gone (2008)/cover.png",
         "tracks": [
@@ -2727,7 +2820,10 @@
         "title": "Slipknot (1999)",
         "year": 1999,
         "genres": [
-          "other"
+          "groove metal",
+          "rap metal",
+          "nu-metal",
+          "alternative metal"
         ],
         "cover": "music/Slipknot/Slipknot (1999)/cover.png",
         "tracks": [
@@ -2797,7 +2893,9 @@
         "title": "Vol. 3- The Subliminal Verses (Special Edition) (2004)",
         "year": 2004,
         "genres": [
-          "other"
+          "nu-metal",
+          "alternative metal",
+          "heavy metal"
         ],
         "cover": "music/Slipknot/Vol. 3- The Subliminal Verses (Special Edition) (2004)/cover.png",
         "tracks": [
@@ -2895,7 +2993,9 @@
         "title": "We Are Not Your Kind (2019)",
         "year": 2019,
         "genres": [
-          "other"
+          "nu-metal",
+          "alternative metal",
+          "groove metal"
         ],
         "cover": "music/Slipknot/We Are Not Your Kind (2019)/cover.png",
         "tracks": [
@@ -2966,7 +3066,9 @@
         "title": "Hypnotize (2005)",
         "year": 2005,
         "genres": [
-          "other"
+          "alternative metal",
+          "nu-metal",
+          "hard rock"
         ],
         "cover": "music/System Of A Down/Hypnotize (2005)/cover.png",
         "tracks": [
@@ -3024,7 +3126,9 @@
         "title": "Mezmerize (2005)",
         "year": 2005,
         "genres": [
-          "other"
+          "alternative metal",
+          "nu-metal",
+          "hard rock"
         ],
         "cover": "music/System Of A Down/Mezmerize (2005)/cover.png",
         "tracks": [
@@ -3074,7 +3178,8 @@
         "title": "Steal This Album! (2002)",
         "year": 2002,
         "genres": [
-          "other"
+          "alternative metal",
+          "nu-metal"
         ],
         "cover": "music/System Of A Down/Steal This Album! (2002)/cover.png",
         "tracks": [
@@ -3148,7 +3253,8 @@
         "title": "System Of A Down (1998)",
         "year": 1998,
         "genres": [
-          "other"
+          "nu-metal",
+          "alternative metal"
         ],
         "cover": "music/System Of A Down/System Of A Down (1998)/cover.png",
         "tracks": [
@@ -3210,7 +3316,8 @@
         "title": "Toxicity (2001)",
         "year": 2001,
         "genres": [
-          "other"
+          "alternative metal",
+          "nu-metal"
         ],
         "cover": "music/System Of A Down/Toxicity (2001)/cover.png",
         "tracks": [
@@ -3285,7 +3392,9 @@
         "title": "Currents (2015)",
         "year": 2015,
         "genres": [
-          "other"
+          "psychedelic pop",
+          "neo-psychedelia",
+          "synth-pop"
         ],
         "cover": "music/Tame Impala/Currents (2015)/cover.png",
         "tracks": [
@@ -3352,7 +3461,9 @@
         "title": "Submarine (2024)",
         "year": 2024,
         "genres": [
-          "other"
+          "indie pop",
+          "dream pop",
+          "bedroom pop"
         ],
         "cover": "music/The Marías/Submarine (2024)/cover.png",
         "tracks": [
@@ -3423,7 +3534,9 @@
         "title": "Hatful of Hollow (1984)",
         "year": 1984,
         "genres": [
-          "other"
+          "jangle pop",
+          "indie pop",
+          "post-punk"
         ],
         "cover": "music/The Smiths/Hatful of Hollow (1984)/cover.png",
         "tracks": [
@@ -3497,7 +3610,9 @@
         "title": "The Queen Is Dead (1986)",
         "year": 1986,
         "genres": [
-          "other"
+          "jangle pop",
+          "indie pop",
+          "alternative rock"
         ],
         "cover": "music/The Smiths/The Queen Is Dead (1986)/cover.png",
         "tracks": [
@@ -3547,7 +3662,9 @@
         "title": "The Smiths (1984)",
         "year": 1984,
         "genres": [
-          "other"
+          "jangle pop",
+          "indie pop",
+          "post-punk"
         ],
         "cover": "music/The Smiths/The Smiths (1984)/cover.jpg",
         "tracks": [
@@ -3602,7 +3719,9 @@
         "title": "The Used (2002)",
         "year": 2002,
         "genres": [
-          "other"
+          "post-hardcore",
+          "emo",
+          "screamo"
         ],
         "cover": "music/The Used/The Used (2002)/cover.png",
         "tracks": [
