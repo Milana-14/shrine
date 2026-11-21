@@ -24,8 +24,13 @@
 
     <main class="main-content" style="padding: 20px;">
 
+        <div id="movement-filter-bar" class="view-switcher" style="flex-wrap: wrap; margin-bottom: 10px;">
+            <span style="font-size: 13px; color: #00eaff;">✦ Direction:</span>
+            <div id="movement-buttons" style="display: flex; flex-wrap: wrap; gap: 6px;"></div>
+        </div>
+
         <div id="genre-filter-bar" class="view-switcher" style="flex-wrap: wrap; margin-bottom: 15px;">
-            <span style="font-size: 13px; color: #ff4d9d;"><img src="images/pixels/disc.gif" alt="disk" style="margin-bottom: -5px"> Genre:</span>
+            <span style="font-size: 13px; color: #ff4d9d;">♪ Genre:</span>
             <div id="genre-buttons" style="display: flex; flex-wrap: wrap; gap: 6px;"></div>
         </div>
 
@@ -58,16 +63,178 @@
 <script>
     let globalMusicData = [];
     let currentView = 'detailed';
+    let selectedMovement = 'all';
     let selectedGenre = 'all';
+
+    const MOVEMENTS_ORDER = [
+        'Rock',
+        'Punk',
+        'Metal',
+        'Emo / Gothic',
+        'Electronic',
+        'Pop',
+        'Alternative / Experimental',
+        'Other'
+    ];
+
+    const GENRE_TO_MOVEMENTS = {
+        // Rock
+        'rock': ['Rock'],
+        'alternative rock': ['Rock'],
+        'hard rock': ['Rock'],
+        'indie rock': ['Rock'],
+        'art rock': ['Rock', 'Alternative / Experimental'],
+        'garage rock': ['Rock'],
+        'glam rock': ['Rock'],
+        'stoner rock': ['Rock'],
+        'britpop': ['Rock', 'Pop'],
+        'post-britpop': ['Rock', 'Pop'],
+
+        // Punk
+        'punk rock': ['Punk'],
+        'post-punk': ['Punk'],
+        'post-hardcore': ['Punk'],
+        'pop punk': ['Punk'],
+        'screamo': ['Punk', 'Emo / Gothic'],
+
+        // Metal
+        'nu-metal': ['Metal'],
+        'alternative metal': ['Metal'],
+        'heavy metal': ['Metal'],
+        'groove metal': ['Metal'],
+        'doom metal': ['Metal'],
+        'post-metal': ['Metal', 'Alternative / Experimental'],
+        'progressive metal': ['Metal', 'Alternative / Experimental'],
+        'gothic metal': ['Metal', 'Emo / Gothic'],
+        'melodic death metal': ['Metal'],
+        'rap metal': ['Metal'],
+
+        // Emo / Gothic
+        'emo': ['Emo / Gothic', 'Punk'],
+        'love metal': ['Emo / Gothic'],
+        'gothic rock': ['Emo / Gothic'],
+
+        // Electronic
+        'electronic': ['Electronic'],
+        'electronic rock': ['Electronic', 'Rock'],
+        'electronicore': ['Electronic', 'Punk'],
+        'dubstep': ['Electronic'],
+        'drum and bass': ['Electronic'],
+        'synth-pop': ['Electronic', 'Pop'],
+        'uk garage': ['Electronic'],
+        'jersey club': ['Electronic'],
+
+        // Pop
+        'pop': ['Pop'],
+        'pop rock': ['Pop', 'Rock'],
+        'indie pop': ['Pop'],
+        'dream pop': ['Pop'],
+        'bedroom pop': ['Pop'],
+        'psychedelic pop': ['Pop', 'Alternative / Experimental'],
+        'power pop': ['Pop'],
+        'jangle pop': ['Pop'],
+
+        // Alternative / Experimental
+        'neo-psychedelia': ['Alternative / Experimental'],
+        'experimental rock': ['Alternative / Experimental', 'Rock'],
+        'progressive rock': ['Alternative / Experimental', 'Rock'],
+        'space rock': ['Alternative / Experimental', 'Rock'],
+        'symphonic rock': ['Alternative / Experimental', 'Rock'],
+        'minimalism': ['Alternative / Experimental'],
+
+        // Other
+        'soul': ['Other'],
+        'r&b': ['Other'],
+        'blues': ['Other'],
+        'funk': ['Other'],
+        'ambient': ['Other'],
+        'folk rock': ['Other'],
+        'new wave': ['Other'],
+        'grunge': ['Other'],
+        'russian rock': ['Other'],
+        'k-pop': ['Other'],
+        'j-rock': ['Other'],
+        'video game music': ['Other'],
+        'other': ['Other']
+    };
+
+    function getAlbumMovements(album) {
+        const movements = new Set();
+        const genres = (album.genres || ['other']).map(g => String(g).trim().toLowerCase());
+
+        genres.forEach(genre => {
+            const mapped = GENRE_TO_MOVEMENTS[genre];
+            if (mapped && mapped.length > 0) {
+                mapped.forEach(m => movements.add(m));
+            } else {
+                movements.add('Other');
+            }
+        });
+
+        return Array.from(movements);
+    }
+
+    function getAllMovements(data) {
+        const present = new Set();
+        data.forEach(artistObj => {
+            (artistObj.albums || []).forEach(album => {
+                getAlbumMovements(album).forEach(m => present.add(m));
+            });
+        });
+
+        const ordered = MOVEMENTS_ORDER.filter(m => present.has(m));
+        const extra = Array.from(present).filter(m => !MOVEMENTS_ORDER.includes(m)).sort();
+        return ['all', ...ordered, ...extra];
+    }
 
     function getAllGenres(data) {
         const set = new Set();
         data.forEach(artistObj => {
             (artistObj.albums || []).forEach(album => {
-                (album.genres || ['other']).forEach(g => set.add(g));
+                const albumGenres = (album.genres || ['other']).map(g => String(g).trim().toLowerCase());
+                const albumMovements = getAlbumMovements(album);
+
+                if (selectedMovement !== 'all' && !albumMovements.includes(selectedMovement)) {
+                    return;
+                }
+
+                albumGenres.forEach(g => {
+                    if (selectedMovement === 'all') {
+                        set.add(g);
+                    } else {
+                        const mapped = GENRE_TO_MOVEMENTS[g] || ['Other'];
+                        if (mapped.includes(selectedMovement)) {
+                            set.add(g);
+                        }
+                    }
+                });
             });
         });
         return ['all', ...Array.from(set).sort()];
+    }
+
+    function renderMovementButtons() {
+        const wrap = document.getElementById('movement-buttons');
+        if (!wrap) return;
+        wrap.innerHTML = '';
+
+        const movements = getAllMovements(globalMusicData);
+        movements.forEach(movement => {
+            const btn = document.createElement('button');
+            btn.className = 'retro-btn' + (selectedMovement === movement ? ' active' : '');
+            btn.textContent = movement === 'all' ? '[ All ]' : `[ ${movement} ]`;
+            btn.onclick = () => {
+                selectedMovement = movement;
+                const availableGenres = getAllGenres(globalMusicData);
+                if (!availableGenres.includes(selectedGenre)) {
+                    selectedGenre = 'all';
+                }
+                renderMovementButtons();
+                renderGenreButtons();
+                renderMusicData();
+            };
+            wrap.appendChild(btn);
+        });
     }
 
     function renderGenreButtons() {
@@ -91,9 +258,13 @@
 
     function getFilteredAlbums(artistObj) {
         return (artistObj.albums || []).filter(album => {
-            if (selectedGenre === 'all') return true;
-            const albumGenres = album.genres || ['other'];
-            return albumGenres.includes(selectedGenre);
+            const albumGenres = (album.genres || ['other']).map(g => String(g).trim().toLowerCase());
+            const albumMovements = getAlbumMovements(album);
+
+            const matchesMovement = selectedMovement === 'all' || albumMovements.includes(selectedMovement);
+            const matchesGenre = selectedGenre === 'all' || albumGenres.includes(selectedGenre);
+
+            return matchesMovement && matchesGenre;
         });
     }
 
@@ -110,6 +281,7 @@
         .then(response => response.json())
         .then(data => {
             globalMusicData = data;
+            renderMovementButtons();
             renderGenreButtons();
             renderMusicData();
         })
