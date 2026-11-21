@@ -1,4 +1,5 @@
-﻿name: Auto Update Music Hierarchy
+﻿
+name: Auto Update Music Hierarchy
 
 on:
   push:
@@ -11,6 +12,7 @@ on:
 jobs:
   update-json:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
 
@@ -29,24 +31,47 @@ jobs:
           const fs = require("fs");
           const path = require("path");
 
-          const musicRootDir = path.join(".", "music");
-          const genresRegistryPath = path.join(".", "album-genres.json");
+          const musicRootDir = "./music";
+          const genresRegistryPath = "./album-genres.json";
           const musicList = [];
 
+          // Load album genres registry
           let albumGenresRegistry = {};
+
           if (fs.existsSync(genresRegistryPath)) {
               try {
-                  const parsed = JSON.parse(fs.readFileSync(genresRegistryPath, "utf8"));
-                  if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
-                      albumGenresRegistry = parsed;
+                  const raw = fs.readFileSync(genresRegistryPath, "utf8")
+                      .replace(/^\uFEFF/, "");
+
+                  const parsed = JSON.parse(raw);
+
+                  if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
+                      throw new Error("album-genres.json must contain an object");
                   }
+
+                  albumGenresRegistry = parsed;
+
+                  console.log(
+                      `Loaded ${Object.keys(albumGenresRegistry).length} album genre entries.`
+                  );
               } catch (err) {
                   console.error("Failed to parse album-genres.json:", err);
+                  process.exit(1);
               }
+          } else {
+              console.log("album-genres.json not found. Using genre.txt files only.");
           }
 
+          let totalAlbums = 0;
+          let genreTxtCount = 0;
+          let registryCount = 0;
+          let otherCount = 0;
+
+          // Read artists
           if (fs.existsSync(musicRootDir)) {
-              const artists = fs.readdirSync(musicRootDir, { withFileTypes: true });
+              const artists = fs.readdirSync(musicRootDir, {
+                  withFileTypes: true
+              });
 
               for (const entry of artists) {
                   if (!entry.isDirectory()) continue;
@@ -56,10 +81,10 @@ jobs:
                       albums: []
                   };
 
-                  musicList.push(artistObj);
-
                   const artistPath = path.join(musicRootDir, entry.name);
-                  const albums = fs.readdirSync(artistPath, { withFileTypes: true });
+                  const albums = fs.readdirSync(artistPath, {
+                      withFileTypes: true
+                  });
 
                   for (const albumEntry of albums) {
                       if (!albumEntry.isDirectory()) continue;
@@ -67,20 +92,33 @@ jobs:
                       const albumPath = path.join(artistPath, albumEntry.name);
                       const album = albumEntry.name;
 
-                      const tracks = fs.readdirSync(albumPath, { withFileTypes: true })
-                          .filter(file => file.isFile() && file.name.toLowerCase().endsWith(".mp3"))
+                      const tracks = fs.readdirSync(albumPath, {
+                          withFileTypes: true
+                      })
+                          .filter(file =>
+                              file.isFile() &&
+                              file.name.toLowerCase().endsWith(".mp3")
+                          )
                           .map(file => {
-                              const baseName = path.basename(file.name, path.extname(file.name));
+                              const baseName = path.basename(
+                                  file.name,
+                                  path.extname(file.name)
+                              );
 
                               return {
                                   title: baseName.replace(/_/g, " "),
-                                  file: path.relative(".", path.join(albumPath, file.name)).replace(/\\/g, "/")
+                                  file: path.relative(
+                                      ".",
+                                      path.join(albumPath, file.name)
+                                  ).replace(/\\/g, "/")
                               };
                           });
 
                       if (tracks.length === 0) continue;
 
+                      // Find album cover
                       let cover = null;
+
                       const possibleCovers = [
                           "cover.jpg",
                           "cover.png",
@@ -92,7 +130,8 @@ jobs:
                           const covPath = path.join(albumPath, cov);
 
                           if (fs.existsSync(covPath)) {
-                              cover = path.relative(".", covPath).replace(/\\/g, "/");
+                              cover = path.relative(".", covPath)
+                                  .replace(/\\/g, "/");
                               break;
                           }
                       }
@@ -101,29 +140,52 @@ jobs:
                           cover = "music/default.png";
                       }
 
+                      // Determine album genres
                       let genres = ["other"];
+
                       const genreFilePath = path.join(albumPath, "genre.txt");
                       const registryKey = `${entry.name}/${album}`;
 
+                      // Priority 1: genre.txt
                       if (fs.existsSync(genreFilePath)) {
-                          const rawGenre = fs.readFileSync(genreFilePath, "utf8").trim();
+                          const rawGenre = fs.readFileSync(
+                              genreFilePath,
+                              "utf8"
+                          ).replace(/^\uFEFF/, "").trim();
+
                           if (rawGenre) {
                               genres = rawGenre
                                   .split(",")
                                   .map(g => g.trim().toLowerCase())
                                   .filter(Boolean);
+
+                              genreTxtCount++;
+                          } else {
+                              console.log(`Empty genre.txt: ${registryKey}`);
+                              otherCount++;
                           }
-                      } else if (Array.isArray(albumGenresRegistry[registryKey])) {
+                      }
+
+                      // Priority 2: album-genres.json
+                      else if (
+                          Array.isArray(albumGenresRegistry[registryKey])
+                      ) {
                           const normalized = albumGenresRegistry[registryKey]
                               .map(g => String(g).trim().toLowerCase())
                               .filter(Boolean);
 
-                          const isOnlyOther = normalized.length === 1 && normalized[0] === "other";
-                          if (normalized.length > 0 && !isOnlyOther) {
+                          if (normalized.length > 0 &&
+                              !(normalized.length === 1 && normalized[0] === "other")) {
                               genres = normalized;
+                              registryCount++;
+                          } else {
+                              otherCount++;
                           }
+                      } else {
+                          otherCount++;
                       }
 
+                      // Extract year
                       const yearMatch = album.match(/\b(19|20)\d{2}\b/);
 
                       artistObj.albums.push({
@@ -133,17 +195,43 @@ jobs:
                           cover: cover,
                           tracks: tracks
                       });
+
+                      totalAlbums++;
+                  }
+
+                  if (artistObj.albums.length > 0) {
+                      musicList.push(artistObj);
                   }
               }
+          } else {
+              console.error("Music directory not found!");
+              process.exit(1);
           }
 
-          fs.writeFileSync("music-data.json", JSON.stringify(musicList, null, 2) + "\n");
-          console.log("music-data.json successfully generated by folders!");
+          // Generate music-data.json
+          fs.writeFileSync(
+              "music-data.json",
+              JSON.stringify(musicList, null, 2) + "\n"
+          );
+
+          console.log("--------------------------------");
+          console.log("Music JSON successfully generated!");
+          console.log(`Artists: ${musicList.length}`);
+          console.log(`Albums: ${totalAlbums}`);
+          console.log(`Genres from genre.txt: ${genreTxtCount}`);
+          console.log(`Genres from registry: ${registryCount}`);
+          console.log(`Albums with other: ${otherCount}`);
+          console.log("--------------------------------");
           NODE
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
+
           git add music-data.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update music-data.json from folders [skip ci]" && git push)
+
+          git diff --quiet && git diff --staged --quiet || (
+            git commit -m "Auto-update music-data.json from folders [skip ci]"
+            git push
+          )
