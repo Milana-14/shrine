@@ -981,3 +981,13 @@ img, iframe {
         height: 220px;
     }
 }
+
+[class^="floating-sticker_"] {
+    pointer-events: none;
+}
+
+@media (min-width: 901px) {
+    .main-content {
+        padding-left: 36px;
+    }
+}
