@@ -1671,76 +1671,76 @@
         ]
       },
       {
-        "title": "Hidden album - The Paper Kingdom  (2012)",
+        "title": "Hidden album - The Paper Kingdom (2012)",
         "year": 2012,
         "genres": [
           "other"
         ],
-        "cover": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/cover.png",
+        "cover": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/cover.png",
         "tracks": [
           {
             "title": "1. Fake Your Death",
-            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/1. Fake Your Death.mp3"
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/1. Fake Your Death.mp3"
           },
           {
             "title": "10. Narita Airport",
-            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/10. Narita Airport.mp3"
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/10. Narita Airport.mp3"
           },
           {
             "title": "11. War Beneath The Rain",
-            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/11. War Beneath The Rain.mp3"
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/11. War Beneath The Rain.mp3"
           },
           {
             "title": "12. Paper Swords",
-            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/12. Paper Swords.mp3"
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/12. Paper Swords.mp3"
           },
           {
             "title": "13. Dive",
-            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/13. Dive.mp3"
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/13. Dive.mp3"
           },
           {
             "title": "14. High Hopes",
-            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/14. High Hopes.mp3"
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/14. High Hopes.mp3"
           },
           {
             "title": "15. Dogs",
-            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/15. Dogs.mp3"
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/15. Dogs.mp3"
           },
           {
             "title": "16. Perfectly Well",
-            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/16. Perfectly Well.mp3"
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/16. Perfectly Well.mp3"
           },
           {
             "title": "2. Witch",
-            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/2. Witch.mp3"
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/2. Witch.mp3"
           },
           {
             "title": "3. Bike Thief",
-            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/3. Bike Thief.mp3"
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/3. Bike Thief.mp3"
           },
           {
             "title": "4. Operation Day",
-            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/4. Operation Day.mp3"
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/4. Operation Day.mp3"
           },
           {
             "title": "5. Falling Down",
-            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/5. Falling Down.mp3"
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/5. Falling Down.mp3"
           },
           {
             "title": "6. Birthday Girl",
-            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/6. Birthday Girl.mp3"
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/6. Birthday Girl.mp3"
           },
           {
             "title": "7. Dark Cloud",
-            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/7. Dark Cloud.mp3"
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/7. Dark Cloud.mp3"
           },
           {
             "title": "8. Wake Up!",
-            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/8. Wake Up!.mp3"
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/8. Wake Up!.mp3"
           },
           {
             "title": "9. Louder",
-            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom  (2012)/9. Louder.mp3"
+            "file": "music/My Chemical Romance/Hidden album - The Paper Kingdom (2012)/9. Louder.mp3"
           }
         ]
       },
@@ -2004,7 +2004,7 @@
         "genres": [
           "other"
         ],
-        "cover": "music/default.png",
+        "cover": "music/My Chemical Romance/Under Pressure (2005)/cover.png",
         "tracks": [
           {
             "title": "01. Under Pressure",
@@ -3212,7 +3212,7 @@
         "genres": [
           "other"
         ],
-        "cover": "music/default.png",
+        "cover": "music/System Of A Down/Toxicity (2001)/cover.png",
         "tracks": [
           {
             "title": "01. Prison Song",
@@ -3604,7 +3604,7 @@
         "genres": [
           "other"
         ],
-        "cover": "music/default.png",
+        "cover": "music/The Used/The Used (2002)/cover.png",
         "tracks": [
           {
             "title": "01. Maybe Memories",
